@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Блок между маркерами целиком подменяет scripts/export_static.py: там
+       собираются title, description с живыми цифрами, canonical на прод-домен,
+       og-теги и JSON-LD. Живому серверу подменять нечего — маркеры для него
+       обычные комментарии, и файл работает как раньше. -->
+  <title>Переезд в Шпицберген и Ян-Майен из России: виза, право на работу, цены — Куда переехать</title>
+  <meta name="description" content="Шпицберген и Ян-Майен: нужна виза. У каждой цифры источник и дата." />
+  <link rel="canonical" href="https://korolev-ilya.org/country/SJ" />
+  <meta name="wp-static-meta" content="1" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Куда переехать" />
+  <meta property="og:locale" content="ru_RU" />
+  <meta property="og:url" content="https://korolev-ilya.org/country/SJ" />
+  <meta property="og:title" content="Переезд в Шпицберген и Ян-Майен из России: виза, право на работу, цены — Куда переехать" />
+  <meta property="og:description" content="Шпицберген и Ян-Майен: нужна виза. У каждой цифры источник и дата." />
+  <meta name="twitter:card" content="summary" />
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Place","@id":"https://korolev-ilya.org/country/SJ#place","name":"Шпицберген и Ян-Майен","identifier":"SJ","url":"https://korolev-ilya.org/country/SJ","address":{"@type":"PostalAddress","addressCountry":"SJ"},"alternateName":"Svalbard and Jan Mayen","geo":{"@type":"GeoCoordinates","latitude":78,"longitude":20}},{"@type":"Dataset","name":"Шпицберген и Ян-Майен: цены, визы и право на работу","description":"Шпицберген и Ян-Майен: нужна виза. У каждой цифры источник и дата.","url":"https://korolev-ilya.org/country/SJ","inLanguage":"ru","isAccessibleForFree":true,"dateModified":"2026-09-19","spatialCoverage":{"@id":"https://korolev-ilya.org/country/SJ#place"},"creator":{"@type":"Organization","name":"Куда переехать","url":"https://korolev-ilya.org"},"variableMeasured":[{"@type":"PropertyValue","name":"Курс к доллару","value":9.4218,"unitText":"единиц за USD","observationDate":"2026-09-19"}],"isBasedOn":[{"@type":"Dataset","name":"Exchange Rate API","url":"https://open.er-api.com/"},{"@type":"Dataset","name":"Open Prices (Open Food Facts)","url":"https://prices.openfoodfacts.org/"}]}]}</script>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><circle cx='8' cy='8' r='7' fill='%2334D399'/></svg>" />
+  <!-- Google Fonts из РФ без VPN часто не открываются. Render-blocking
+       CSS держал бы белый экран, пока запрос не отвалится. Нет ответа —
+       остаются системные из font-family. -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700&amp;family=Onest:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;600&amp;display=swap" media="print" onload="this.media='all'" />
+  <style>
+    :root {
+      --bg: #0B0E14; --panel: #121826; --line: #28334D; --hair: #1E2739;
+      --text: #EDF2FA; --muted: #8C9AB5; --accent: #34D399; --warn: #E8C47C; --hot: #E07A7A;
+      --mono: "JetBrains Mono", ui-monospace, monospace;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; font: 15px/1.5 Onest, "Segoe UI", system-ui, sans-serif; background: var(--bg); color: var(--text); }
+    a { color: var(--accent); }
+    header.top {
+      display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center;
+      padding: 12px 18px; border-bottom: 1px solid var(--line);
+    }
+    header.top h1 { margin: 0; font-family: Unbounded, "Segoe UI", sans-serif; font-size: 16px; font-weight: 700; }
+    nav a { text-decoration: none; margin-right: 12px; }
+    main { max-width: 720px; margin: 0 auto; padding: 18px 16px 48px; overflow-x: hidden; }
+    .hero h2 {
+      margin: 0 0 4px; font-family: Unbounded, "Segoe UI", sans-serif;
+      font-size: 26px; font-weight: 700; line-height: 1.2; word-break: break-word;
+    }
+    .en { color: var(--muted); font-size: 14px; margin-bottom: 10px; }
+    .meta { color: var(--muted); font-size: 13px; margin: 0 0 12px; word-break: break-word; }
+    .keys { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 8px; }
+    .keys span {
+      background: var(--panel); border: 1px solid var(--line);
+      border-radius: 8px; padding: 6px 10px; font-size: 13px;
+    }
+    .keys b { font-family: var(--mono); font-weight: 600; }
+    section { margin: 22px 0 0; padding-top: 16px; border-top: 1px solid var(--hair); }
+    section h3 { margin: 0 0 10px; font-size: 15px; font-weight: 700; letter-spacing: .02em; }
+    .row {
+      display: flex; justify-content: space-between; gap: 12px;
+      padding: 7px 0; border-bottom: 1px solid var(--hair);
+    }
+    .row > span:last-child { font-family: var(--mono); text-align: right; max-width: 55%; word-break: break-word; }
+    .row small { display: block; color: var(--muted); font-size: 10px; margin-top: 2px; font-family: Onest, sans-serif; }
+    /* Ответ «смогу ли работать» — не .hero: тот уже занят именем страны. */
+    .workans { margin: 0 0 12px; }
+    .workans .big {
+      font-family: Unbounded, "Segoe UI", sans-serif;
+      font-size: 22px; font-weight: 700; line-height: 1.2;
+    }
+    .workans .cap { color: var(--muted); font-size: 14px; margin-top: 4px; }
+    .ladder { margin: 0 0 12px; padding: 0; list-style: none; counter-reset: step; }
+    .ladder li { position: relative; padding: 9px 0 9px 30px; border-bottom: 1px solid var(--hair); }
+    .ladder li::before {
+      counter-increment: step; content: counter(step);
+      position: absolute; left: 0; top: 10px;
+      width: 20px; height: 20px; border-radius: 50%;
+      background: var(--hair); color: var(--text);
+      font-size: 11px; line-height: 20px; text-align: center; font-weight: 600;
+    }
+    .ladder b { display: block; font-size: 13px; margin-bottom: 2px; }
+    .ladder span { display: block; font-size: 13px; color: var(--text); }
+    .ladder small { display: block; color: var(--muted); font-size: 11px; margin-top: 3px; font-family: Onest, sans-serif; }
+    .warn { border-left: 3px solid var(--accent); background: var(--hair);
+            padding: 8px 10px; margin: 0 0 12px; font-size: 13px; border-radius: 0 4px 4px 0; }
+    .warn b { display: block; font-size: 12px; margin-bottom: 3px; }
+    .hint { color: var(--muted); font-size: 12px; margin: 8px 0; }
+    .attrib {
+      color: var(--muted); font-size: 10px; line-height: 1.5;
+      margin: 12px 0 0; padding-top: 8px; border-top: 1px solid var(--hair);
+    }
+    .badge {
+      display: inline-block; margin-left: 6px; padding: 1px 6px; border-radius: 4px;
+      font-size: 11px; background: rgba(232,196,124,.15); color: var(--warn); vertical-align: middle;
+    }
+    .badge.hot { background: rgba(224,122,122,.15); color: var(--hot); }
+    .emo { margin-right: 4px; }
+    .langown { color: var(--accent); }
+    .shelfgrid { display: flex; flex-direction: column; gap: 8px; }
+    .shelfrow {
+      display: flex; gap: 10px; align-items: center; padding: 8px;
+      background: var(--panel); border: 1px solid var(--line); border-radius: 10px;
+    }
+    .shelfimg { width: 56px; height: 56px; object-fit: cover; border-radius: 6px; background: var(--hair); flex-shrink: 0; }
+    .shelftxt { flex: 1; min-width: 0; }
+    .shelfn { font-weight: 600; font-size: 13px; }
+    .shelfn i { font-style: normal; color: var(--muted); font-weight: 400; }
+    .shelfp { font-family: var(--mono); white-space: nowrap; }
+    .photos { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 4px; -webkit-overflow-scrolling: touch; }
+    .photos img { height: 120px; width: auto; max-width: 200px; border-radius: 8px; background: var(--hair); }
+    .doclist { margin: 0 0 10px; padding: 0; list-style: none; }
+    .doclist li { padding: 6px 0; border-bottom: 1px solid var(--hair); font-size: 13px; }
+    .doclist small { display: block; color: var(--muted); font-size: 11px; margin-top: 2px; font-family: Onest, sans-serif; }
+    .gobtns { display: flex; flex-wrap: wrap; gap: 8px; margin: 8px 0; }
+    .gobtn {
+      display: inline-block; padding: 8px 12px; border-radius: 8px;
+      background: var(--panel); border: 1px solid var(--line);
+      color: var(--text); text-decoration: none; font-size: 13px;
+    }
+    .tgpost {
+      display: block; padding: 10px 12px; margin: 0 0 8px;
+      background: var(--panel); border: 1px solid var(--line);
+      border-radius: 10px; color: inherit; text-decoration: none;
+    }
+    .tgh { color: var(--muted); font-size: 11px; margin-bottom: 4px; }
+    .tgt { font-size: 13px; white-space: pre-wrap; word-break: break-word; }
+    .err { color: var(--hot); padding: 24px 0; }
+    details { margin-top: 8px; }
+    summary { cursor: pointer; color: var(--muted); font-size: 13px; }
+    @media (max-width: 420px) {
+      .hero h2 { font-size: 22px; }
+      .row > span:last-child { max-width: 48%; font-size: 13px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="top">
+    <nav><a href="/">Глобус</a><a href="/table">Таблица</a></nav>
+    <h1 id="pageH1">Шпицберген и Ян-Майен</h1>
+    <a id="toGlobe" href="/">Показать на глобусе</a>
+  </header>
+  <main id="root" data-baked="1"><div class="hero">
+<h2>Шпицберген и Ян-Майен</h2>
+<div class="en">Svalbard and Jan Mayen · SJ</div>
+<p class="meta">столица Longyearbyen · валюта NOK · площадь -1 км² · Europe</p>
+<p class="meta">Самая свежая цифра на странице — 19.09.2026. У каждой строки ниже своя дата и свой источник.</p>
+</div>
+<section id="legal"><h3>Легализация</h3>
+<p>Для паспорта РФ въезд в Шпицберген и Ян-Майен: нужна виза. Источник — по умолчанию виза, не «запрет».</p>
+<p>Заранее виза / нет в списке АТОР упрощённого въезда на 28.06.2026. Перед поездкой сверить МИД РФ / Timatic.</p>
+<p class="hint">Как тут легализоваться и можно ли работать — в справочнике legal-rf строки по этой стране нет, и выдумывать мы не будем. Виза выше говорит только про въезд: она почти нигде не даёт права работать.</p>
+<h3>Документы</h3>
+<p class="hint">Нужно почти везде — в каждую страну не дублируем:</p><ul class="doclist">
+<li>загранпаспорт<small>действующий; запас срока и чистые страницы зависят от страны — смотрите источник строки</small></li>
+<li>фото<small>размер и фон зависят от органа, одной «3×4» на все страны нет</small></li>
+</ul>
+<h3>Работа на первое время</h3>
+<p class="hint">Наших вакансий нет и зарплаты по слухам не оцениваем. Ниже — где смотрят; трудоустройство не обещаем.</p>
+<p class="hint">Площадок поиска по этой стране в справочнике пока нет — не выдумываем.</p>
+<p class="hint">Это не юридическая консультация. Правила меняются; перед решением проверьте консульство и местный закон.</p>
+<p class="attrib">passport-index · АТОР (снимок) · legal-rf.json.</p></section>
+<section id="money"><h3>Деньги и цены</h3>
+<p>Курс к доллару — 9,4218 (open.er-api.com · 19.09.2026).</p>
+<p class="attrib">World Bank · FAO GIEWS FPMA · Eurostat · Economist Big Mac · курсы — наш fx.</p></section>
+<section id="shelf"><h3>Полка магазина</h3><p class="hint">Настоящие ценники Open Prices с фото. Ниже они появятся, если браузер исполнит скрипт — это не оценка «дорого/дёшево», а чужие чеки.</p><div id="shelfLive"></div></section>
+<section id="housing"><h3>Жильё и аренда</h3><div id="photosLive"></div>
+<p class="hint">Денег на жильё по этой стране в открытых данных нет: EU-SILC покрывает только Европу, ICP — не всех.</p>
+<p class="attrib">Eurostat EU-SILC · World Bank ICP · Wikipedia (CC BY-SA 4.0).</p></section>
+<section id="tg"><div id="tgLive"></div></section></main>
+  <script src="/static/lib.js"></script>
+  <script>
+    const {
+      ru, n, pct, money, escHtml, fmtDate, fmtStamp,
+      langList, visaLabel, visaDsLabel,
+      INCOME_RU, FOOD_CATS, SOCIAL_LIFE, SOCIAL_MED,
+      byMetric, metricRow, fpmaRows, fuelGradesRow, childrenExitHtml,
+    } = WP;
+
+    function isoFromPath() {
+      const m = location.pathname.match(/\/country\/([A-Za-z]{2})\b/);
+      return m ? m[1].toUpperCase() : "";
+    }
+
+    function visaIsFree(v) {
+      if (v == null || v === "") return null;
+      if (typeof v === "number") return v >= 0;
+      const t = String(v).toLowerCase().replace(/_/g, " ").trim();
+      if (/^\d+$/.test(t)) return true;
+      if (t.includes("free") && !t.includes("required")) return true;
+      if (["visa required", "visa or eta required", "no admission"].includes(t)) return false;
+      return null;
+    }
+
+    function subLabel(status, text) {
+      const map = {
+        legal: "легален", illegal: "запрещён", decriminalized: "декриминализован",
+        medical: "медицински", limited: "ограниченно", partial: "частично", unknown: "неясно",
+      };
+      const base = map[status] || status || "—";
+      const detail = (text || "").trim();
+      return detail && detail.toLowerCase() !== base ? base + " · " + detail : base;
+    }
+
+    function ccyPrice(v, ccy) {
+      if (v == null) return "—";
+      return ru(v, 2) + (ccy ? " " + ccy : "");
+    }
+
+    function hav(a, b) {
+      const R = 6371, to = (x) => x * Math.PI / 180;
+      const dLat = to(b.lat - a.lat), dLon = to(b.lon - a.lon);
+      const s = Math.sin(dLat / 2) ** 2
+        + Math.cos(to(a.lat)) * Math.cos(to(b.lat)) * Math.sin(dLon / 2) ** 2;
+      return 2 * R * Math.asin(Math.min(1, Math.sqrt(s)));
+    }
+
+    function govRu(g) {
+      return ({
+        presidential_republic: "президентская республика",
+        parliamentary_republic: "парламентская республика",
+        constitutional_monarchy: "конституционная монархия",
+        absolute_monarchy: "абсолютная монархия",
+        federal_republic: "федеративная республика",
+        semi_presidential_republic: "смешанная республика",
+      })[g] || g || "—";
+    }
+
+    function section(id, title, body) {
+      if (!body) return "";
+      return `<section id="${id}"><h3>${title}</h3>${body}</section>`;
+    }
+
+    const DOC_FOR_ORDER = ["въезд", "внж", "работа"];
+    const DOC_FOR_LABEL = { "въезд": "На въезд", "внж": "На ВНЖ", "работа": "На работу" };
+    function docsListHtml(items) {
+      if (!items || !items.length) return "";
+      return `<ul class="doclist">${items.map((d) =>
+        `<li>${escHtml(d.what)}${d.note ? `<small>${escHtml(d.note)}</small>` : ""}</li>`
+      ).join("")}</ul>`;
+    }
+    function docsBlock(lg, common, asOfTag) {
+      const parts = [];
+      if (common && common.length) {
+        parts.push(`<h3>Документы</h3>`);
+        parts.push(`<p class="hint">Нужно почти везде — в каждую страну не дублируем:</p>`);
+        parts.push(docsListHtml(common));
+      }
+      const docs = lg && Array.isArray(lg.documents) ? lg.documents : [];
+      if (!docs.length) return parts.join("");
+      parts.push(`<p class="hint">Ещё по этой стране${asOfTag ? " · " + asOfTag : ""}. Источник тот же, что у строки легализации.</p>`);
+      for (const fr of DOC_FOR_ORDER) {
+        const group = docs.filter((d) => d.for === fr);
+        if (!group.length) continue;
+        parts.push(`<h3>${escHtml(DOC_FOR_LABEL[fr] || fr)}</h3>`);
+        parts.push(docsListHtml(group));
+      }
+      return parts.join("");
+    }
+    function srcHost(url) {
+      try { return new URL(url).hostname.replace(/^www\./, ""); }
+      catch (e) { return String(url || ""); }
+    }
+    function laborTag(lb) {
+      return lb.verified
+        ? `справочник legal-rf · ${escHtml(lb.as_of || "")} · сверено ${escHtml(lb.verified)}`
+        : `справочник legal-rf · ${escHtml(lb.as_of || "")} · сверки с органом нет`;
+    }
+    function laborLadderItems(lg) {
+      const lb = lg && lg.labor;
+      if (!lb) return [];
+      const out = [];
+      const diploma = (lb.diploma || "").trim();
+      const language = (lb.language || "").trim();
+      const stamp = laborTag(lb);
+      if (diploma) {
+        const org = lb.diploma_source
+          ? ` · <a href="${escHtml(lb.diploma_source)}" target="_blank" rel="noopener">${escHtml(srcHost(lb.diploma_source))}</a>`
+          : "";
+        out.push(`<li><b>Подтвердить диплом</b><span>${escHtml(diploma)}</span><small>${stamp}${org}</small></li>`);
+      }
+      if (language) {
+        out.push(`<li><b>Что с языком</b><span>${escHtml(language)}</span><small>${stamp}</small></li>`);
+      }
+      return out;
+    }
+    function jobsBlock(lg, card, asOfTag) {
+      if (!lg || !card) return "";
+      const jobs = Array.isArray(lg.job_sources) ? lg.job_sources : [];
+      const parts = [`<h3>Работа на первое время</h3>`];
+      if (card.legal_work === "no") {
+        parts.push(`<p class="hint">Локальный рынок для паспорта РФ закрыт — площадки ниже не помогут устроиться легально.</p>`);
+      } else if (lg.nomad_visa || card.legal_work === "remote") {
+        parts.push(`<p class="hint">Удалёнка на зарубежного работодателя (в том числе РФ) в справочнике указана как легальный путь. Локальный найм — отдельно, см. разрешение на работу. Вакансий мы не обещаем.</p>`);
+      } else {
+        parts.push(`<p class="hint">Наших вакансий нет и зарплаты по слухам не оцениваем. Ниже — где смотрят; трудоустройство не обещаем.</p>`);
+      }
+      const lb = lg.labor;
+      const entry = lb && (lb.entry_jobs || "").trim();
+      if (entry) {
+        parts.push(`<p>${escHtml(entry)}</p>`);
+        parts.push(`<p class="hint">${laborTag(lb)}</p>`);
+      }
+      const bm = byMetric(card.prices);
+      const gni = metricRow(bm, "income_gni_usd_year", "ВНД на человека в год", (v) => "$" + ru(v));
+      if (gni) parts.push(gni);
+      if (!jobs.length) {
+        parts.push(`<p class="hint">Площадок поиска по этой стране в справочнике пока нет — не выдумываем.</p>`);
+        return parts.join("");
+      }
+      parts.push(`<div class="gobtns">${jobs.map((j) =>
+        `<a class="gobtn" href="${escHtml(j.url)}" target="_blank" rel="noopener">${escHtml(j.name)}${
+          j.kind === "gov" ? " · госслужба" : ""}</a>`
+      ).join("")}</div>`);
+      if (asOfTag) parts.push(`<p class="hint">${asOfTag}</p>`);
+      return parts.join("");
+    }
+
+    const WORK_ANSWER = {
+      yes: ["Работать можно", "на местном рынке — с разрешением, шаги ниже"],
+      remote: ["Только удалённо", "местный наниматель взять не может, удалённая работа и своё дело — да"],
+      no: ["Работать нельзя", "права на оплачиваемый труд эта страна приезжему не даёт"],
+    };
+    function renderLegal(card) {
+      const cat = card.catalog || {};
+      const visa = cat.visa_rf || {};
+      const ds = card.visa_dataset;
+      const lg = card.legal_rf;
+      const freeAtor = visaIsFree(visa.status);
+      const freeDs = ds ? visaIsFree(ds.requirement) : null;
+      const conflict = freeAtor != null && freeDs != null && freeAtor !== freeDs;
+      const nomadIncome = lg && (lg.nomad_income_eur != null
+        ? lg.nomad_income_eur + " €/мес"
+        : lg.nomad_income_usd != null ? "$" + ru(lg.nomad_income_usd) + "/мес" : null);
+      const asOfTag = lg
+        ? (lg.verified
+          ? `справочник legal-rf · ${escHtml(lg.as_of)} · сверено ${escHtml(lg.verified)}`
+          : `справочник legal-rf · ${escHtml(lg.as_of)} · не сверено с источником`)
+        : "";
+      const visaTxt = visaLabel(visa.status) + (visa.days ? " · " + visa.days + " дн." : "")
+        + (ds ? " · датасет: " + visaDsLabel(ds.requirement) : "");
+      const visaSmall = escHtml(visa.source || "справочник АТОР")
+        + (ds ? " · passport-index " + fmtDate(ds.fetched_at) : "");
+
+      if (!lg) {
+        return `<div class="row"><span>Виза для РФ<small>${escHtml(visa.source || "справочник АТОР")}</small></span>`
+          + `<span>${visaLabel(visa.status)}${visa.days ? " · " + visa.days + " дн." : ""}`
+          + `${conflict ? '<span class="badge hot">расхождение с датасетом</span>' : ""}</span></div>`
+          + (visa.internal_passport
+            ? `<div class="row"><span>Внутренний паспорт РФ<small>${escHtml(visa.internal_passport_note || "принимается")}</small></span><span>да</span></div>`
+              + `<p class="warn"><b>Дети</b>${escHtml(childrenExitHtml(card.iso2))}</p>`
+            : "")
+          + (ds ? `<div class="row"><span>Датасет passport-index<small>${fmtDate(ds.fetched_at)}</small></span>`
+            + `<span>${visaDsLabel(ds.requirement)}</span></div>` : "")
+          + `<p class="hint">Как тут легализоваться и можно ли работать — в справочнике legal-rf строки по этой стране нет, и выдумывать мы не будем. Виза выше говорит только про въезд: она почти нигде не даёт права работать.</p>`
+          + docsBlock(lg, card.legal_common_documents, asOfTag)
+          + `<p class="hint">Это не юридическая консультация. Правила меняются; перед решением проверьте консульство и местный закон.</p>`
+          + `<p class="attrib">passport-index · АТОР (снимок).</p>`;
+      }
+
+      const ans = WORK_ANSWER[card.legal_work] || WORK_ANSWER.no;
+      const hero = `<div class="workans"><div class="big">${ans[0]}</div><div class="cap">${ans[1]}</div></div>`;
+      const warn = lg.rf_notes
+        ? `<p class="warn"><b>Не перепутать</b>${escHtml(lg.rf_notes)}</p>` : "";
+      const unverified = !lg.verified
+        ? `<p class="hint">Шаги ниже не сверены с источником — проверьте по ссылке перед решением.</p>` : "";
+
+      const steps = [];
+      steps.push(`<li><b>Въехать</b><span>${visaTxt}${
+        conflict ? '<span class="badge hot">расхождение с датасетом</span>' : ""}`
+        + `${visa.internal_passport ? " · внутренний паспорт РФ" : ""}</span>`
+        + `<small>${visaSmall}${visa.internal_passport_note ? " · " + escHtml(visa.internal_passport_note) : ""}</small></li>`);
+      if (visa.internal_passport) {
+        steps.push(`<li><b>Дети</b><span>${escHtml(childrenExitHtml(card.iso2))}</span>`
+          + `<small>КД МИД РФ · сверка 16.09.2026</small></li>`);
+      }
+      if (lg.work_permit) {
+        steps.push(`<li><b>Получить право работать</b><span>${escHtml(lg.work_permit)}</span>`
+          + `<small>${asOfTag}</small></li>`);
+      }
+      if (lg.self_employed) {
+        steps.push(`<li><b>Или работать на себя</b><span>${escHtml(lg.self_employed)}</span>`
+          + `<small>${asOfTag}</small></li>`);
+      }
+      if (lg.nomad_visa) {
+        steps.push(`<li><b>Или приехать с удалённой работой</b><span>виза цифрового кочевника`
+          + `${nomadIncome ? " · доход от " + nomadIncome : ""}${lg.nomad_months ? " · до " + lg.nomad_months + " мес." : ""}</span>`
+          + `<small>${asOfTag}</small></li>`);
+      }
+      steps.push(...laborLadderItems(lg));
+      if (lg.residence_months != null) {
+        steps.push(`<li><b>Остаться по виду на жительство</b><span>типичный срок ${ru(lg.residence_months)} мес., дальше продление</span>`
+          + `<small>${asOfTag}</small></li>`);
+      }
+      if (lg.path_to_pr) {
+        steps.push(`<li><b>Остаться навсегда</b><span>${escHtml(lg.path_to_pr)}</span>`
+          + `<small>${asOfTag}</small></li>`);
+      }
+      const noNomad = !lg.nomad_visa
+        ? `<p class="hint">Визы цифрового кочевника у страны нет — удалённая работа отсюда живёт по общим правилам выше.</p>` : "";
+      const src = lg.source
+        ? `<p class="hint">Источник: <a href="${escHtml(lg.source)}" target="_blank" rel="noopener">${escHtml(srcHost(lg.source))}</a></p>`
+        : "";
+
+      return `${hero}${warn}${unverified}
+        <h3>Что делать по шагам</h3>
+        <ul class="ladder">${steps.join("")}</ul>${noNomad}${src}
+        ${docsBlock(lg, card.legal_common_documents, asOfTag)}
+        ${jobsBlock(lg, card, asOfTag)}
+        <p class="hint">Это не юридическая консультация. Правила меняются; перед решением проверьте консульство и местный закон.</p>
+        <p class="attrib">passport-index · АТОР (снимок) · legal-rf.json.</p>`;
+    }
+
+    function renderMoney(bm) {
+      const rows = [
+        metricRow(bm, "price_level_hh_vs_usa", "Корзина домохозяйств vs США", (v) => pct(v)),
+        metricRow(bm, "price_level_vs_usa", "Корзина vs США", (v) => pct(v)),
+        metricRow(bm, "income_gni_usd_year", "Доход на человека", (v) => "$" + ru(v / 12) + "/мес"),
+        metricRow(bm, "fuel_gasoline_usd_per_liter", "Бензин", (v) => "$" + ru(v, 2) + "/л"),
+        fuelGradesRow(bm),
+        metricRow(bm, "bigmac_usd", "БигМак", (v) => "$" + ru(v, 2)),
+        metricRow(bm, "fx_per_usd", "Курс к USD", (v) => ru(v, 4)),
+      ].filter(Boolean).join("");
+      const fao = fpmaRows(bm, true);
+      const euro = FOOD_CATS.map(([m, l]) => metricRow(bm, m, l, (v) => ru(v, 1))).join("");
+      const world = metricRow(bm, "icp_pli_food", "Еда (мир=100)", (v) => ru(v, 1))
+        + metricRow(bm, "icp_pli_restaurants", "Рестораны и отели (мир=100)", (v) => ru(v, 1));
+      if (!rows && !fao && !euro && !world) {
+        return `<p class="hint">По этой стране нет цен и доходов в наших источниках — ни FAO, ни ICP, ни ВНД.</p>`;
+      }
+      return `${rows}
+        ${fao ? `<h3 style="margin-top:14px;font-size:13px">Ценники FAO</h3>${fao}` : `<p class="hint">FAO не публикует ценники по этой стране.</p>`}
+        ${world ? `<h3 style="margin-top:14px;font-size:13px">Уровень цен</h3>${world}` : ""}
+        ${euro ? `<details><summary>Еда по категориям · ЕС=100</summary>${euro}</details>` : ""}
+        <p class="attrib">World Bank · FAO GIEWS FPMA · Eurostat · Economist Big Mac · курсы — наш fx.</p>`;
+    }
+
+    function renderShelf(items, total) {
+      if (items == null) return `<p class="hint">загружаю ценники Open Prices…</p>`;
+      if (!items.length) {
+        return `<p class="hint">Волонтёры Open Prices сюда пока не дошли — ни одного ценника. Это не «дёшево», это отсутствие данных.</p>`;
+      }
+      const rows = items.map((it) => {
+        const imgUrl = it.image_url || it.image;
+        const img = imgUrl
+          ? `<img class="shelfimg" src="${escHtml(imgUrl)}" alt="" loading="lazy" onerror="this.style.display='none'">`
+          : "";
+        const cap = [it.shop, it.city, fmtDate(it.date)].filter(Boolean).map(escHtml).join(" · ");
+        const name = escHtml(it.name || it.brand || it.product_code || "товар");
+        const q = it.quantity ? ` <i>${escHtml(it.quantity)}</i>` : "";
+        return `<div class="shelfrow">${img}<div class="shelftxt"><div class="shelfn">${name}${q}</div>`
+          + `<small>${cap || "магазин не указан"}</small></div>`
+          + `<div class="shelfp">${ccyPrice(it.price, it.currency)}</div></div>`;
+      }).join("");
+      return `<p class="hint">Настоящие ценники Open Prices. Всего у страны ${ru(total || items.length)}, показываем ${items.length}.</p>
+        <div class="shelfgrid">${rows}</div>
+        <p class="attrib">Open Prices (Open Food Facts, ODbL).</p>`;
+    }
+
+    function renderPhotosOnly(photos) {
+      if (photos == null) return `<p class="hint">загружаю фото…</p>`;
+      if (!photos.length) return `<p class="hint">Фото городов Wikipedia по этой стране нет.</p>`;
+      return `<div class="photos">${photos.map((p) =>
+        `<img src="${escHtml(p.url)}" alt="${escHtml(p.title || p.city || "")}" loading="lazy"
+          title="${escHtml(p.city || "")}" onerror="this.style.display='none'">`).join("")}</div>`;
+    }
+    function renderHousing(card, bm, photos) {
+      const eur = bm.housing_cost_eur_month;
+      const bits = [];
+      if (eur && eur.value != null) {
+        bits.push(`<div class="row"><span>Расходы на жильё, в среднем по стране`
+          + `<small>${escHtml(eur.source)} · ${fmtDate(eur.observed_at)} · <b>это не рыночная аренда</b>: EU-SILC = медианный доход ÷ 12 × доля затрат</small></span>`
+          + `<span>${ru(eur.value)} €/мес</span></div>`);
+      }
+      bits.push(metricRow(bm, "housing_cost_share_pct", "Доля дохода на жильё", (v) => ru(v, 1) + "%"));
+      bits.push(metricRow(bm, "icp_pli_housing", "Жильё и коммуналка (мир=100)", (v) => ru(v, 1)));
+      bits.push(metricRow(bm, "eurostat_pli_housing", "Жильё и коммуналка (ЕС=100)", (v) => ru(v, 1)));
+      bits.push(metricRow(bm, "income_median_eur_year", "Медианный доход", (v) => ru(v / 12) + " €/мес"));
+      const body = bits.filter(Boolean).join("");
+      const photoHtml = renderPhotosOnly(photos);
+      const city = card.capital || card.name_ru || "";
+      const q = encodeURIComponent(city);
+      if (!body && !(photos && photos.length)) {
+        // Доски — адреса, не цифры: их прятать вместе с «денег нет» нельзя,
+        // иначе страна с пустым EU-SILC теряет единственный честный ответ.
+        return `${photoHtml}<p class="hint">Денег на жильё по этой стране в открытых данных нет: EU-SILC покрывает только Европу, ICP — не всех.</p>${housingBoardsBlock(card)}`;
+      }
+      return `${photoHtml}${body || ""}
+        <h3 style="margin-top:14px;font-size:13px">Найти жильё${city ? " · " + escHtml(city) : ""}</h3>
+        <div class="gobtns">
+          <a class="gobtn" href="https://search.hotellook.com/hotels?destination=${q}" target="_blank" rel="noopener">Hotellook · отели</a>
+          <a class="gobtn" href="https://www.booking.com/searchresults.html?ss=${q}" target="_blank" rel="noopener">Booking · жильё</a>
+        </div>
+        ${housingBoardsBlock(card)}
+        <p class="attrib">Eurostat EU-SILC · World Bank ICP · Wikipedia (CC BY-SA 4.0). Поиск — Hotellook и Booking, мы их не парсим.</p>`;
+    }
+
+    const BOARD_KIND = {
+      board: "объявления от собственников",
+      agency: "витрина агентств (комиссия)",
+      classifieds: "доска общего профиля",
+    };
+    const BOARD_LANG = {
+      ru: "русский", en: "English", tr: "Türkçe", sr: "srpski", th: "ไทย",
+      vi: "tiếng Việt", id: "Bahasa Indonesia", es: "español", pt: "português",
+    };
+    function housingBoardsBlock(card) {
+      const boards = card && card.housing_boards && card.housing_boards.boards;
+      if (!boards || !boards.length) return "";
+      const rows = boards.map((b) => {
+        const bits = [];
+        if (BOARD_KIND[b.kind]) bits.push(BOARD_KIND[b.kind]);
+        if (b.lang) bits.push("интерфейс: " + (BOARD_LANG[b.lang] || b.lang));
+        if (b.note) bits.push(b.note);
+        const unchecked = !b.checked
+          ? `<small>ссылку проверить не удалось, площадка закрыта от автоматической проверки</small>`
+          : "";
+        return `<li><a href="${escHtml(b.url)}" target="_blank" rel="noopener">${escHtml(b.name)}</a>${
+          bits.length ? `<small>${escHtml(bits.join(" · "))}</small>` : ""}${unchecked}</li>`;
+      }).join("");
+      return `<h3 style="margin-top:14px;font-size:13px">Снять надолго</h3>
+        <p class="hint">Открытых ценников аренды нет — ниже адреса, где смотрят местные. Мы площадки не парсим и сумму не угадываем.</p>
+        <ul class="doclist">${rows}</ul>`;
+    }
+
+    function renderMed(bm) {
+      const rows = SOCIAL_MED.map(([m, l, fmt]) => metricRow(bm, m, l, fmt)).join("");
+      const insurance = `<p class="hint"><b>Стоимости медицинской страховки для россиян в открытых данных нет</b> — ни средний полис, ни тарифы страховых. Ниже только индикаторы ВОЗ / Всемирного банка про доступность и ресурсы системы; страховку они не заменяют.</p>`;
+      if (!rows) {
+        return `${insurance}<p class="hint">Индикаторов здравоохранения по стране Всемирный банк не публикует.</p>`;
+      }
+      return `${insurance}${rows}<p class="attrib">World Bank WDI · WHO UHC.</p>`;
+    }
+
+    function renderLang(cat) {
+      const all = (cat && cat.languages) || [];
+      if (!all.length) {
+        return `<p class="hint">В справочнике официальные языки для этой страны не указаны.</p>`;
+      }
+      return `<div class="row"><span>Официальные<small>справочник стран</small></span><span>${langList(cat)}</span></div>
+        <p class="hint">Это языки из справочника. На каком реально говорят на улице и поймут ли по-русски — данных нет.</p>`;
+    }
+
+    function renderSubstances(card) {
+      const cat = card.catalog || {};
+      const sub = cat.substances || {};
+      const live = card.substances_live;
+      if (!sub.cannabis && !live) {
+        return `<p class="hint">По веществам для этой страны нет ни снимка справочника, ни строки Wikipedia.</p>`;
+      }
+      const conflict = !!(live && live.recreational && sub.cannabis
+        && ((live.recreational === "legal" && sub.cannabis !== "legal")
+          || (live.recreational === "illegal" && sub.cannabis === "legal")));
+      const rows = [];
+      if (sub.cannabis) {
+        rows.push(`<div class="row"><span>Каннабис<small>снимок справочника ${escHtml(sub.as_of || "")}</small></span>`
+          + `<span>${sub.cannabis === "legal" ? "легален" : "нет"}`
+          + `${conflict ? '<span class="badge hot">расхождение с Wikipedia</span>' : ""}</span></div>`);
+      }
+      if (live) {
+        rows.push(`<div class="row"><span>Каннабис · Wikipedia<small>обновлено ${fmtDate(live.fetched_at)}</small></span>`
+          + `<span>${subLabel(live.recreational, live.recreational_text)}</span></div>`);
+        if (live.medical) {
+          rows.push(`<div class="row"><span>Медицински<small>Wikipedia</small></span>`
+            + `<span>${subLabel(live.medical, live.medical_text)}</span></div>`);
+        }
+      }
+      rows.push(`<p class="hint">Это не юридическая консультация. Статус вещества меняется; перед поездкой проверьте местный закон.</p>`);
+      rows.push(`<p class="attrib">справочник стран · Wikipedia (CC BY-SA 4.0).</p>`);
+      return rows.join("");
+    }
+
+    function renderGeo(card) {
+      const cat = card.catalog || {};
+      const sea = cat.sea || {};
+      const ll = cat.latlng || [];
+      const bits = [];
+      const access = sea.access != null ? sea.access : sea.has_coast;
+      bits.push(`<div class="row"><span>Море<small>справочник стран</small></span>`
+        + `<span>${access ? ("есть выход" + (sea.kind === "ocean" ? " к океану" : sea.kind === "sea" ? " к морю" : "")) : "нет выхода"}</span></div>`);
+      if (cat.area_km2 != null) {
+        bits.push(`<div class="row"><span>Площадь<small>справочник стран</small></span><span>${ru(cat.area_km2)} км²</span></div>`);
+      }
+      if (cat.region || cat.subregion) {
+        bits.push(`<div class="row"><span>Регион<small>справочник стран</small></span>`
+          + `<span>${escHtml([cat.region, cat.subregion].filter(Boolean).join(" · "))}</span></div>`);
+      }
+      const borders = cat.borders || cat.neighbours || cat.neighbors;
+      if (borders && borders.length) {
+        bits.push(`<div class="row"><span>Соседи<small>справочник стран</small></span><span>${escHtml(borders.join(", "))}</span></div>`);
+      } else {
+        bits.push(`<p class="hint">Список соседей в справочнике не заполнен.</p>`);
+      }
+      if (ll.length >= 2) {
+        bits.push(`<div class="row"><span>Координаты<small>справочник · ориентир страны</small></span>`
+          + `<span>${ru(ll[0], 2)}, ${ru(ll[1], 2)}</span></div>`);
+      }
+      if (sea.note) bits.push(`<p class="hint">${escHtml(sea.note)}</p>`);
+      return bits.join("") + `<p class="attrib">справочник стран.</p>`;
+    }
+
+    function renderProducts(cat) {
+      const prod = (cat || {}).products || {};
+      const items = prod.items || prod.list || [];
+      if (!items.length) {
+        return `<p class="hint">В справочнике нет типичных товаров/отраслей для этой страны.</p>`;
+      }
+      return `<div class="row"><span>Типичное<small>справочник стран</small></span><span>${escHtml(items.join(", "))}</span></div>`
+        + (prod.note ? `<p class="hint">${escHtml(prod.note)}</p>` : "")
+        + `<p class="attrib">справочник стран — не живая таможенная выгрузка.</p>`;
+    }
+
+    function renderSocial(bm, cat) {
+      const rows = SOCIAL_LIFE.map(([m, l, fmt]) => metricRow(bm, m, l, fmt)).join("");
+      const pol = (cat && cat.politics) || {};
+      const eco = (cat && cat.economy) || {};
+      const catRows = [];
+      if (pol.government) {
+        catRows.push(`<div class="row"><span>Форма правления<small>справочник стран</small></span><span>${escHtml(govRu(pol.government))}</span></div>`);
+      }
+      const blocs = pol.blocs || pol.blocks || [];
+      if (blocs.length) {
+        catRows.push(`<div class="row"><span>Блоки<small>справочник стран</small></span><span>${escHtml(blocs.join(", "))}</span></div>`);
+      }
+      if (pol.recognition) {
+        catRows.push(`<div class="row"><span>Признание<small>справочник стран</small></span><span>${escHtml(pol.recognition)}</span></div>`);
+      }
+      const income = eco.world_bank_income || eco.income_group;
+      if (income) {
+        catRows.push(`<div class="row"><span>Группа дохода WB<small>${escHtml(eco.wb_region || "World Bank")}</small></span>`
+          + `<span>${escHtml(INCOME_RU[income] || income)}</span></div>`);
+      }
+      if (!rows && !catRows.length) {
+        return `<p class="hint">Соцпоказателей и политико-экономического снимка по этой стране нет.</p>`;
+      }
+      return `${rows || `<p class="hint">Индикаторов WDI (жизнь, образование, вода) по стране нет.</p>`}
+        ${catRows.join("")}
+        <p class="attrib">World Bank WDI · справочник стран.</p>`;
+    }
+
+    function renderRoute(card, globePt, home) {
+      const bm = byMetric(card.prices);
+      const fl = bm.flight_from_origin_rub;
+      const dest = globePt
+        ? { lat: globePt.lat, lon: globePt.lon }
+        : (card.catalog && card.catalog.latlng
+          ? { lat: card.catalog.latlng[0], lon: card.catalog.latlng[1] }
+          : null);
+      const km = home && dest ? Math.round(hav(home, dest)) : null;
+      const hours = km != null ? (km / 800 + 0.7) : null;
+      const bits = [];
+      if (fl && fl.value != null) {
+        bits.push(`<div class="row"><span>Билет из Иннополиса (мин. по календарю)<small>${escHtml(fl.source || "travelpayouts")}${fl.observed_at ? " · " + fmtDate(fl.observed_at) : ""}</small></span>`
+          + `<span>${money(fl.value)}</span></div>`);
+      } else if (globePt && globePt.flight_rub != null) {
+        bits.push(`<div class="row"><span>Билет из Иннополиса (мин. по календарю)<small>globe · travelpayouts</small></span>`
+          + `<span>${money(globePt.flight_rub)}</span></div>`);
+      } else {
+        bits.push(`<p class="hint">Цены билета из дома по этой стране в кэше нет — смотрите экран «Маршрут» на глобусе.</p>`);
+      }
+      if (hours != null) {
+        bits.push(`<div class="row"><span>Часы полёта (оценка)<small>прямая ÷ 800 км/ч + 0,7 ч</small></span>`
+          + `<span>~${ru(hours, 1)} ч · ${ru(km)} км</span></div>`);
+      }
+      bits.push(`<p class="hint"><a href="/?b=${card.iso2}&amp;cat=route">Открыть экран «Маршрут» на глобусе</a> — самолёт, поезд/автобус и за рулём с живыми дорогами и расписаниями. С этой страницы мы их не дёргаем.</p>`);
+      return bits.join("");
+    }
+
+    function renderCommunities(card, posts) {
+      const curated = card.communities || [];
+      const seen = new Set(curated.map((c) => (c.url || "").toLowerCase()));
+      const extra = [];
+      for (const post of posts || []) {
+        if (!post.channel) continue;
+        const url = "https://t.me/" + post.channel;
+        if (seen.has(url.toLowerCase())) continue;
+        seen.add(url.toLowerCase());
+        extra.push({ title: post.channel, url, kind: "telegram" });
+      }
+      const all = curated.concat(extra);
+      if (!all.length) return "";
+      const btns = all.map((c) =>
+        `<a class="gobtn" href="${escHtml(c.url)}" target="_blank" rel="noopener">${
+          c.kind === "telegram" ? "t.me/" : c.kind === "reddit" ? "r/" : ""}${escHtml(c.title)}</a>`
+      ).join("");
+      return `<div class="gobtns">${btns}</div>
+        <p class="hint">Публичные каналы и ветки Reddit о быте и документах. Мы их не проверяем и цены оттуда не берём — это «что пишут», не данные.</p>`;
+    }
+
+    function renderTg(posts) {
+      if (posts == null) return `<p class="hint">загружаю посты…</p>`;
+      if (!posts.length) return "";
+      const rows = posts.slice(0, 8).map((x) => `
+        <a class="tgpost" href="${escHtml(x.link)}" target="_blank" rel="noopener">
+          <div class="tgh">@${escHtml(x.channel)} · ${fmtStamp(x.posted_at)}</div>
+          <div class="tgt">${escHtml(x.text)}</div>
+        </a>`).join("");
+      return `${rows}<p class="hint">Последние посты публичных каналов о стране. Мы их не проверяем и цены оттуда не берём.</p>`;
+    }
+
+    function renderPage(card, extras) {
+      const cat = card.catalog || {};
+      const bm = byMetric(card.prices);
+      const vsUsa = bm.price_level_vs_usa || bm.price_level_hh_vs_usa;
+      const homePl = extras.homePl;
+      const vsHome = (vsUsa && homePl && homePl > 0) ? (vsUsa.value / homePl) : null;
+      const gni = bm.income_gni_usd_year;
+      const keys = [];
+      if (vsHome != null) keys.push(`<span>корзина vs дома <b>${pct(vsHome)}</b></span>`);
+      else if (vsUsa && vsUsa.value != null) keys.push(`<span>корзина vs США <b>${pct(vsUsa.value)}</b></span>`);
+      if (gni && gni.value != null) keys.push(`<span>доход <b>$${ru(gni.value / 12)}/мес</b></span>`);
+      if (card.legal_work) {
+        const w = card.legal_work === "yes" ? "можно" : card.legal_work === "remote" ? "удалёнка" : "нельзя";
+        keys.push(`<span>работа <b>${w}</b></span>`);
+      }
+      if ((cat.visa_rf || {}).internal_passport) {
+        keys.push(`<span>паспорт <b>внутренний РФ</b></span>`);
+      }
+      const pop = cat.population != null ? ru(cat.population) : "нет в справочнике";
+      const area = cat.area_km2 != null ? ru(cat.area_km2) + " км²" : "—";
+      const ccy = card.currency_code || ((cat.currency || [])[0] || {}).code || "—";
+      const meta = [
+        card.capital ? "столица " + card.capital : null,
+        "валюта " + ccy,
+        "население " + pop,
+        "площадь " + area,
+        cat.region || null,
+      ].filter(Boolean).join(" · ");
+
+      const tgBody = renderTg(extras.tg);
+      const commBody = renderCommunities(card, extras.tg);
+      // На выгруженной странице заголовок уже собран экспортом под поиск
+      // («Переезд в Сербию из России…»), и первый же рендер его бы затёр.
+      if (!document.querySelector('meta[name="wp-static-meta"]')) {
+        document.title = `${card.name_ru} — world-prices`;
+      }
+      // h1 на странице ровно один, и он должен что-то значить: «Страна» на всех
+      // 255 адресах не говорит ни человеку, ни поисковику.
+    // Дата у КАЖДОЙ цифры на странице своя — это сильнее общей, но человеку и
+    // роботу нужен быстрый ответ «страница вообще свежая?». Берём максимум по
+    // наблюдениям карточки: врать нечем, это дата самой свежей цифры на ней.
+    // Паттерн подсмотрен у livingcost.org (docs/qa/competitors-2026-08-26.md),
+    // но там дата одна на весь сайт, а у нас — по этой стране.
+    function freshLine(card) {
+      const days = (card.prices || [])
+        .map((o) => String(o.observed_at || "").slice(0, 10))
+        .filter((d) => /^\d{4}-\d{2}-\d{2}$/.test(d))
+        .sort();
+      if (!days.length) return "";
+      const last = days[days.length - 1];
+      return `<p class="meta">Самая свежая цифра на странице — ${escHtml(fmtDate(last))}. `
+        + `У каждой строки ниже своя дата и свой источник.</p>`;
+    }
+
+      const pageH1 = document.getElementById("pageH1");
+      if (pageH1) pageH1.textContent = card.name_ru;
+      document.getElementById("toGlobe").href = `/?b=${card.iso2}`;
+
+      return `
+        <div class="hero">
+          <h2>${escHtml(card.name_ru)}</h2>
+          <div class="en">${escHtml(card.name_en || "")} · ${card.iso2}</div>
+          <p class="meta">${escHtml(meta)}</p>
+          ${freshLine(card)}
+          ${keys.length ? `<div class="keys">${keys.join("")}</div>` : ""}
+        </div>
+        ${section("legal", "Легализация", renderLegal(card))}
+        ${section("money", "Деньги и цены", renderMoney(bm))}
+        ${section("shelf", "Полка магазина", renderShelf(extras.shelf, extras.shelfTotal))}
+        ${section("housing", "Жильё и аренда", renderHousing(card, bm, extras.photos))}
+        ${section("med", "Медицина", renderMed(bm))}
+        ${section("lang", "Язык", renderLang(cat))}
+        ${section("substances", "Вещества", renderSubstances(card))}
+        ${section("geo", "География и море", renderGeo(card))}
+        ${section("products", "Своё производство", renderProducts(cat))}
+        ${section("social", "Социальные институты", renderSocial(bm, cat))}
+        ${section("route", "Как добраться", renderRoute(card, extras.globePt, extras.home))}
+        ${commBody ? section("community", "Куда писать", commBody) : ""}
+        ${tgBody ? section("tg", "Что пишут", tgBody) : ""}
+      `;
+    }
+
+    function fillSlot(id, html) {
+      const el = document.getElementById(id);
+      if (el) el.innerHTML = html;
+    }
+    async function main() {
+      const iso = isoFromPath();
+      const root = document.getElementById("root");
+      if (!iso) {
+        root.innerHTML = `<p class="err">В адресе нет кода страны. Откройте, например, <a href="/country/RS">/country/RS</a>.</p>`;
+        return;
+      }
+      // Выгрузка запекает скелет в HTML (виза, шаги, цифры) — робот его видит
+      // без JS. Скрипт это не затирает: дорисовывает только живое (полка, фото,
+      // посты). На живом сервере data-baked нет, страница рисуется целиком.
+      if (root.hasAttribute("data-baked")) {
+        const to = document.getElementById("toGlobe");
+        if (to) to.href = `/?b=${iso}`;
+        fetch(`/api/shelf/${iso}?limit=24`).then((r) => r.ok ? r.json() : { items: [] })
+          .then((j) => fillSlot("shelfLive", renderShelf(j.items || [], j.total)))
+          .catch(() => fillSlot("shelfLive", renderShelf([], 0)));
+        fetch(`/api/photos/${iso}?limit=8`).then((r) => r.ok ? r.json() : { photos: [] })
+          .then((j) => fillSlot("photosLive", renderPhotosOnly(j.photos || [])))
+          .catch(() => fillSlot("photosLive", renderPhotosOnly([])));
+        fetch(`/api/tg/${iso}?limit=12`).then((r) => r.ok ? r.json() : { posts: [] })
+          .then((j) => fillSlot("tgLive", renderTg(j.posts || [])))
+          .catch(() => fillSlot("tgLive", renderTg([])));
+        return;
+      }
+      let card;
+      try {
+        const r = await fetch(`/api/countries/${iso}`);
+        if (r.status === 404) {
+          root.innerHTML = `<p class="err">Страны ${escHtml(iso)} нет в справочнике.</p>`;
+          return;
+        }
+        if (!r.ok) throw new Error("HTTP " + r.status);
+        card = await r.json();
+      } catch (e) {
+        root.innerHTML = `<p class="err">Не удалось загрузить профиль: ${escHtml(String(e))}</p>`;
+        return;
+      }
+
+      const extras = { shelf: null, shelfTotal: 0, photos: null, tg: null, globePt: null, home: null, homePl: null };
+      root.innerHTML = renderPage(card, extras);
+      const paint = () => { root.innerHTML = renderPage(card, extras); };
+
+      fetch(`/api/shelf/${iso}?limit=24`).then((r) => r.ok ? r.json() : { items: [] })
+        .then((j) => {
+          extras.shelf = j.items || [];
+          extras.shelfTotal = j.total || extras.shelf.length;
+          paint();
+        })
+        .catch(() => { extras.shelf = []; paint(); });
+
+      fetch(`/api/photos/${iso}?limit=8`).then((r) => r.ok ? r.json() : { photos: [] })
+        .then((j) => { extras.photos = j.photos || []; paint(); })
+        .catch(() => { extras.photos = []; paint(); });
+
+      fetch(`/api/tg/${iso}?limit=12`).then((r) => r.ok ? r.json() : { posts: [] })
+        .then((j) => { extras.tg = j.posts || []; paint(); })
+        .catch(() => { extras.tg = []; paint(); });
+
+      fetch("/api/globe").then((r) => r.ok ? r.json() : null)
+        .then((g) => {
+          if (!g) return;
+          extras.home = g.home || { lat: 55.7522, lon: 48.7446 };
+          extras.globePt = (g.points || []).find((p) => p.iso2 === iso) || null;
+          const ruPt = (g.points || []).find((p) => p.iso2 === "RU");
+          if (ruPt && ruPt.pli_us != null) extras.homePl = ruPt.pli_us;
+          paint();
+        })
+        .catch(() => {});
+    }
+    main();
+  </script>
+</body>
+</html>
