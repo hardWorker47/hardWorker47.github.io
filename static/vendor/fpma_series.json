@@ -1,0 +1,2067 @@
+{
+ "_attribution": "FAO GIEWS FPMA (https://fpma.fao.org), CC BY 4.0; сгенерировано scripts/build_fpma_series.py",
+ "countries": {
+  "AZ": {
+   "fpma_milk": {
+    "uuid": "e7ba91ee-69cc-46df-8348-b6b62e6df85b",
+    "label": "Milk (not pasteurized)",
+    "unit": "Liter",
+    "currency": "AZN",
+    "market": "National Average",
+    "source": "State Statistical Committee of the Republic of Azerbaijan"
+   },
+   "fpma_bread_flour": {
+    "uuid": "6ab37985-1ecd-41f7-84c1-33cd1f05b91f",
+    "label": "Bread (high grade flour)",
+    "unit": "Kg",
+    "currency": "AZN",
+    "market": "National Average",
+    "source": "State Statistical Committee of the Republic of Azerbaijan"
+   },
+   "fpma_potatoes": {
+    "uuid": "b8ae7b9b-ceca-432f-a19d-ffcff6363147",
+    "label": "Potatoes",
+    "unit": "Kg",
+    "currency": "AZN",
+    "market": "National Average",
+    "source": "State Statistical Committee of the Republic of Azerbaijan"
+   }
+  },
+  "AM": {
+   "fpma_bread_flour": {
+    "uuid": "79e6690d-688c-4ddb-9398-61ffe0d7f60e",
+    "label": "Bread (high grade flour)",
+    "unit": "Kg",
+    "currency": "AMD",
+    "market": "National Average",
+    "source": "National Statistical Service of the Republic of Armenia"
+   },
+   "fpma_potatoes": {
+    "uuid": "bf0a9175-f241-423a-8729-c7414ebbcaac",
+    "label": "Potatoes",
+    "unit": "Kg",
+    "currency": "AMD",
+    "market": "National Average",
+    "source": "National Statistical Service of the Republic of Armenia"
+   }
+  },
+  "BD": {
+   "fpma_bread_flour": {
+    "uuid": "0d536374-3955-47af-8883-6e00735a0d8b",
+    "label": "Wheat (flour, loose)",
+    "unit": "Kg",
+    "currency": "BDT",
+    "market": "National Average",
+    "source": "Department of Agriculture Marketing (DAM), Bangladesh"
+   },
+   "fpma_rice": {
+    "uuid": "4bdf85d0-f8ef-4fa5-abfd-80d82ae9724f",
+    "label": "Rice (Aman, coarse)",
+    "unit": "100 kg",
+    "currency": "BDT",
+    "market": "National Average",
+    "source": "Department of Agriculture Marketing (DAM), Bangladesh"
+   },
+   "fpma_oil": {
+    "uuid": "d5bb3427-b899-4afa-a091-8cb2a73fcc62",
+    "label": "Palm oil",
+    "unit": "100 liters",
+    "currency": "BDT",
+    "market": "National Average",
+    "source": "Department of Agriculture Marketing (DAM), Bangladesh"
+   }
+  },
+  "BY": {
+   "fpma_bread_flour": {
+    "uuid": "3350b418-ccb0-4e6d-b78a-6879b6cfaf33",
+    "label": "Bread (high grade flour)",
+    "unit": "Kg",
+    "currency": "BYR",
+    "market": "National Average",
+    "source": "National Statistical Committee of the Republic of Belarus"
+   },
+   "fpma_potatoes": {
+    "uuid": "60b7776e-ff8e-4817-8bd5-8340bcdd7a50",
+    "label": "Potatoes",
+    "unit": "Kg",
+    "currency": "BYR",
+    "market": "National Average",
+    "source": "National Statistical Committee of the Republic of Belarus"
+   }
+  },
+  "BZ": {
+   "fpma_rice": {
+    "uuid": "3dafbcb0-14be-4a49-84e8-8290524785fd",
+    "label": "Rice",
+    "unit": "lb",
+    "currency": "BZD",
+    "market": "Orange Walk",
+    "source": "Belize Agriculture Price Information System"
+   },
+   "fpma_potatoes": {
+    "uuid": "96d670c3-e280-48ba-8aa2-627ac4e9d1c9",
+    "label": "Potatoes",
+    "unit": "lb",
+    "currency": "BZD",
+    "market": "Belize City",
+    "source": "Belize Agriculture Price Information System"
+   },
+   "fpma_eggs": {
+    "uuid": "90692ac8-b5d8-4959-9bb1-74d864b67860",
+    "label": "Eggs",
+    "unit": "Dozen",
+    "currency": "BZD",
+    "market": "Orange Walk",
+    "source": "Belize Agriculture Price Information System"
+   },
+   "fpma_beans": {
+    "uuid": "34d9af96-e138-4994-9459-27a19c6a75a0",
+    "label": "Beans (black)",
+    "unit": "lb",
+    "currency": "BZD",
+    "market": "Punta Gorda",
+    "source": "Belize Agriculture Price Information System"
+   },
+   "fpma_maize": {
+    "uuid": "275c12f1-ee28-44dd-9725-d7766bb207a0",
+    "label": "Maize (white)",
+    "unit": "lb",
+    "currency": "BZD",
+    "market": "Orange Walk",
+    "source": "Belize Agriculture Price Information System"
+   }
+  },
+  "BW": {
+   "fpma_milk": {
+    "uuid": "53072106-12d6-42eb-8122-7669992ded95",
+    "label": "Milk (fresh)",
+    "unit": "500 ml",
+    "currency": "BWP",
+    "market": "National Average",
+    "source": "Statistics Botswana"
+   },
+   "fpma_bread_flour": {
+    "uuid": "17fa015d-334a-4caa-925e-abbab6a192db",
+    "label": "Wheat (flour)",
+    "unit": "5 kg",
+    "currency": "BWP",
+    "market": "National Average",
+    "source": "Statistics Botswana"
+   },
+   "fpma_rice": {
+    "uuid": "a743fd96-01d1-4009-b60d-5f3eb336b4a5",
+    "label": "Rice",
+    "unit": "5 kg",
+    "currency": "BWP",
+    "market": "National Average",
+    "source": "Statistics Botswana"
+   },
+   "fpma_sugar": {
+    "uuid": "b0bcf5ea-2808-49ba-bc3f-4223a58d07e5",
+    "label": "Sugar (white)",
+    "unit": "2.5 kg",
+    "currency": "BWP",
+    "market": "National Average",
+    "source": "Statistics Botswana"
+   },
+   "fpma_oil": {
+    "uuid": "ba2bfa50-3842-456e-99d4-6bc6f669988c",
+    "label": "Sunflower oil",
+    "unit": "750 ml",
+    "currency": "BWP",
+    "market": "National Average",
+    "source": "Statistics Botswana"
+   },
+   "fpma_maize": {
+    "uuid": "c38c0cf1-9636-4952-b472-a6e20fd8b5ac",
+    "label": "Maize meal",
+    "unit": "5 kg",
+    "currency": "BWP",
+    "market": "National Average",
+    "source": "Statistics Botswana"
+   }
+  },
+  "BR": {
+   "fpma_bread_flour": {
+    "uuid": "00aeab8f-447b-423e-ad22-160084e7a71e",
+    "label": "Wheat (flour)",
+    "unit": "Kg",
+    "currency": "BRL",
+    "market": "Rio Grande do Sul",
+    "source": "Companhia Nacional de Abastecimento (Conab)"
+   },
+   "fpma_rice": {
+    "uuid": "131ebfe4-3d2d-4a27-b82c-b3cb2966f372",
+    "label": "Rice (milled, fine long-grain, type 1)",
+    "unit": "30 kg",
+    "currency": "BRL",
+    "market": "Paraná",
+    "source": "Companhia Nacional de Abastecimento (Conab)"
+   },
+   "fpma_beans": {
+    "uuid": "1ced7832-7552-4980-9f17-3d850aed1357",
+    "label": "Beans (black)",
+    "unit": "Kg",
+    "currency": "BRL",
+    "market": "Rio Grande do Sul",
+    "source": "Companhia Nacional de Abastecimento (Conab)"
+   },
+   "fpma_maize": {
+    "uuid": "1ee856cd-d335-4981-8e5d-bb110e2de846",
+    "label": "Maize (yellow)",
+    "unit": "60 kg",
+    "currency": "BRL",
+    "market": "Federal District",
+    "source": "Companhia Nacional de Abastecimento (Conab)"
+   }
+  },
+  "BI": {
+   "fpma_rice": {
+    "uuid": "a6db3823-3375-4151-b849-06db15ad9573",
+    "label": "Rice (low quality)",
+    "unit": "Kg",
+    "currency": "BIF",
+    "market": "National Average",
+    "source": "Various via WFP VAM"
+   },
+   "fpma_oil": {
+    "uuid": "7da11507-7f83-473a-8ec3-4809117f8a94",
+    "label": "Vegetable oil",
+    "unit": "Kg",
+    "currency": "BIF",
+    "market": "National Average",
+    "source": "Various via WFP VAM"
+   },
+   "fpma_beans": {
+    "uuid": "84a821df-0b7f-42f8-9575-43b34fb69d29",
+    "label": "Beans",
+    "unit": "Kg",
+    "currency": "BIF",
+    "market": "National Average",
+    "source": "Various via WFP VAM"
+   },
+   "fpma_maize": {
+    "uuid": "0652ed79-2922-4435-ba20-a0959c405cd0",
+    "label": "Maize (white)",
+    "unit": "Kg",
+    "currency": "BIF",
+    "market": "National Average",
+    "source": "Various via WFP VAM"
+   }
+  },
+  "BT": {
+   "fpma_bread_flour": {
+    "uuid": "af152e60-ff49-41f1-9992-49849ffaf57d",
+    "label": "Wheat (flour)",
+    "unit": "Kg",
+    "currency": "BTN",
+    "market": "Thimphu",
+    "source": "Department of Agricultural Marketing & Cooperatives, Ministry of Agriculture and Forests"
+   },
+   "fpma_rice": {
+    "uuid": "813372a3-7460-4efe-9e64-abb9086269b9",
+    "label": "Rice (red)",
+    "unit": "Kg",
+    "currency": "BTN",
+    "market": "Thimphu",
+    "source": "Department of Agricultural Marketing & Cooperatives, Ministry of Agriculture and Forests"
+   }
+  },
+  "GB": {
+   "fpma_milk": {
+    "uuid": "f31b578e-d366-4402-b003-3b2654f34d8c",
+    "label": "Milk (semi-skimmed)",
+    "unit": "2 pints",
+    "currency": "GBP",
+    "market": "National Average",
+    "source": "Office of National Statistics"
+   },
+   "fpma_bread_flour": {
+    "uuid": "4770edf5-24e5-446d-957c-621821b5fd4f",
+    "label": "Bread (wholemeal, sliced)",
+    "unit": "750-800 gms",
+    "currency": "GBP",
+    "market": "National Average",
+    "source": "Office of National Statistics"
+   }
+  },
+  "TL": {
+   "fpma_bread_flour": {
+    "uuid": "ace0c9f8-a9b2-4428-b848-a46a39a2c31e",
+    "label": "Wheat (flour, imported)",
+    "unit": "Kg",
+    "currency": "USD",
+    "market": "National Average",
+    "source": "Various via WFP VAM"
+   },
+   "fpma_rice": {
+    "uuid": "8fc1185c-0a5e-42bb-9cf7-879fdedd9fb3",
+    "label": "Rice (white)",
+    "unit": "Kg",
+    "currency": "USD",
+    "market": "National Average",
+    "source": "Various via WFP VAM"
+   },
+   "fpma_oil": {
+    "uuid": "4120cdf5-7919-4019-b281-46e10df7fd9a",
+    "label": "Vegetable oil (imported)",
+    "unit": "Liter",
+    "currency": "USD",
+    "market": "National Average",
+    "source": "Various via WFP VAM"
+   },
+   "fpma_beans": {
+    "uuid": "3554212a-474f-4640-bc9d-3edc8d1e8786",
+    "label": "Beans (red, kidney)",
+    "unit": "Kg",
+    "currency": "USD",
+    "market": "National Average",
+    "source": "Various via WFP VAM"
+   },
+   "fpma_maize": {
+    "uuid": "fbf9c894-9eff-4f94-a654-6d965fe8bd02",
+    "label": "Maize",
+    "unit": "Kg",
+    "currency": "USD",
+    "market": "National Average",
+    "source": "Various via WFP VAM"
+   }
+  },
+  "VN": {
+   "fpma_rice": {
+    "uuid": "16230771-cea4-43a2-b438-22a14026c9e2",
+    "label": "Rice (5% broken)",
+    "unit": "Kg",
+    "currency": "VND",
+    "market": "An Giang",
+    "source": "Vietnam Food Association"
+   }
+  },
+  "GM": {
+   "fpma_rice": {
+    "uuid": "1468f0bf-0abb-4425-be97-660d4b412a39",
+    "label": "Rice (long grain, imported)",
+    "unit": "Kg",
+    "currency": "GMD",
+    "market": "Banjul",
+    "source": "The Gambia Bureau of Statistics via WFP VAM"
+   },
+   "fpma_oil": {
+    "uuid": "3dcf0e3d-f0b4-4a2b-8830-7764d6d91825",
+    "label": "Vegetable oil",
+    "unit": "Liter",
+    "currency": "GMD",
+    "market": "Banjul",
+    "source": "The Gambia Bureau of Statistics via WFP VAM"
+   },
+   "fpma_beans": {
+    "uuid": "039236bd-8daf-472d-b063-6359a11661c3",
+    "label": "Beans",
+    "unit": "Kg",
+    "currency": "GMD",
+    "market": "Farafenni",
+    "source": "The Gambia Bureau of Statistics via WFP VAM"
+   },
+   "fpma_maize": {
+    "uuid": "34639ad9-c6f3-496a-8f0a-4663e59d01fd",
+    "label": "Maize",
+    "unit": "Kg",
+    "currency": "GMD",
+    "market": "Bansang",
+    "source": "The Gambia Bureau of Statistics via WFP VAM"
+   }
+  },
+  "GT": {
+   "fpma_bread_flour": {
+    "uuid": "4a2f6db5-8309-44fd-b4a5-0581fe64593a",
+    "label": "Bread (French type)",
+    "unit": "460 gms",
+    "currency": "GTQ",
+    "market": "National Average",
+    "source": "Instituto Nacional de Estadística, Guatemala"
+   },
+   "fpma_rice": {
+    "uuid": "8e3cd25b-726b-446f-bcac-61868146d3eb",
+    "label": "Rice (second quality)",
+    "unit": "460 gms",
+    "currency": "GTQ",
+    "market": "National Average",
+    "source": "Instituto Nacional de Estadística, Guatemala"
+   },
+   "fpma_beans": {
+    "uuid": "357fbd2c-20d5-46d1-89a6-76d8b68be322",
+    "label": "Beans (black)",
+    "unit": "460 gms",
+    "currency": "GTQ",
+    "market": "National Average",
+    "source": "Instituto Nacional de Estadística, Guatemala"
+   },
+   "fpma_maize": {
+    "uuid": "d5aeeac3-a096-4f35-ad14-9d88800a2f2d",
+    "label": "Maize (white)",
+    "unit": "tonne",
+    "currency": "GTQ",
+    "market": "National Average",
+    "source": "Consejo Nacional de Producción"
+   }
+  },
+  "GW": {
+   "fpma_bread_flour": {
+    "uuid": "b6fc380d-8fc3-413e-ade0-613cd7715fc5",
+    "label": "Wheat (flour)",
+    "unit": "Kg",
+    "currency": "XOF",
+    "market": "National Average",
+    "source": "Various via WFP VAM"
+   },
+   "fpma_rice": {
+    "uuid": "b903c442-b33b-4fae-8a88-2b1008756fdd",
+    "label": "Rice (imported)",
+    "unit": "Kg",
+    "currency": "XOF",
+    "market": "National Average",
+    "source": "Various via WFP VAM"
+   },
+   "fpma_oil": {
+    "uuid": "aa3549b5-3307-41e1-905c-cedbd40a320d",
+    "label": "Vegetable oil (imported)",
+    "unit": "Liter",
+    "currency": "XOF",
+    "market": "National Average",
+    "source": "Various via WFP VAM"
+   },
+   "fpma_beans": {
+    "uuid": "284cf191-2290-45fc-a32b-eae84fa78ea2",
+    "label": "Beans",
+    "unit": "Kg",
+    "currency": "XOF",
+    "market": "National Average",
+    "source": "Various via WFP VAM"
+   }
+  },
+  "HN": {
+   "fpma_beans": {
+    "uuid": "ac7c13e2-d1e6-4c22-a223-36ee338fe27b",
+    "label": "Beans (red)",
+    "unit": "tonne",
+    "currency": "HNL",
+    "market": "National Average",
+    "source": "Consejo Nacional de Producción"
+   },
+   "fpma_maize": {
+    "uuid": "d69707f6-6f57-4d3a-b8d8-1d461bf380ea",
+    "label": "Maize (white)",
+    "unit": "tonne",
+    "currency": "HNL",
+    "market": "National Average",
+    "source": "Consejo Nacional de Producción"
+   }
+  },
+  "GE": {
+   "fpma_milk": {
+    "uuid": "91df5b4d-dcb7-4bda-9311-d47c07db9baa",
+    "label": "Milk (manufactured)",
+    "unit": "Liter",
+    "currency": "GEL",
+    "market": "National Average",
+    "source": "National Statistics Office of Georgia"
+   },
+   "fpma_bread_flour": {
+    "uuid": "d117ae35-0e28-4c37-8bb3-1d4c327b8c11",
+    "label": "Bread",
+    "unit": "Kg",
+    "currency": "GEL",
+    "market": "National Average",
+    "source": "National Statistics Office of Georgia"
+   },
+   "fpma_potatoes": {
+    "uuid": "232eef44-71bc-4312-bc9b-e89277cc6e77",
+    "label": "Potatoes",
+    "unit": "Kg",
+    "currency": "GEL",
+    "market": "National Average",
+    "source": "National Statistics Office of Georgia"
+   }
+  },
+  "DJ": {
+   "fpma_bread_flour": {
+    "uuid": "d32da11c-851a-45d5-90d4-61bddfe77398",
+    "label": "Wheat (flour)",
+    "unit": "Kg",
+    "currency": "DJF",
+    "market": "National Average",
+    "source": "Various via WFP VAM"
+   },
+   "fpma_rice": {
+    "uuid": "380ffd12-7a37-4d40-a323-19781f2eceda",
+    "label": "Rice (imported)",
+    "unit": "Kg",
+    "currency": "DJF",
+    "market": "National Average",
+    "source": "Various via WFP VAM"
+   },
+   "fpma_potatoes": {
+    "uuid": "05287b97-aac8-4a73-824d-542c7dc7ea38",
+    "label": "Potatoes",
+    "unit": "Kg",
+    "currency": "DJF",
+    "market": "National Average",
+    "source": "Various via WFP VAM"
+   },
+   "fpma_eggs": {
+    "uuid": "f6e6eb6d-5a7e-4f46-9a3f-4c0b88415c64",
+    "label": "Eggs",
+    "unit": "1 unit",
+    "currency": "DJF",
+    "market": "National Average",
+    "source": "Various via WFP VAM"
+   },
+   "fpma_oil": {
+    "uuid": "e66ddbb8-8375-42a6-9f6c-fe4ffa3a5025",
+    "label": "Vegetable oil",
+    "unit": "Liter",
+    "currency": "DJF",
+    "market": "National Average",
+    "source": "Various via WFP VAM"
+   },
+   "fpma_beans": {
+    "uuid": "32b36072-52b4-4fc2-a013-f022e2279745",
+    "label": "Beans",
+    "unit": "Kg",
+    "currency": "DJF",
+    "market": "National Average",
+    "source": "Various via WFP VAM"
+   }
+  },
+  "EG": {
+   "fpma_milk": {
+    "uuid": "6b8e500a-e2a6-4d5f-8774-d100d78f68c8",
+    "label": "Milk",
+    "unit": "Liter",
+    "currency": "EGP",
+    "market": "National Average",
+    "source": "Central Agency for Public Mobilization and Statistics (CAPMAS)"
+   },
+   "fpma_bread_flour": {
+    "uuid": "9eea3d84-d1d2-42a1-a13c-2706feff1dbc",
+    "label": "Wheat (flour)",
+    "unit": "Kg",
+    "currency": "EGP",
+    "market": "National Average",
+    "source": "Central Agency for Public Mobilization and Statistics (CAPMAS)"
+   },
+   "fpma_rice": {
+    "uuid": "2ff19185-2b1d-4640-97e9-d99164621010",
+    "label": "Rice (packaged)",
+    "unit": "Kg",
+    "currency": "EGP",
+    "market": "National Average",
+    "source": "Central Agency for Public Mobilization and Statistics (CAPMAS)"
+   },
+   "fpma_potatoes": {
+    "uuid": "adc06a33-3e54-4fae-af95-7d8c2d8417db",
+    "label": "Potatoes",
+    "unit": "Kg",
+    "currency": "EGP",
+    "market": "National Average",
+    "source": "Central Agency for Public Mobilization and Statistics (CAPMAS)"
+   },
+   "fpma_eggs": {
+    "uuid": "ec7666d0-75f7-4199-a9d4-5fa9cdd4f7ef",
+    "label": "Eggs",
+    "unit": "1 unit",
+    "currency": "EGP",
+    "market": "National Average",
+    "source": "Central Agency for Public Mobilization and Statistics (CAPMAS)"
+   },
+   "fpma_sugar": {
+    "uuid": "08db7bb5-3790-4429-8072-608c9b07715c",
+    "label": "Sugar",
+    "unit": "Kg",
+    "currency": "EGP",
+    "market": "National Average",
+    "source": "Central Agency for Public Mobilization and Statistics (CAPMAS)"
+   },
+   "fpma_oil": {
+    "uuid": "17177ca0-ebc5-42ee-8b6f-87add5d2b4f8",
+    "label": "Cottonseed oil",
+    "unit": "Liter",
+    "currency": "EGP",
+    "market": "National Average",
+    "source": "Central Agency for Public Mobilization and Statistics (CAPMAS)"
+   }
+  },
+  "ZM": {
+   "fpma_eggs": {
+    "uuid": "218c971e-6b65-4acf-a43f-a18e485d7ac6",
+    "label": "Eggs",
+    "unit": "1 Tray",
+    "currency": "ZMW",
+    "market": "National Average",
+    "source": "Zambia Statistics Agency"
+   },
+   "fpma_maize": {
+    "uuid": "584c553f-409e-4b48-b90b-3d970db0bed3",
+    "label": "Breakfast maize meal",
+    "unit": "25 kg",
+    "currency": "ZMW",
+    "market": "National Average",
+    "source": "Zambia Statistics Agency"
+   }
+  },
+  "ZW": {
+   "fpma_bread_flour": {
+    "uuid": "ac1555a5-c775-44f5-a820-8ad05cfa2500",
+    "label": "Bread",
+    "unit": "720 gms",
+    "currency": "ZiG",
+    "market": "Epworth",
+    "source": "ZIMSTAT"
+   },
+   "fpma_rice": {
+    "uuid": "9d1ac98f-cca0-40cc-92f2-950658752456",
+    "label": "Rice",
+    "unit": "2 Kg",
+    "currency": "ZiG",
+    "market": "Epworth",
+    "source": "ZIMSTAT"
+   },
+   "fpma_oil": {
+    "uuid": "327a2e82-45c3-480d-85c3-c77d9fb51454",
+    "label": "Vegetable oil",
+    "unit": "2 Liters",
+    "currency": "ZiG",
+    "market": "Epworth",
+    "source": "ZIMSTAT"
+   },
+   "fpma_beans": {
+    "uuid": "19155388-b60b-4859-b988-7e25701a1a63",
+    "label": "Beans",
+    "unit": "500 gms",
+    "currency": "ZiG",
+    "market": "Epworth",
+    "source": "ZIMSTAT"
+   },
+   "fpma_maize": {
+    "uuid": "10b0d464-7c3d-43cc-af2c-db021f8ca18d",
+    "label": "Maize meal",
+    "unit": "10 Kg",
+    "currency": "ZiG",
+    "market": "Epworth",
+    "source": "ZIMSTAT"
+   }
+  },
+  "IL": {
+   "fpma_milk": {
+    "uuid": "ee58084a-9cb3-4445-a82a-c987ba3bcd4b",
+    "label": "Milk (pasteurised)",
+    "unit": "Liter",
+    "currency": "ILS",
+    "market": "National Average",
+    "source": "Central Bureau of Statistics"
+   },
+   "fpma_bread_flour": {
+    "uuid": "9a08f0d7-2faf-4936-b113-da5b3f5e04c1",
+    "label": "Bread (sliced)",
+    "unit": "750 gms",
+    "currency": "ILS",
+    "market": "National Average",
+    "source": "Central Bureau of Statistics"
+   },
+   "fpma_rice": {
+    "uuid": "1f20351c-a146-496f-8b0f-04795720607e",
+    "label": "Rice",
+    "unit": "Kg",
+    "currency": "ILS",
+    "market": "National Average",
+    "source": "Central Bureau of Statistics"
+   },
+   "fpma_potatoes": {
+    "uuid": "202063ff-4364-4746-acbd-73a7760435b7",
+    "label": "Potatoes",
+    "unit": "Kg",
+    "currency": "ILS",
+    "market": "National Average",
+    "source": "Central Bureau of Statistics"
+   },
+   "fpma_eggs": {
+    "uuid": "47e40af8-9be0-4aea-a909-71fd378a0aac",
+    "label": "Eggs (medium size)",
+    "unit": "Dozen",
+    "currency": "ILS",
+    "market": "National Average",
+    "source": "Central Bureau of Statistics"
+   },
+   "fpma_sugar": {
+    "uuid": "a9ac72cb-7a19-4d44-bb7a-334c5a92348d",
+    "label": "Sugar",
+    "unit": "Kg",
+    "currency": "ILS",
+    "market": "National Average",
+    "source": "Central Bureau of Statistics"
+   },
+   "fpma_maize": {
+    "uuid": "bf4d38b4-bdde-4e3d-a928-f51acc32838c",
+    "label": "Maize",
+    "unit": "tonne",
+    "currency": "ILS",
+    "market": "National Average",
+    "source": "Central Bureau of Statistics"
+   }
+  },
+  "ID": {
+   "fpma_bread_flour": {
+    "uuid": "7819292a-caeb-4e2b-8d8a-2fbf4eeadd02",
+    "label": "Wheat (flour)",
+    "unit": "Kg",
+    "currency": "IDR",
+    "market": "National Average",
+    "source": "Badan Pusat Statistik (BPS)"
+   },
+   "fpma_rice": {
+    "uuid": "e8830e09-cde2-46ae-8fd7-916a1982b0e1",
+    "label": "Rice",
+    "unit": "Kg",
+    "currency": "IDR",
+    "market": "National Average",
+    "source": "Badan Pusat Statistik (BPS)"
+   },
+   "fpma_eggs": {
+    "uuid": "c5158ab2-4b64-4eae-a639-2a1bfad06b18",
+    "label": "Eggs",
+    "unit": "Kg",
+    "currency": "IDR",
+    "market": "National Average",
+    "source": "Badan Pusat Statistik (BPS)"
+   },
+   "fpma_sugar": {
+    "uuid": "ac746283-b11b-40c6-98de-d51dd9d3aacd",
+    "label": "Sugar",
+    "unit": "Kg",
+    "currency": "IDR",
+    "market": "National Average",
+    "source": "Badan Pusat Statistik (BPS)"
+   },
+   "fpma_oil": {
+    "uuid": "c0b2e88d-8010-4f45-b989-fdf1eb126c10",
+    "label": "Vegetable oil",
+    "unit": "Liter",
+    "currency": "IDR",
+    "market": "National Average",
+    "source": "Badan Pusat Statistik (BPS)"
+   },
+   "fpma_beans": {
+    "uuid": "92c5dbe7-0a49-4476-9db7-4d2860685ee7",
+    "label": "Soya beans (imported)",
+    "unit": "Kg",
+    "currency": "IDR",
+    "market": "National Average",
+    "source": "Ministry of Trade"
+   }
+  },
+  "JO": {
+   "fpma_bread_flour": {
+    "uuid": "040fd894-1eea-49a4-ae42-f7b923d5376b",
+    "label": "Bread (Pita)",
+    "unit": "Kg",
+    "currency": "JOD",
+    "market": "National Average",
+    "source": "Department of Statistics VIA WFP VAM"
+   },
+   "fpma_rice": {
+    "uuid": "562605d8-b8c9-4978-9ea7-b164f3dd806f",
+    "label": "Rice (Imported)",
+    "unit": "Kg",
+    "currency": "JOD",
+    "market": "National Average",
+    "source": "Department of Statistics VIA WFP VAM"
+   },
+   "fpma_potatoes": {
+    "uuid": "9b5e8be3-a360-4f5b-a333-4551838a7dd0",
+    "label": "Potatoes",
+    "unit": "Kg",
+    "currency": "JOD",
+    "market": "National Average",
+    "source": "Department of Statistics VIA WFP VAM"
+   },
+   "fpma_eggs": {
+    "uuid": "6a2f66d3-ae85-4ede-a774-dc3bee14ffea",
+    "label": "Eggs",
+    "unit": "2 Kg",
+    "currency": "JOD",
+    "market": "National Average",
+    "source": "Department of Statistics VIA WFP VAM"
+   },
+   "fpma_oil": {
+    "uuid": "af93c6ea-bd30-41f1-8725-503110151a09",
+    "label": "Vegetable oil",
+    "unit": "1.8 Liter",
+    "currency": "JOD",
+    "market": "National Average",
+    "source": "Department of Statistics VIA WFP VAM"
+   }
+  },
+  "IQ": {
+   "fpma_bread_flour": {
+    "uuid": "045db32b-3e45-458d-b319-4edcd9657ebc",
+    "label": "Wheat (flour)",
+    "unit": "Kg",
+    "currency": "IQD",
+    "market": "Sulaimaniyah",
+    "source": "Various via WFP VAM"
+   },
+   "fpma_rice": {
+    "uuid": "1b3054e6-a651-4256-8cf6-bc2d37c19a51",
+    "label": "Rice",
+    "unit": "Kg",
+    "currency": "IQD",
+    "market": "Sulaimaniyah",
+    "source": "Various via WFP VAM"
+   },
+   "fpma_potatoes": {
+    "uuid": "69230353-0d6f-4ee6-8deb-7d57c70a9abc",
+    "label": "Potatoes",
+    "unit": "Kg",
+    "currency": "IQD",
+    "market": "Sulaimaniyah",
+    "source": "Various via WFP VAM"
+   },
+   "fpma_eggs": {
+    "uuid": "078816f4-7741-45ea-9c5d-db883c6f4e71",
+    "label": "Eggs",
+    "unit": "1 unit",
+    "currency": "IQD",
+    "market": "Baghdad",
+    "source": "Various via WFP VAM"
+   },
+   "fpma_oil": {
+    "uuid": "148e6b5f-ab35-4823-958c-c59259d1ac01",
+    "label": "Vegetable oil",
+    "unit": "Liter",
+    "currency": "IQD",
+    "market": "Anbar",
+    "source": "Various via WFP VAM"
+   },
+   "fpma_beans": {
+    "uuid": "24f35e66-ccc4-40a0-b825-e670df81ff81",
+    "label": "Beans (white)",
+    "unit": "Kg",
+    "currency": "IQD",
+    "market": "Erbil",
+    "source": "Various via WFP VAM"
+   }
+  },
+  "IR": {
+   "fpma_milk": {
+    "uuid": "6016ae7f-7543-4668-a7b9-83d29f8dc509",
+    "label": "Milk (pasteurised)",
+    "unit": "200 ml",
+    "currency": "IRR",
+    "market": "Tehran Market",
+    "source": "Various via WFP VAM"
+   },
+   "fpma_bread_flour": {
+    "uuid": "7fd815e8-74d3-42b2-8b04-815a8bb3a16d",
+    "label": "Bread",
+    "unit": "240 gms",
+    "currency": "IRR",
+    "market": "Tehran Market",
+    "source": "Various via WFP VAM"
+   },
+   "fpma_rice": {
+    "uuid": "6288223d-e9d9-4567-b8dc-d5a36726ef51",
+    "label": "Rice",
+    "unit": "Kg",
+    "currency": "IRR",
+    "market": "Tehran Market",
+    "source": "Various via WFP VAM"
+   },
+   "fpma_potatoes": {
+    "uuid": "e9055e3d-2c67-4a77-b8be-85908a8a984d",
+    "label": "Potatoes",
+    "unit": "Kg",
+    "currency": "IRR",
+    "market": "Tehran Market",
+    "source": "Various via WFP VAM"
+   },
+   "fpma_eggs": {
+    "uuid": "ac72de67-2b16-4e50-b4f9-738dd0e1baf0",
+    "label": "Eggs",
+    "unit": "1.8 kg",
+    "currency": "IRR",
+    "market": "Tehran Market",
+    "source": "Various via WFP VAM"
+   },
+   "fpma_sugar": {
+    "uuid": "96605bfd-a575-4311-bd89-4e6b965a8600",
+    "label": "Sugar",
+    "unit": "Kg",
+    "currency": "IRR",
+    "market": "Tehran Market",
+    "source": "Various via WFP VAM"
+   },
+   "fpma_oil": {
+    "uuid": "a2d5fa68-47be-4ab2-a93e-5bd6b72dc239",
+    "label": "Vegetable oil",
+    "unit": "810 gms",
+    "currency": "IRR",
+    "market": "Tehran Market",
+    "source": "Various via WFP VAM"
+   }
+  },
+  "IT": {
+   "fpma_milk": {
+    "uuid": "07de426e-58fc-44c5-9a22-bad8c1e9c652",
+    "label": "Milk (raw)",
+    "unit": "100 kg",
+    "currency": "EUR",
+    "market": "National Average",
+    "source": "European Commission Directorate-General for Agriculture and Rural Development"
+   },
+   "fpma_bread_flour": {
+    "uuid": "8d2599a3-954a-4a7d-958d-f7e657fbe679",
+    "label": "Wheat (bread making quality)",
+    "unit": "tonne",
+    "currency": "EUR",
+    "market": "National Average",
+    "source": "European Commission Directorate-General for Agriculture and Rural Development"
+   },
+   "fpma_rice": {
+    "uuid": "93c388db-ed42-49ac-a7bc-d72cfe3c4421",
+    "label": "Rice (paddy, Arborio Volano)",
+    "unit": "tonne",
+    "currency": "EUR",
+    "market": "National Average",
+    "source": "BMTI (Italian Online Commodities Exchange), Italian Chambers of Commerce"
+   },
+   "fpma_eggs": {
+    "uuid": "ec452893-dbec-4ba3-a65a-a4bd61e2df1e",
+    "label": "Eggs",
+    "unit": "100 kg",
+    "currency": "EUR",
+    "market": "National Average",
+    "source": "European Commission Directorate-General for Agriculture and Rural Development"
+   },
+   "fpma_maize": {
+    "uuid": "568e1204-f5cf-4c06-b92b-96518f76c862",
+    "label": "Maize (dry)",
+    "unit": "tonne",
+    "currency": "EUR",
+    "market": "National Average",
+    "source": "BMTI (Italian Online Commodities Exchange), Italian Chambers of Commerce"
+   }
+  },
+  "KZ": {
+   "fpma_milk": {
+    "uuid": "4d3c582c-15a9-4a12-99e5-5e5e84c13740",
+    "label": "Milk",
+    "unit": "Liter",
+    "currency": "KZT",
+    "market": "National Average",
+    "source": "Agency for Strategic Planning and Reforms of the Republic of Kazakhstan Bureau of National Statistics"
+   },
+   "fpma_bread_flour": {
+    "uuid": "bef3c368-16bb-48fc-9010-162626698792",
+    "label": "Bread (first grade flour)",
+    "unit": "Kg",
+    "currency": "KZT",
+    "market": "National Average",
+    "source": "Agency for Strategic Planning and Reforms of the Republic of Kazakhstan Bureau of National Statistics"
+   },
+   "fpma_rice": {
+    "uuid": "346eddc4-1fc5-4267-a99c-47f9a9023a24",
+    "label": "Rice (polished)",
+    "unit": "Kg",
+    "currency": "KZT",
+    "market": "National Average",
+    "source": "Agency for Strategic Planning and Reforms of the Republic of Kazakhstan Bureau of National Statistics"
+   },
+   "fpma_potatoes": {
+    "uuid": "04a46d7a-2167-4769-b72f-c1fcebb67874",
+    "label": "Potatoes",
+    "unit": "Kg",
+    "currency": "KZT",
+    "market": "National Average",
+    "source": "Agency for Strategic Planning and Reforms of the Republic of Kazakhstan Bureau of National Statistics"
+   },
+   "fpma_oil": {
+    "uuid": "51213a4e-8e47-4049-833e-fdbd0e8f0466",
+    "label": "Sunflower oil",
+    "unit": "Liter",
+    "currency": "KZT",
+    "market": "National Average",
+    "source": "Agency for Strategic Planning and Reforms of the Republic of Kazakhstan Bureau of National Statistics"
+   }
+  },
+  "KH": {
+   "fpma_rice": {
+    "uuid": "6345d2c5-a24b-460f-9452-5b5fc7203b94",
+    "label": "Rice (Mix)",
+    "unit": "Kg",
+    "currency": "KHR",
+    "market": "Battambang",
+    "source": "Cambodia Agricultural Market Information System"
+   },
+   "fpma_beans": {
+    "uuid": "2607c84b-5e93-4cbe-bae9-b8737baf0ee4",
+    "label": "Soya beans",
+    "unit": "Kg",
+    "currency": "KHR",
+    "market": "Phnom Penh",
+    "source": "Cambodia Agricultural Market Information System"
+   }
+  },
+  "KE": {
+   "fpma_beans": {
+    "uuid": "14d5d5b1-81ca-4aa9-9deb-41ff488e6fda",
+    "label": "Beans (mixed)",
+    "unit": "Kg",
+    "currency": "KES",
+    "market": "Marsabit",
+    "source": "Famine Early Warning Systems Network (FEWS NET)"
+   },
+   "fpma_maize": {
+    "uuid": "08e3f1f5-58e1-4985-ae81-779c0d649447",
+    "label": "Maize (white)",
+    "unit": "Kg",
+    "currency": "KES",
+    "market": "Makueni",
+    "source": "Famine Early Warning Systems Network (FEWS NET)"
+   }
+  },
+  "CN": {
+   "fpma_bread_flour": {
+    "uuid": "bb328835-7f56-4f3b-b8d5-50a062611965",
+    "label": "Wheat",
+    "unit": "tonne",
+    "currency": "CNY",
+    "market": "National Average",
+    "source": "CnAgri - China Agriculture Consultant"
+   },
+   "fpma_rice": {
+    "uuid": "27806adb-263d-4ad3-a6a9-cb264418aa0e",
+    "label": "Rice (Indica)",
+    "unit": "tonne",
+    "currency": "CNY",
+    "market": "National Average",
+    "source": "CnAgri - China Agriculture Consultant"
+   },
+   "fpma_maize": {
+    "uuid": "e3413759-5074-4063-822e-0f23b4ddd79e",
+    "label": "Maize (feed)",
+    "unit": "tonne",
+    "currency": "CNY",
+    "market": "National Average",
+    "source": "CnAgri - China Agriculture Consultant"
+   }
+  },
+  "CO": {
+   "fpma_rice": {
+    "uuid": "37080be8-6f3f-4a6a-aabf-17c2fff95126",
+    "label": "Rice (first quality)",
+    "unit": "Kg",
+    "currency": "COP",
+    "market": "National Average",
+    "source": "Fedearroz"
+   }
+  },
+  "CR": {
+   "fpma_bread_flour": {
+    "uuid": "f58fb4e3-7b13-44ac-86c2-4f73b91c6394",
+    "label": "Wheat (flour)",
+    "unit": "900 gms",
+    "currency": "CRC",
+    "market": "National Average",
+    "source": "Consejo Nacional de Producción"
+   },
+   "fpma_rice": {
+    "uuid": "e19ea8c8-8160-43fe-8da9-bdfea6073f68",
+    "label": "Rice (first quality)",
+    "unit": "Kg",
+    "currency": "CRC",
+    "market": "National Average",
+    "source": "Consejo Nacional de Producción"
+   },
+   "fpma_beans": {
+    "uuid": "08bbc81b-1241-481e-bed4-5392628e4350",
+    "label": "Beans (red)",
+    "unit": "900 gms",
+    "currency": "CRC",
+    "market": "National Average",
+    "source": "Consejo Nacional de Producción"
+   },
+   "fpma_maize": {
+    "uuid": "0934ad1a-1411-449c-a1f6-328fba92b20a",
+    "label": "Maize (white)",
+    "unit": "Kg",
+    "currency": "CRC",
+    "market": "National Average",
+    "source": "Consejo Nacional de Producción"
+   }
+  },
+  "CI": {
+   "fpma_rice": {
+    "uuid": "388cf673-a842-4ee7-9a39-c9f15b5cc87e",
+    "label": "Rice",
+    "unit": "Kg",
+    "currency": "XOF",
+    "market": "Sud-Ouest",
+    "source": "Agence Nationale de la Statistique"
+   }
+  },
+  "LA": {
+   "fpma_rice": {
+    "uuid": "6a218ade-5a72-4f38-b32d-1886f5804053",
+    "label": "Rice (Ordinary, second quality)",
+    "unit": "Kg",
+    "currency": "LAK",
+    "market": "National Average",
+    "source": "Ministry of Industry and Commerce via WFP VAM"
+   },
+   "fpma_oil": {
+    "uuid": "097bba02-ac06-48be-833d-7a23d7cba88f",
+    "label": "Palm oil",
+    "unit": "Liter",
+    "currency": "LAK",
+    "market": "National Average",
+    "source": "Ministry of Industry and Commerce via WFP VAM"
+   }
+  },
+  "LR": {
+   "fpma_rice": {
+    "uuid": "28c21899-c279-40c8-9861-6fc17bf64518",
+    "label": "Rice (imported)",
+    "unit": "25 kg",
+    "currency": "LRD",
+    "market": "Buchanan",
+    "source": "Various via WFP VAM"
+   }
+  },
+  "LB": {
+   "fpma_bread_flour": {
+    "uuid": "7b7c41e4-338a-44a7-90b2-6d1ee64f7555",
+    "label": "Bread (Pita)",
+    "unit": "800 gms",
+    "currency": "LBP",
+    "market": "National Average",
+    "source": "Various via WFP VAM"
+   },
+   "fpma_rice": {
+    "uuid": "10bedd75-9b5d-4681-a81b-09c03df8f4fd",
+    "label": "Rice (Egyptian, imported)",
+    "unit": "900 gms",
+    "currency": "LBP",
+    "market": "National Average",
+    "source": "Various via WFP VAM"
+   },
+   "fpma_potatoes": {
+    "uuid": "ffca8462-96bf-4127-89c5-9edd017935dc",
+    "label": "Potatoes",
+    "unit": "Kg",
+    "currency": "LBP",
+    "market": "National Average",
+    "source": "Various via WFP VAM"
+   },
+   "fpma_oil": {
+    "uuid": "4d6258cf-f5a2-4a8a-b389-3629a26be2f1",
+    "label": "Sunflower oil",
+    "unit": "5 Liter",
+    "currency": "LBP",
+    "market": "National Average",
+    "source": "Various via WFP VAM"
+   }
+  },
+  "LY": {
+   "fpma_bread_flour": {
+    "uuid": "44f265bc-e1e9-4514-9d8d-840463456931",
+    "label": "Wheat (flour)",
+    "unit": "Kg",
+    "currency": "LYD",
+    "market": "National Average",
+    "source": "Various via WFP VAM"
+   },
+   "fpma_rice": {
+    "uuid": "af99c696-7b4b-4228-a643-da94b7a2efc2",
+    "label": "Rice",
+    "unit": "Kg",
+    "currency": "LYD",
+    "market": "National Average",
+    "source": "Various via WFP VAM"
+   },
+   "fpma_potatoes": {
+    "uuid": "90c315a8-9401-43c8-925c-43b15e3b66ad",
+    "label": "Potatoes",
+    "unit": "Kg",
+    "currency": "LYD",
+    "market": "National Average",
+    "source": "Various via WFP VAM"
+   },
+   "fpma_oil": {
+    "uuid": "e5023d13-7f25-4dd4-9ef4-a5d908ec540a",
+    "label": "Vegetable oil",
+    "unit": "Liter",
+    "currency": "LYD",
+    "market": "National Average",
+    "source": "Various via WFP VAM"
+   },
+   "fpma_beans": {
+    "uuid": "cb9ffd70-b16f-4a21-86b7-dd72bdcd3f79",
+    "label": "Beans",
+    "unit": "400 gms",
+    "currency": "LYD",
+    "market": "National Average",
+    "source": "Various via WFP VAM"
+   }
+  },
+  "MU": {
+   "fpma_bread_flour": {
+    "uuid": "88e1f94b-d96c-46f3-9f19-17848aa031ad",
+    "label": "Bread (maison)",
+    "unit": "100 gms",
+    "currency": "MUR",
+    "market": "National Average",
+    "source": "Statistics Mauritius"
+   },
+   "fpma_rice": {
+    "uuid": "01a6734d-c49b-487f-af3b-78237bb1e942",
+    "label": "Rice (traders)",
+    "unit": "Kg",
+    "currency": "MUR",
+    "market": "National Average",
+    "source": "Statistics Mauritius"
+   },
+   "fpma_potatoes": {
+    "uuid": "4d9590e7-5f30-4694-acc7-6cbe389b9ad2",
+    "label": "Potatoes",
+    "unit": "Kg",
+    "currency": "MUR",
+    "market": "National Average",
+    "source": "Statistics Mauritius"
+   },
+   "fpma_oil": {
+    "uuid": "634ef307-de6b-49d1-aa85-2562632ae276",
+    "label": "Vegetable oil",
+    "unit": "Liter",
+    "currency": "MUR",
+    "market": "National Average",
+    "source": "Statistics Mauritius"
+   }
+  },
+  "MG": {
+   "fpma_rice": {
+    "uuid": "90add23f-fd17-475c-be54-11efeee7e58a",
+    "label": "Rice",
+    "unit": "Kg",
+    "currency": "MGA",
+    "market": "National Average",
+    "source": "Observatoire du Riz"
+   },
+   "fpma_maize": {
+    "uuid": "445554dc-626b-4a34-8ede-45fba2246cb6",
+    "label": "Maize (yellow)",
+    "unit": "Kg",
+    "currency": "MGA",
+    "market": "Toamasina I (CL)",
+    "source": "Famine Early Warning Systems Network (FEWS NET)"
+   }
+  },
+  "MW": {
+   "fpma_maize": {
+    "uuid": "0149e1ad-aabc-49a1-b303-94cb1ed4315f",
+    "label": "Maize",
+    "unit": "Kg",
+    "currency": "MWK",
+    "market": "National Average",
+    "source": "International Food Policy Research Institute (IFPRI) - Malawi"
+   }
+  },
+  "MZ": {
+   "fpma_bread_flour": {
+    "uuid": "3924c01d-0513-4072-bd5b-4dee001d3bc0",
+    "label": "Wheat (flour)",
+    "unit": "Kg",
+    "currency": "MZN",
+    "market": "National Average",
+    "source": "Sistema De Informação De Mercados Agrícolas De Moçambique (SIMA) via WFP VAM"
+   },
+   "fpma_rice": {
+    "uuid": "811574d3-f49c-4c96-baec-a62ab8099196",
+    "label": "Rice (Imported)",
+    "unit": "Kg",
+    "currency": "MZN",
+    "market": "National Average",
+    "source": "Sistema De Informação De Mercados Agrícolas De Moçambique (SIMA) via WFP VAM"
+   },
+   "fpma_oil": {
+    "uuid": "f50dd06f-0e54-47ea-a750-26f264bdcedc",
+    "label": "Vegetable oil",
+    "unit": "Liter",
+    "currency": "MZN",
+    "market": "National Average",
+    "source": "Sistema De Informação De Mercados Agrícolas De Moçambique (SIMA) via WFP VAM"
+   },
+   "fpma_maize": {
+    "uuid": "342438eb-b036-41c5-b22c-6ec25757a394",
+    "label": "Maize (white)",
+    "unit": "Kg",
+    "currency": "MZN",
+    "market": "National Average",
+    "source": "Sistema De Informação De Mercados Agrícolas De Moçambique (SIMA) via WFP VAM"
+   }
+  },
+  "MD": {
+   "fpma_milk": {
+    "uuid": "1b48b4db-4c2c-4208-b758-cadfb77cbe22",
+    "label": "Milk (pasteurised, 1.5% fat)",
+    "unit": "Liter",
+    "currency": "MDL",
+    "market": "National Average",
+    "source": "National Bureau of Statistics of the Republic of Moldova"
+   },
+   "fpma_bread_flour": {
+    "uuid": "7046ba08-bc7a-4f29-9634-4f08376c5e2d",
+    "label": "Bread (first grade flour)",
+    "unit": "0.5 kg",
+    "currency": "MDL",
+    "market": "National Average",
+    "source": "National Bureau of Statistics of the Republic of Moldova"
+   },
+   "fpma_rice": {
+    "uuid": "e66d77f7-189a-4716-a9ba-a8a40e17bbb7",
+    "label": "Rice (round grain)",
+    "unit": "Kg",
+    "currency": "MDL",
+    "market": "National Average",
+    "source": "National Bureau of Statistics of the Republic of Moldova"
+   },
+   "fpma_potatoes": {
+    "uuid": "3c7b688c-a404-442b-b30b-9f97f2bfb5ad",
+    "label": "Potatoes",
+    "unit": "Kg",
+    "currency": "MDL",
+    "market": "National Average",
+    "source": "National Bureau of Statistics of the Republic of Moldova"
+   },
+   "fpma_eggs": {
+    "uuid": "680c83b1-0025-4f76-8033-9e63a50f6dff",
+    "label": "Eggs",
+    "unit": "Kg",
+    "currency": "MDL",
+    "market": "National Average",
+    "source": "National Bureau of Statistics of the Republic of Moldova"
+   },
+   "fpma_sugar": {
+    "uuid": "86db3720-a489-4b30-a1e4-dee44c6676a4",
+    "label": "Sugar",
+    "unit": "Kg",
+    "currency": "MDL",
+    "market": "National Average",
+    "source": "National Bureau of Statistics of the Republic of Moldova"
+   },
+   "fpma_oil": {
+    "uuid": "d1199b1a-2a1f-4ab5-9e26-d28de3e22390",
+    "label": "Sunflower oil (unrefined)",
+    "unit": "Liter",
+    "currency": "MDL",
+    "market": "National Average",
+    "source": "National Bureau of Statistics of the Republic of Moldova"
+   },
+   "fpma_beans": {
+    "uuid": "c6868c3b-0c72-4669-9415-4e59c8be6132",
+    "label": "Beans (white, dry)",
+    "unit": "Kg",
+    "currency": "MDL",
+    "market": "National Average",
+    "source": "National Bureau of Statistics of the Republic of Moldova"
+   }
+  },
+  "MM": {
+   "fpma_rice": {
+    "uuid": "5ed4761d-863e-4d1d-a389-2bf2f04f66a3",
+    "label": "Rice (Emata, Medium)",
+    "unit": "pyi (2.13 kg)",
+    "currency": "MMK",
+    "market": "National Average",
+    "source": "Central Statistical Organization"
+   }
+  },
+  "NI": {
+   "fpma_milk": {
+    "uuid": "607cf8e8-72b7-4b20-a7a3-6eb2a5055879",
+    "label": "Milk",
+    "unit": "Libra",
+    "currency": "NIO",
+    "market": "National Average",
+    "source": "Instituto Nacional de Información de Desarrollo"
+   },
+   "fpma_bread_flour": {
+    "uuid": "16fb1c90-b6fc-4fdd-8520-9879caebfef9",
+    "label": "Bread",
+    "unit": "Libra",
+    "currency": "NIO",
+    "market": "National Average",
+    "source": "Instituto Nacional de Información de Desarrollo"
+   },
+   "fpma_rice": {
+    "uuid": "e67281b8-6543-4055-82a3-b17ce276367f",
+    "label": "Rice",
+    "unit": "Libra",
+    "currency": "NIO",
+    "market": "National Average",
+    "source": "Instituto Nacional de Información de Desarrollo"
+   },
+   "fpma_potatoes": {
+    "uuid": "65ae6036-6dfa-44f1-bb48-6a65b6e1bc2d",
+    "label": "Potatoes",
+    "unit": "Libra",
+    "currency": "NIO",
+    "market": "National Average",
+    "source": "Instituto Nacional de Información de Desarrollo"
+   },
+   "fpma_eggs": {
+    "uuid": "07bf1745-2a06-48a7-8ea6-830cd53f9aaf",
+    "label": "Eggs",
+    "unit": "Dozen",
+    "currency": "NIO",
+    "market": "National Average",
+    "source": "Instituto Nacional de Información de Desarrollo"
+   },
+   "fpma_sugar": {
+    "uuid": "17965f30-bc7e-474e-981d-a89280a48c39",
+    "label": "Sugar (white)",
+    "unit": "Libra",
+    "currency": "NIO",
+    "market": "National Average",
+    "source": "Instituto Nacional de Información de Desarrollo"
+   },
+   "fpma_oil": {
+    "uuid": "5755cbb3-e650-4be5-a949-95692e40c42c",
+    "label": "Vegetable oil",
+    "unit": "Libra",
+    "currency": "NIO",
+    "market": "National Average",
+    "source": "Instituto Nacional de Información de Desarrollo"
+   },
+   "fpma_beans": {
+    "uuid": "3a26f878-92ed-4417-9a2e-f15d069eee7f",
+    "label": "Beans (red)",
+    "unit": "Spanish quintal (46 kg)",
+    "currency": "NIO",
+    "market": "National Average",
+    "source": "Ministerio Agropecuario y Forestal"
+   },
+   "fpma_maize": {
+    "uuid": "be1a842a-d048-4333-bbf1-7fbae86c619f",
+    "label": "Maize (white)",
+    "unit": "Spanish quintal (46 kg)",
+    "currency": "NIO",
+    "market": "National Average",
+    "source": "Ministerio Agropecuario y Forestal"
+   }
+  },
+  "PY": {
+   "fpma_rice": {
+    "uuid": "015f1d0d-6635-4517-b2c3-d8a8fcb3e908",
+    "label": "Rice",
+    "unit": "Kg",
+    "currency": "PYG",
+    "market": "Asunción",
+    "source": "Servicio de Información de Mercados Agropecuarios (SIMA) - MAG"
+   },
+   "fpma_maize": {
+    "uuid": "be25129b-8e22-421c-8790-f73fcba20b82",
+    "label": "Maize (flour)",
+    "unit": "Kg",
+    "currency": "PYG",
+    "market": "Asunción",
+    "source": "Servicio de Información de Mercados Agropecuarios (SIMA) - MAG"
+   }
+  },
+  "CG": {
+   "fpma_rice": {
+    "uuid": "5f513b8a-ca06-413b-8b16-5353318eb487",
+    "label": "Rice (mixed, low quality)",
+    "unit": "Kg",
+    "currency": "XAF",
+    "market": "Likouala (Betou Centre)",
+    "source": "Various via WFP VAM"
+   },
+   "fpma_oil": {
+    "uuid": "1a31fdf5-93ec-4efc-bd3f-1b27a352779f",
+    "label": "Vegetable oil",
+    "unit": "Liter",
+    "currency": "XAF",
+    "market": "Pointe‑Noire",
+    "source": "Various via WFP VAM"
+   },
+   "fpma_beans": {
+    "uuid": "4c39f643-cd4c-4288-a099-df4fcac0a534",
+    "label": "Beans (white)",
+    "unit": "Kg",
+    "currency": "XAF",
+    "market": "Likouala (Betou Centre)",
+    "source": "Various via WFP VAM"
+   }
+  },
+  "RU": {
+   "fpma_milk": {
+    "uuid": "2daade04-cf07-4d68-8333-7ea6804774bb",
+    "label": "Milk (pasteurised)",
+    "unit": "Liter",
+    "currency": "RUB",
+    "market": "National Average",
+    "source": "Federal State Statistics Service"
+   },
+   "fpma_bread_flour": {
+    "uuid": "65a54433-8b8f-439a-90be-ad87021220dd",
+    "label": "Bread",
+    "unit": "Kg",
+    "currency": "RUB",
+    "market": "National Average",
+    "source": "Federal State Statistics Service"
+   },
+   "fpma_rice": {
+    "uuid": "718b5fc3-ecd1-4dc7-831a-91be6a51ebb4",
+    "label": "Rice",
+    "unit": "Kg",
+    "currency": "RUB",
+    "market": "National Average",
+    "source": "Federal State Statistics Service"
+   },
+   "fpma_potatoes": {
+    "uuid": "1657ffca-90f3-4db2-9c09-6d234d5a1886",
+    "label": "Potatoes",
+    "unit": "Kg",
+    "currency": "RUB",
+    "market": "National Average",
+    "source": "Federal State Statistics Service"
+   },
+   "fpma_maize": {
+    "uuid": "c578d0d0-4b20-4508-a3d2-91c1b5292d9f",
+    "label": "Maize (offer, EXW)",
+    "unit": "tonne",
+    "currency": "RUB",
+    "market": "National Average",
+    "source": "APK-Inform Agency"
+   }
+  },
+  "WS": {
+   "fpma_rice": {
+    "uuid": "dee4bb30-e422-41c6-88b8-01bf7ec3239c",
+    "label": "Rice",
+    "unit": "lb",
+    "currency": "WST",
+    "market": "National Average",
+    "source": "Samoa Bureau of Statistics"
+   },
+   "fpma_sugar": {
+    "uuid": "dd5fe471-bb2b-41d5-983c-13ad7fd770fe",
+    "label": "Sugar",
+    "unit": "lb",
+    "currency": "WST",
+    "market": "National Average",
+    "source": "Samoa Bureau of Statistics"
+   }
+  },
+  "SA": {
+   "fpma_milk": {
+    "uuid": "fdf688c1-2a7d-416a-b046-93c89b841c08",
+    "label": "Milk (fresh)",
+    "unit": "Liter",
+    "currency": "SAR",
+    "market": "National Average",
+    "source": "Central Department Of Statistics & Information"
+   },
+   "fpma_bread_flour": {
+    "uuid": "051a4020-b88b-4aa9-9134-15c3f7d894d2",
+    "label": "Wheat (flour, white)",
+    "unit": "2 kg",
+    "currency": "SAR",
+    "market": "National Average",
+    "source": "Central Department Of Statistics & Information"
+   },
+   "fpma_rice": {
+    "uuid": "5526c8c5-93ac-4918-b4db-3a9005f8e36a",
+    "label": "Rice (Maza, Indian)",
+    "unit": "10 kg",
+    "currency": "SAR",
+    "market": "National Average",
+    "source": "Central Department Of Statistics & Information"
+   },
+   "fpma_sugar": {
+    "uuid": "d14f206e-9b73-4f5e-9d49-51ce531bc5cf",
+    "label": "Sugar",
+    "unit": "10 kg",
+    "currency": "SAR",
+    "market": "National Average",
+    "source": "Central Department Of Statistics & Information"
+   },
+   "fpma_oil": {
+    "uuid": "2c02ccf4-e1f9-4840-b0e5-9824191ded54",
+    "label": "Vegetable oil",
+    "unit": "1.5 Liter",
+    "currency": "SAR",
+    "market": "National Average",
+    "source": "Central Department Of Statistics & Information"
+   }
+  },
+  "SZ": {
+   "fpma_bread_flour": {
+    "uuid": "84ecea26-73c2-4826-a0ee-dae4baed83dd",
+    "label": "Bread (white)",
+    "unit": "800 gms",
+    "currency": "SZL",
+    "market": "National Average",
+    "source": "Central Statistical Office (CSO)"
+   },
+   "fpma_rice": {
+    "uuid": "1e26fe89-2cbe-4bd6-96af-5fd1b5ceb2f0",
+    "label": "Rice",
+    "unit": "2 kg",
+    "currency": "SZL",
+    "market": "National Average",
+    "source": "Central Statistical Office (CSO)"
+   },
+   "fpma_maize": {
+    "uuid": "7372fd61-7b1d-4939-ac1a-c8f7828b92ab",
+    "label": "Maize meal",
+    "unit": "2.5 kg",
+    "currency": "SZL",
+    "market": "National Average",
+    "source": "Central Statistical Office (CSO)"
+   }
+  },
+  "SN": {
+   "fpma_rice": {
+    "uuid": "07ef216c-bd60-4430-b862-511b9f04f48e",
+    "label": "Rice",
+    "unit": "Kg",
+    "currency": "XOF",
+    "market": "National Average",
+    "source": "Système d’Information des Marchés (SIM) / Commissariat à la Sécurité Alimentaire et à la Résilience (CSAR)"
+   },
+   "fpma_potatoes": {
+    "uuid": "102cdb4e-16ec-4591-b9f6-f49877375c5e",
+    "label": "Potatoes",
+    "unit": "Kg",
+    "currency": "XOF",
+    "market": "National Average",
+    "source": "Système d’Information des Marchés (SIM) / Commissariat à la Sécurité Alimentaire et à la Résilience (CSAR)"
+   },
+   "fpma_maize": {
+    "uuid": "ed39fffa-ccd9-4ec9-894b-5329a39b17e1",
+    "label": "Maize",
+    "unit": "Kg",
+    "currency": "XOF",
+    "market": "National Average",
+    "source": "Système d’Information des Marchés (SIM) / Commissariat à la Sécurité Alimentaire et à la Résilience (CSAR)"
+   }
+  },
+  "SY": {
+   "fpma_bread_flour": {
+    "uuid": "1f4ea9af-2ec0-4586-a133-6247b7328d70",
+    "label": "Bread (bakery)",
+    "unit": "1.1 Kg",
+    "currency": "SYP",
+    "market": "Dar'a",
+    "source": "Various via WFP VAM"
+   },
+   "fpma_rice": {
+    "uuid": "5195bbe7-970f-45ae-bd57-e72fcefaf89e",
+    "label": "Rice",
+    "unit": "Kg",
+    "currency": "SYP",
+    "market": "Duma",
+    "source": "Various via WFP VAM"
+   },
+   "fpma_potatoes": {
+    "uuid": "2120f767-c9e9-493c-a565-4e0537d58cbf",
+    "label": "Potatoes",
+    "unit": "Kg",
+    "currency": "SYP",
+    "market": "Deir-ez-Zor",
+    "source": "Various via WFP VAM"
+   },
+   "fpma_eggs": {
+    "uuid": "435e3bd3-ea1d-463c-9329-cd2a975829aa",
+    "label": "Eggs",
+    "unit": "2.5 Dozen",
+    "currency": "SYP",
+    "market": "Deir-ez-Zor",
+    "source": "Various via WFP VAM"
+   },
+   "fpma_oil": {
+    "uuid": "08bd931e-d62b-47ff-9bb7-36256f530a01",
+    "label": "Vegetable oil",
+    "unit": "Liter",
+    "currency": "SYP",
+    "market": "Deir-ez-Zor",
+    "source": "Various via WFP VAM"
+   }
+  },
+  "SL": {
+   "fpma_rice": {
+    "uuid": "2630cf0a-92fa-4068-bb89-755f266036e7",
+    "label": "Rice",
+    "unit": "Kg",
+    "currency": "SLL",
+    "market": "Kenema",
+    "source": "Planning, Evaluation, Monitoring and Statistics Division (PEMSD) of the Ministry of Agriculture, Forestry and Food Security (MAFFS) via VAM/WFP"
+   },
+   "fpma_oil": {
+    "uuid": "14afdcbd-7130-4bf5-ae3d-33a846be6f73",
+    "label": "Vegetable oil",
+    "unit": "Liter",
+    "currency": "SLL",
+    "market": "Freetown",
+    "source": "Planning, Evaluation, Monitoring and Statistics Division (PEMSD) of the Ministry of Agriculture, Forestry and Food Security (MAFFS) via VAM/WFP"
+   },
+   "fpma_maize": {
+    "uuid": "26e013e0-ac51-4b5f-a6e3-e9dc80cd70e6",
+    "label": "Maize",
+    "unit": "Kg",
+    "currency": "SLL",
+    "market": "Koinadugu",
+    "source": "Planning, Evaluation, Monitoring and Statistics Division (PEMSD) of the Ministry of Agriculture, Forestry and Food Security (MAFFS) via VAM/WFP"
+   }
+  },
+  "TN": {
+   "fpma_milk": {
+    "uuid": "ea0604c0-f78e-4fdb-9abd-6acb924220ce",
+    "label": "Milk",
+    "unit": "Liter",
+    "currency": "TND",
+    "market": "Tunis",
+    "source": "Institut National de la Statistique"
+   },
+   "fpma_bread_flour": {
+    "uuid": "6909fd56-e2de-4d6a-81b6-32282f02d778",
+    "label": "Bread",
+    "unit": "400 gms",
+    "currency": "TND",
+    "market": "Tunis",
+    "source": "Institut National de la Statistique"
+   },
+   "fpma_rice": {
+    "uuid": "09c62965-1f68-454d-8165-101f8f749699",
+    "label": "Rice",
+    "unit": "Kg",
+    "currency": "TND",
+    "market": "Tunis",
+    "source": "Institut National de la Statistique"
+   },
+   "fpma_potatoes": {
+    "uuid": "9c7bca2c-9f98-46a6-8e3f-76f0a9a5d4e1",
+    "label": "Potatoes",
+    "unit": "Kg",
+    "currency": "TND",
+    "market": "Tunis",
+    "source": "Institut National de la Statistique"
+   },
+   "fpma_sugar": {
+    "uuid": "181c39e8-c02f-4006-9424-888c4ce23432",
+    "label": "Sugar",
+    "unit": "Kg",
+    "currency": "TND",
+    "market": "Tunis",
+    "source": "Institut National de la Statistique"
+   }
+  },
+  "TR": {
+   "fpma_bread_flour": {
+    "uuid": "8d36be07-9740-4eb0-b367-9ae4a7e2c083",
+    "label": "Wheat (flour)",
+    "unit": "Kg",
+    "currency": "TRY",
+    "market": "National Average",
+    "source": "Turkish Statistical Institute via WFP VAM"
+   },
+   "fpma_rice": {
+    "uuid": "8a6f10ea-042b-4fc8-b797-f8b85d005b80",
+    "label": "Rice",
+    "unit": "Kg",
+    "currency": "TRY",
+    "market": "National Average",
+    "source": "Turkish Statistical Institute via WFP VAM"
+   },
+   "fpma_potatoes": {
+    "uuid": "3dd7f298-4662-434f-a577-dc96853d4c9c",
+    "label": "Potatoes",
+    "unit": "Kg",
+    "currency": "TRY",
+    "market": "National Average",
+    "source": "Turkish Statistical Institute via WFP VAM"
+   },
+   "fpma_oil": {
+    "uuid": "cd59d5eb-61ad-43dc-8113-34b79149f518",
+    "label": "Sunflower oil",
+    "unit": "Liter",
+    "currency": "TRY",
+    "market": "National Average",
+    "source": "Turkish Statistical Institute via WFP VAM"
+   },
+   "fpma_beans": {
+    "uuid": "45533504-67b6-466d-bafa-0d6def56e508",
+    "label": "Beans (white)",
+    "unit": "Kg",
+    "currency": "TRY",
+    "market": "National Average",
+    "source": "Turkish Statistical Institute via WFP VAM"
+   }
+  },
+  "UG": {
+   "fpma_maize": {
+    "uuid": "2299c976-5b82-4adb-b3ce-8b4cd8cd299f",
+    "label": "Maize",
+    "unit": "tonne",
+    "currency": "UGX",
+    "market": "Kabale",
+    "source": "Regional Agricultural Trade Intelligence Network"
+   }
+  },
+  "UZ": {
+   "fpma_milk": {
+    "uuid": "24eabdbe-cdba-49c0-b60c-0b911071a5c7",
+    "label": "Milk (fresh)",
+    "unit": "Liter",
+    "currency": "UZS",
+    "market": "National Average",
+    "source": "The State Committee of the Republic of Uzbekistan on Statistics"
+   },
+   "fpma_bread_flour": {
+    "uuid": "ceaf8d19-5a64-4536-8701-53104a57cd95",
+    "label": "Bread (first grade flour)",
+    "unit": "Kg",
+    "currency": "UZS",
+    "market": "National Average",
+    "source": "The State Committee of the Republic of Uzbekistan on Statistics"
+   },
+   "fpma_rice": {
+    "uuid": "0adf7154-80f6-4178-a769-4ce6d02818f2",
+    "label": "Rice",
+    "unit": "Kg",
+    "currency": "UZS",
+    "market": "National Average",
+    "source": "The State Committee of the Republic of Uzbekistan on Statistics"
+   },
+   "fpma_potatoes": {
+    "uuid": "0d0450c5-8c72-4d5a-abc3-a4aaae1d34ce",
+    "label": "Potatoes",
+    "unit": "Kg",
+    "currency": "UZS",
+    "market": "National Average",
+    "source": "The State Committee of the Republic of Uzbekistan on Statistics"
+   },
+   "fpma_eggs": {
+    "uuid": "844b84de-3204-4f79-97e5-e8c4eeab9db4",
+    "label": "Eggs",
+    "unit": "10 units",
+    "currency": "UZS",
+    "market": "National Average",
+    "source": "The State Committee of the Republic of Uzbekistan on Statistics"
+   },
+   "fpma_oil": {
+    "uuid": "eef0da69-780f-4dcc-a7cc-04b8aa38dfd3",
+    "label": "Sunflower oil",
+    "unit": "Liter",
+    "currency": "UZS",
+    "market": "National Average",
+    "source": "The State Committee of the Republic of Uzbekistan on Statistics"
+   },
+   "fpma_beans": {
+    "uuid": "331d76c4-5a9b-4505-824b-094ff4bc9c63",
+    "label": "Beans (white)",
+    "unit": "Kg",
+    "currency": "UZS",
+    "market": "National Average",
+    "source": "The State Committee of the Republic of Uzbekistan on Statistics"
+   }
+  },
+  "UA": {
+   "fpma_milk": {
+    "uuid": "1572831a-ba2e-4a02-8128-15ea57c55f4e",
+    "label": "Milk (pasteurised, fat 2.6%)",
+    "unit": "1000 gms",
+    "currency": "UAH",
+    "market": "National Average",
+    "source": "State Statistics Service of Ukraine"
+   },
+   "fpma_bread_flour": {
+    "uuid": "84693b03-bfcb-43b1-a9a5-3956aaf55c66",
+    "label": "Bread (first grade flour)",
+    "unit": "Kg",
+    "currency": "UAH",
+    "market": "National Average",
+    "source": "State Statistics Service of Ukraine"
+   },
+   "fpma_potatoes": {
+    "uuid": "1dfd3458-d17c-4c05-abd3-17dc65d681d3",
+    "label": "Potatoes",
+    "unit": "Kg",
+    "currency": "UAH",
+    "market": "National Average",
+    "source": "State Statistics Service of Ukraine"
+   },
+   "fpma_eggs": {
+    "uuid": "5e24417e-c2cf-4c95-aba1-44611578d92d",
+    "label": "Eggs",
+    "unit": "10 units",
+    "currency": "UAH",
+    "market": "National Average",
+    "source": "State Statistics Service of Ukraine"
+   },
+   "fpma_sugar": {
+    "uuid": "c52e4d94-9ddb-4bc3-b187-a71580fe98ee",
+    "label": "Sugar",
+    "unit": "Kg",
+    "currency": "UAH",
+    "market": "National Average",
+    "source": "State Statistics Service of Ukraine"
+   },
+   "fpma_oil": {
+    "uuid": "51259a9c-906c-42c6-9a84-7557725a50fe",
+    "label": "Sunflower oil",
+    "unit": "Liter",
+    "currency": "UAH",
+    "market": "National Average",
+    "source": "State Statistics Service of Ukraine"
+   }
+  },
+  "PH": {
+   "fpma_rice": {
+    "uuid": "07b4184f-3e3e-4b30-890d-b8bc592e1d82",
+    "label": "Rice (well milled)",
+    "unit": "Kg",
+    "currency": "PHP",
+    "market": "National Average",
+    "source": "Bureau of Agricultural Statistics"
+   },
+   "fpma_maize": {
+    "uuid": "187175f0-f23b-4a0f-990d-423f39e1fa23",
+    "label": "Maize (white)",
+    "unit": "Kg",
+    "currency": "PHP",
+    "market": "National Average",
+    "source": "Bureau of Agricultural Statistics"
+   }
+  },
+  "CF": {
+   "fpma_bread_flour": {
+    "uuid": "5b701a62-37b0-4de3-9c68-62129d2bf658",
+    "label": "Wheat (flour)",
+    "unit": "Kg",
+    "currency": "XAF",
+    "market": "Bangui",
+    "source": "Various via WFP VAM"
+   },
+   "fpma_rice": {
+    "uuid": "ade49ec8-bc35-4f78-ab70-ee91c724705b",
+    "label": "Rice",
+    "unit": "Kg",
+    "currency": "XAF",
+    "market": "National Average",
+    "source": "Various via WFP VAM"
+   },
+   "fpma_oil": {
+    "uuid": "cebc19da-9059-4c8b-aa63-452c99bf4f06",
+    "label": "Palm Oil",
+    "unit": "Liter",
+    "currency": "XAF",
+    "market": "National Average",
+    "source": "Various via WFP VAM"
+   },
+   "fpma_beans": {
+    "uuid": "961e688f-eb2e-4930-8b04-5c0176f050fb",
+    "label": "Beans (white)",
+    "unit": "Kg",
+    "currency": "XAF",
+    "market": "National Average",
+    "source": "Various via WFP VAM"
+   },
+   "fpma_maize": {
+    "uuid": "678c62cd-9638-4163-ad86-feb1a4994c91",
+    "label": "Maize",
+    "unit": "Kg",
+    "currency": "XAF",
+    "market": "National Average",
+    "source": "Various via WFP VAM"
+   }
+  },
+  "CL": {
+   "fpma_bread_flour": {
+    "uuid": "1f2d5bbd-4c03-4e81-be1f-5db9c813fe2e",
+    "label": "Wheat",
+    "unit": "Kg",
+    "currency": "CLP",
+    "market": "National Average",
+    "source": "Cotrisa"
+   },
+   "fpma_rice": {
+    "uuid": "5b1a899a-d83b-4a5e-824d-d8164deeca20",
+    "label": "Rice (first quality)",
+    "unit": "Kg",
+    "currency": "CLP",
+    "market": "Santiago",
+    "source": "ODEPA"
+   },
+   "fpma_potatoes": {
+    "uuid": "9c2bbafd-d2a2-408d-8c8c-00823ca51dee",
+    "label": "Potatoes (Asterix)",
+    "unit": "Kg",
+    "currency": "CLP",
+    "market": "Santiago",
+    "source": "ODEPA"
+   },
+   "fpma_maize": {
+    "uuid": "de7ff2da-72b4-465d-91bc-6a368c69e8f5",
+    "label": "Maize (yellow)",
+    "unit": "Kg",
+    "currency": "CLP",
+    "market": "National Average",
+    "source": "Cotrisa"
+   }
+  },
+  "JP": {
+   "fpma_milk": {
+    "uuid": "2b7452ea-013b-43d4-8185-a9392da6304b",
+    "label": "Milk (fresh)",
+    "unit": "Liter",
+    "currency": "JPY",
+    "market": "Tokyo",
+    "source": "Ministry of Agriculture, Forestry and Fisheries"
+   },
+   "fpma_bread_flour": {
+    "uuid": "05605cd4-8a70-46cc-8e65-9e007289d039",
+    "label": "Wheat (flour)",
+    "unit": "Kg",
+    "currency": "JPY",
+    "market": "Osaka",
+    "source": "Ministry of Agriculture, Forestry and Fisheries"
+   },
+   "fpma_rice": {
+    "uuid": "44a5ff7c-8dfa-47a6-a36a-8dcf54aa0495",
+    "label": "Rice (glutinous)",
+    "unit": "Kg",
+    "currency": "JPY",
+    "market": "Tokyo",
+    "source": "Ministry of Agriculture, Forestry and Fisheries"
+   },
+   "fpma_potatoes": {
+    "uuid": "4f7f8f63-f552-4a94-a320-925c61cf2f47",
+    "label": "Potatoes",
+    "unit": "Kg",
+    "currency": "JPY",
+    "market": "Osaka",
+    "source": "Ministry of Agriculture, Forestry and Fisheries"
+   },
+   "fpma_sugar": {
+    "uuid": "974d6159-3404-41ba-9fcf-1f3f4684c87c",
+    "label": "Sugar",
+    "unit": "Kg",
+    "currency": "JPY",
+    "market": "Osaka",
+    "source": "Ministry of Agriculture, Forestry and Fisheries"
+   }
+  }
+ }
+}

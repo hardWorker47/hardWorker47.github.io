@@ -1,0 +1,4963 @@
+{
+  "note": "Координаты аэропортов — справочные. Прямые из KZN: типовая сетка 2025–2026, не табло на сегодня.",
+  "origin_candidates": [
+    {
+      "iata": "KZN",
+      "name": "Казань",
+      "name_en": "Kazan",
+      "lat": 55.60667,
+      "lon": 49.28167,
+      "iso2": "RU",
+      "preferred": true
+    },
+    {
+      "iata": "CSY",
+      "name": "Чебоксары",
+      "name_en": "Cheboksary",
+      "lat": 56.0903,
+      "lon": 47.3473,
+      "iso2": "RU"
+    },
+    {
+      "iata": "NBC",
+      "name": "Бегишево",
+      "name_en": "Begishevo",
+      "lat": 55.5644,
+      "lon": 52.0925,
+      "iso2": "RU"
+    },
+    {
+      "iata": "KUF",
+      "name": "Самара (Курумоч)",
+      "name_en": "Samara Kurumoch",
+      "lat": 53.5044,
+      "lon": 50.1642,
+      "iso2": "RU"
+    },
+    {
+      "iata": "GOJ",
+      "name": "Нижний Новгород",
+      "name_en": "Nizhny Novgorod",
+      "lat": 56.2301,
+      "lon": 43.784,
+      "iso2": "RU"
+    }
+  ],
+  "hubs": [
+    "IST",
+    "SVO",
+    "DXB",
+    "AUH"
+  ],
+  "direct_from": {
+    "KZN": [
+      "SVO",
+      "DME",
+      "VKO",
+      "LED",
+      "AER",
+      "SVX",
+      "OVB",
+      "UFA",
+      "MRV",
+      "KGD",
+      "KRR",
+      "MCX",
+      "GRV",
+      "OMS",
+      "IKT",
+      "KJA",
+      "ARH",
+      "TOF",
+      "IST",
+      "DXB",
+      "AYT",
+      "SSH",
+      "HRG",
+      "EVN",
+      "BEG",
+      "MSQ",
+      "TAS",
+      "SKD",
+      "DYU",
+      "SHJ",
+      "AUH",
+      "SYX",
+      "DAD"
+    ]
+  },
+  "airports": [
+    {
+      "iata": "AUH",
+      "name": "Абу-Даби",
+      "city": "Абу-Даби",
+      "lat": 24.441,
+      "lon": 54.6492,
+      "iso2": "AE"
+    },
+    {
+      "iata": "DXB",
+      "name": "Дубай",
+      "city": "Дубай",
+      "lat": 25.2498,
+      "lon": 55.371,
+      "iso2": "AE"
+    },
+    {
+      "iata": "SHJ",
+      "name": "Шарджа",
+      "city": "Шарджа",
+      "lat": 25.3286,
+      "lon": 55.5172,
+      "iso2": "AE"
+    },
+    {
+      "iata": "KBL",
+      "name": "Кабул",
+      "city": "Кабул",
+      "lat": 34.5659,
+      "lon": 69.2123,
+      "iso2": "AF"
+    },
+    {
+      "iata": "HEA",
+      "name": "Herat - Khwaja Abdullah Ansari International Airport",
+      "city": "Герат",
+      "lat": 34.21,
+      "lon": 62.2283,
+      "iso2": "AF"
+    },
+    {
+      "iata": "KDH",
+      "name": "Кандагар",
+      "city": "Кандагар",
+      "lat": 31.5058,
+      "lon": 65.848,
+      "iso2": "AF"
+    },
+    {
+      "iata": "ANU",
+      "name": "Международный аэропорт имени В. К. Бёрда",
+      "city": "Антигуа",
+      "lat": 17.1367,
+      "lon": -61.7927,
+      "iso2": "AG"
+    },
+    {
+      "iata": "BBQ",
+      "name": "Burton-Nibbs International Airport",
+      "city": "Кодрингтон",
+      "lat": 17.6212,
+      "lon": -61.7983,
+      "iso2": "AG"
+    },
+    {
+      "iata": "AXA",
+      "name": "Международный аэропорт имени Клейтона Дж. Ллойда",
+      "city": "Валли",
+      "lat": 18.2048,
+      "lon": -63.0538,
+      "iso2": "AI"
+    },
+    {
+      "iata": "TIA",
+      "name": "Тирана",
+      "city": "Тирана",
+      "lat": 41.4147,
+      "lon": 19.7206,
+      "iso2": "AL"
+    },
+    {
+      "iata": "EVN",
+      "name": "Звартноц",
+      "city": "Ереван",
+      "lat": 40.1489,
+      "lon": 44.3979,
+      "iso2": "AM"
+    },
+    {
+      "iata": "LWN",
+      "name": "Ширак",
+      "city": "Гюмри",
+      "lat": 40.7504,
+      "lon": 43.8593,
+      "iso2": "AM"
+    },
+    {
+      "iata": "LAD",
+      "name": "Международный аэропорт 4 февраля",
+      "city": "Луанда",
+      "lat": -8.8584,
+      "lon": 13.2312,
+      "iso2": "AO"
+    },
+    {
+      "iata": "NBJ",
+      "name": "Dr. Antonio Agostinho Neto International Airport",
+      "city": "Луанда",
+      "lat": -9.0507,
+      "lon": 13.4991,
+      "iso2": "AO"
+    },
+    {
+      "iata": "SDD",
+      "name": "Лубанго",
+      "city": "Лубанго",
+      "lat": -14.9248,
+      "lon": 13.5767,
+      "iso2": "AO"
+    },
+    {
+      "iata": "EZE",
+      "name": "Международный аэропорт имени Министра Пистарини",
+      "city": "Буэнос-Айрес",
+      "lat": -34.8222,
+      "lon": -58.5358,
+      "iso2": "AR"
+    },
+    {
+      "iata": "COR",
+      "name": "Ingeniero Aeronáutico Ambrosio L.V. Taravella International Airport",
+      "city": "Кордова",
+      "lat": -31.3123,
+      "lon": -64.2083,
+      "iso2": "AR"
+    },
+    {
+      "iata": "ROS",
+      "name": "Rosario Islas Malvinas International Airport",
+      "city": "Росарио",
+      "lat": -32.9036,
+      "lon": -60.785,
+      "iso2": "AR"
+    },
+    {
+      "iata": "PPG",
+      "name": "Паго-Паго",
+      "city": "Паго-Паго",
+      "lat": -14.331,
+      "lon": -170.71,
+      "iso2": "AS"
+    },
+    {
+      "iata": "VIE",
+      "name": "Вена-Швехат",
+      "city": "Вена",
+      "lat": 48.1103,
+      "lon": 16.5697,
+      "iso2": "AT"
+    },
+    {
+      "iata": "GRZ",
+      "name": "Грац-Талерхоф",
+      "city": "Грац",
+      "lat": 46.9911,
+      "lon": 15.4396,
+      "iso2": "AT"
+    },
+    {
+      "iata": "LNZ",
+      "name": "Голубой Дунай",
+      "city": "Линц",
+      "lat": 48.2354,
+      "lon": 14.1881,
+      "iso2": "AT"
+    },
+    {
+      "iata": "SYD",
+      "name": "Сидней",
+      "city": "Сидней",
+      "lat": -33.9461,
+      "lon": 151.177,
+      "iso2": "AU"
+    },
+    {
+      "iata": "MEL",
+      "name": "Мельбурн",
+      "city": "Мельбурн",
+      "lat": -37.6707,
+      "lon": 144.8379,
+      "iso2": "AU"
+    },
+    {
+      "iata": "BNE",
+      "name": "Брисбен",
+      "city": "Брисбен",
+      "lat": -27.3842,
+      "lon": 153.117,
+      "iso2": "AU"
+    },
+    {
+      "iata": "AUA",
+      "name": "Международный аэропорт имени королевы Беатрикс",
+      "city": "Аруба",
+      "lat": 12.5011,
+      "lon": -70.0143,
+      "iso2": "AW"
+    },
+    {
+      "iata": "GYD",
+      "name": "Международный аэропорт Гейдар Алиев",
+      "city": "Баку",
+      "lat": 40.4728,
+      "lon": 50.0509,
+      "iso2": "AZ"
+    },
+    {
+      "iata": "GNJ",
+      "name": "Гянджа",
+      "city": "Гянджа",
+      "lat": 40.7387,
+      "lon": 46.3204,
+      "iso2": "AZ"
+    },
+    {
+      "iata": "NAJ",
+      "name": "Нахичевань",
+      "city": "Нахичевань",
+      "lat": 39.1888,
+      "lon": 45.4584,
+      "iso2": "AZ"
+    },
+    {
+      "iata": "SJJ",
+      "name": "Сараево",
+      "city": "Сараево",
+      "lat": 43.8246,
+      "lon": 18.3315,
+      "iso2": "BA"
+    },
+    {
+      "iata": "BNX",
+      "name": "Баня-Лука",
+      "city": "Баня-Лука",
+      "lat": 44.9414,
+      "lon": 17.2975,
+      "iso2": "BA"
+    },
+    {
+      "iata": "TZL",
+      "name": "Тузла",
+      "city": "Тузла",
+      "lat": 44.4599,
+      "lon": 18.7236,
+      "iso2": "BA"
+    },
+    {
+      "iata": "BGI",
+      "name": "Международный аэропорт имени Грэнтли Адамса",
+      "city": "Бриджтаун",
+      "lat": 13.0747,
+      "lon": -59.491,
+      "iso2": "BB"
+    },
+    {
+      "iata": "DAC",
+      "name": "Хазрат Шахджалал",
+      "city": "Дакка",
+      "lat": 23.8433,
+      "lon": 90.3978,
+      "iso2": "BD"
+    },
+    {
+      "iata": "CGP",
+      "name": "Shah Amanat International Airport",
+      "city": "Читтагонг",
+      "lat": 22.2496,
+      "lon": 91.8133,
+      "iso2": "BD"
+    },
+    {
+      "iata": "ZYL",
+      "name": "Международный аэропорт имени Османи",
+      "city": "Силхет",
+      "lat": 24.964,
+      "lon": 91.8647,
+      "iso2": "BD"
+    },
+    {
+      "iata": "BRU",
+      "name": "Брюссель",
+      "city": "Брюссель",
+      "lat": 50.9014,
+      "lon": 4.4844,
+      "iso2": "BE"
+    },
+    {
+      "iata": "OST",
+      "name": "Остенде-Брюгге",
+      "city": "Брюгге",
+      "lat": 51.1998,
+      "lon": 2.8747,
+      "iso2": "BE"
+    },
+    {
+      "iata": "CRL",
+      "name": "Брюссель-Шарлеруа",
+      "city": "Шарлеруа",
+      "lat": 50.462,
+      "lon": 4.4596,
+      "iso2": "BE"
+    },
+    {
+      "iata": "OUA",
+      "name": "Международный аэропорт имени Тома Санкары",
+      "city": "Уагадугу",
+      "lat": 12.3532,
+      "lon": -1.5124,
+      "iso2": "BF"
+    },
+    {
+      "iata": "BOY",
+      "name": "Bobo Dioulasso Airport",
+      "city": "Бобо-Диуласо",
+      "lat": 11.1601,
+      "lon": -4.331,
+      "iso2": "BF"
+    },
+    {
+      "iata": "SOF",
+      "name": "София",
+      "city": "София",
+      "lat": 42.6964,
+      "lon": 23.4177,
+      "iso2": "BG"
+    },
+    {
+      "iata": "PDV",
+      "name": "Пловдив",
+      "city": "Пловдив",
+      "lat": 42.0678,
+      "lon": 24.8508,
+      "iso2": "BG"
+    },
+    {
+      "iata": "VAR",
+      "name": "Варна",
+      "city": "Варна",
+      "lat": 43.2321,
+      "lon": 27.8251,
+      "iso2": "BG"
+    },
+    {
+      "iata": "BAH",
+      "name": "Бахрейн",
+      "city": "Манама",
+      "lat": 26.2673,
+      "lon": 50.6376,
+      "iso2": "BH"
+    },
+    {
+      "iata": "BJM",
+      "name": "Международный аэропорт имени Мельхиора Ндадайе",
+      "city": "Бужумбура",
+      "lat": -3.324,
+      "lon": 29.3185,
+      "iso2": "BI"
+    },
+    {
+      "iata": "GID",
+      "name": "Gitega Airport",
+      "city": "Гитега",
+      "lat": -3.4172,
+      "lon": 29.9113,
+      "iso2": "BI"
+    },
+    {
+      "iata": "COO",
+      "name": "Каджехоун",
+      "city": "Котону",
+      "lat": 6.3572,
+      "lon": 2.3843,
+      "iso2": "BJ"
+    },
+    {
+      "iata": "SBH",
+      "name": "Аэропорт Густав III",
+      "city": "Густавия",
+      "lat": 17.9044,
+      "lon": -62.8433,
+      "iso2": "BL"
+    },
+    {
+      "iata": "BDA",
+      "name": "L.F. Wade International Airport",
+      "city": "Гамильтон",
+      "lat": 32.3638,
+      "lon": -64.6782,
+      "iso2": "BM"
+    },
+    {
+      "iata": "BWN",
+      "name": "Бруней",
+      "city": "Бандар-Сери-Бегаван",
+      "lat": 4.9442,
+      "lon": 114.928,
+      "iso2": "BN"
+    },
+    {
+      "iata": "SRE",
+      "name": "Алькантари",
+      "city": "Сукре",
+      "lat": -19.2468,
+      "lon": -65.1496,
+      "iso2": "BO"
+    },
+    {
+      "iata": "LPB",
+      "name": "Эль-Альто",
+      "city": "Ла-Пас",
+      "lat": -16.5103,
+      "lon": -68.1894,
+      "iso2": "BO"
+    },
+    {
+      "iata": "CBB",
+      "name": "Международный аэропорт имени Хорхе Вильстерманна",
+      "city": "Кочабамба",
+      "lat": -17.4211,
+      "lon": -66.1771,
+      "iso2": "BO"
+    },
+    {
+      "iata": "BON",
+      "name": "Flamingo International Airport",
+      "city": "Бонэйр",
+      "lat": 12.131,
+      "lon": -68.2685,
+      "iso2": "BQ"
+    },
+    {
+      "iata": "EUX",
+      "name": "F. D. Roosevelt Airport",
+      "city": "Ораньестад",
+      "lat": 17.4965,
+      "lon": -62.9794,
+      "iso2": "BQ"
+    },
+    {
+      "iata": "SAB",
+      "name": "Аэропорт Хуанчо-Ираускин",
+      "city": "Боттом",
+      "lat": 17.6453,
+      "lon": -63.2205,
+      "iso2": "BQ"
+    },
+    {
+      "iata": "GRU",
+      "name": "Гуарульюс",
+      "city": "Сан-Паулу",
+      "lat": -23.4313,
+      "lon": -46.47,
+      "iso2": "BR"
+    },
+    {
+      "iata": "SSA",
+      "name": "Салвадор",
+      "city": "Салвадор",
+      "lat": -12.9086,
+      "lon": -38.3225,
+      "iso2": "BR"
+    },
+    {
+      "iata": "FOR",
+      "name": "Пинту Мартинс",
+      "city": "Форталеза",
+      "lat": -3.7758,
+      "lon": -38.5322,
+      "iso2": "BR"
+    },
+    {
+      "iata": "NAS",
+      "name": "Международный аэропорт имени Линдена Пиндлинга",
+      "city": "Нассау",
+      "lat": 25.039,
+      "lon": -77.4662,
+      "iso2": "BS"
+    },
+    {
+      "iata": "FPO",
+      "name": "Большой Багама",
+      "city": "Фрипорт",
+      "lat": 26.558,
+      "lon": -78.6956,
+      "iso2": "BS"
+    },
+    {
+      "iata": "ZSA",
+      "name": "San Salvador International Airport",
+      "city": "Сан-Сальвадор",
+      "lat": 24.063,
+      "lon": -74.5232,
+      "iso2": "BS"
+    },
+    {
+      "iata": "PBH",
+      "name": "Паро",
+      "city": "Паро",
+      "lat": 27.4032,
+      "lon": 89.4246,
+      "iso2": "BT"
+    },
+    {
+      "iata": "GBE",
+      "name": "Международный аэропорт имени сэра Серетсе Кхамы",
+      "city": "Габороне",
+      "lat": -24.5552,
+      "lon": 25.9182,
+      "iso2": "BW"
+    },
+    {
+      "iata": "FRW",
+      "name": "Phillip Gaonwe Matante International Airport",
+      "city": "Франсистаун",
+      "lat": -21.1592,
+      "lon": 27.4688,
+      "iso2": "BW"
+    },
+    {
+      "iata": "MUB",
+      "name": "Маун",
+      "city": "Маун",
+      "lat": -19.9705,
+      "lon": 23.4314,
+      "iso2": "BW"
+    },
+    {
+      "iata": "MSQ",
+      "name": "Минск",
+      "city": "Минск",
+      "lat": 53.8881,
+      "lon": 28.04,
+      "iso2": "BY"
+    },
+    {
+      "iata": "BQT",
+      "name": "Брест",
+      "city": "Брест",
+      "lat": 52.1081,
+      "lon": 23.8968,
+      "iso2": "BY"
+    },
+    {
+      "iata": "GME",
+      "name": "Гомель",
+      "city": "Гомель",
+      "lat": 52.527,
+      "lon": 31.0167,
+      "iso2": "BY"
+    },
+    {
+      "iata": "BZE",
+      "name": "Philip S. W. Goldson International Airport",
+      "city": "Белиз-Сити",
+      "lat": 17.54,
+      "lon": -88.3036,
+      "iso2": "BZ"
+    },
+    {
+      "iata": "SPR",
+      "name": "Аэропорт Джона Грейфа II",
+      "city": "Сан-Педро",
+      "lat": 17.9139,
+      "lon": -87.9711,
+      "iso2": "BZ"
+    },
+    {
+      "iata": "CUK",
+      "name": "Caye Caulker Airport",
+      "city": "Ки-Колкер",
+      "lat": 17.735,
+      "lon": -88.0329,
+      "iso2": "BZ"
+    },
+    {
+      "iata": "YYZ",
+      "name": "Торонто",
+      "city": "Торонто",
+      "lat": 43.6759,
+      "lon": -79.6294,
+      "iso2": "CA"
+    },
+    {
+      "iata": "YYC",
+      "name": "Калгари",
+      "city": "Калгари",
+      "lat": 51.1188,
+      "lon": -114.0099,
+      "iso2": "CA"
+    },
+    {
+      "iata": "YWG",
+      "name": "Виннипег",
+      "city": "Виннипег",
+      "lat": 49.91,
+      "lon": -97.2399,
+      "iso2": "CA"
+    },
+    {
+      "iata": "CCK",
+      "name": "Кокосовые острова",
+      "city": "Уэст-Айленд",
+      "lat": -12.1922,
+      "lon": 96.8341,
+      "iso2": "CC"
+    },
+    {
+      "iata": "FIH",
+      "name": "Н’джили",
+      "city": "Киншаса",
+      "lat": -4.3857,
+      "lon": 15.4446,
+      "iso2": "CD"
+    },
+    {
+      "iata": "FBM",
+      "name": "Лубумбаши",
+      "city": "Лубумбаши",
+      "lat": -11.5915,
+      "lon": 27.5308,
+      "iso2": "CD"
+    },
+    {
+      "iata": "FKI",
+      "name": "Кисангани-Бангока",
+      "city": "Кисангани",
+      "lat": 0.4816,
+      "lon": 25.338,
+      "iso2": "CD"
+    },
+    {
+      "iata": "BGF",
+      "name": "Банги Мпоко",
+      "city": "Банги",
+      "lat": 4.3985,
+      "lon": 18.5188,
+      "iso2": "CF"
+    },
+    {
+      "iata": "BZV",
+      "name": "Международный аэропорт Майя-Майя",
+      "city": "Браззавиль",
+      "lat": -4.2517,
+      "lon": 15.253,
+      "iso2": "CG"
+    },
+    {
+      "iata": "PNR",
+      "name": "Antonio Agostinho-Neto International Airport",
+      "city": "Пуэнт-Нуар",
+      "lat": -4.816,
+      "lon": 11.8866,
+      "iso2": "CG"
+    },
+    {
+      "iata": "ZRH",
+      "name": "Цюрих",
+      "city": "Цюрих",
+      "lat": 47.4581,
+      "lon": 8.5481,
+      "iso2": "CH"
+    },
+    {
+      "iata": "GVA",
+      "name": "Женева",
+      "city": "Женева",
+      "lat": 46.2381,
+      "lon": 6.109,
+      "iso2": "CH"
+    },
+    {
+      "iata": "ACH",
+      "name": "Санкт-Галлен",
+      "city": "Санкт-Галлен",
+      "lat": 47.485,
+      "lon": 9.5608,
+      "iso2": "CH"
+    },
+    {
+      "iata": "ABJ",
+      "name": "Международный аэропорт имени Феликса Уфуэ-Буаньи",
+      "city": "Абиджан",
+      "lat": 5.2614,
+      "lon": -3.9263,
+      "iso2": "CI"
+    },
+    {
+      "iata": "BYK",
+      "name": "Bouaké Airport",
+      "city": "Буаке",
+      "lat": 7.7388,
+      "lon": -5.0737,
+      "iso2": "CI"
+    },
+    {
+      "iata": "HGO",
+      "name": "Korhogo Airport",
+      "city": "Корого",
+      "lat": 9.3872,
+      "lon": -5.5567,
+      "iso2": "CI"
+    },
+    {
+      "iata": "RAR",
+      "name": "Раротонга",
+      "city": "Аваруа",
+      "lat": -21.2027,
+      "lon": -159.806,
+      "iso2": "CK"
+    },
+    {
+      "iata": "SCL",
+      "name": "Международный аэропорт имени Артуро Мерино Бенитеса",
+      "city": "Сантьяго",
+      "lat": -33.393,
+      "lon": -70.7858,
+      "iso2": "CL"
+    },
+    {
+      "iata": "ANF",
+      "name": "Andrés Sabella Gálvez International Airport",
+      "city": "Антофагаста",
+      "lat": -23.4453,
+      "lon": -70.4452,
+      "iso2": "CL"
+    },
+    {
+      "iata": "PMC",
+      "name": "El Tepual International Airport",
+      "city": "Пуэрто-Монт",
+      "lat": -41.4431,
+      "lon": -73.0941,
+      "iso2": "CL"
+    },
+    {
+      "iata": "NSI",
+      "name": "Яунде",
+      "city": "Яунде",
+      "lat": 3.7226,
+      "lon": 11.5533,
+      "iso2": "CM"
+    },
+    {
+      "iata": "DLA",
+      "name": "Дуала",
+      "city": "Дуала",
+      "lat": 4.0061,
+      "lon": 9.7195,
+      "iso2": "CM"
+    },
+    {
+      "iata": "GOU",
+      "name": "Garoua International Airport",
+      "city": "Гаруа",
+      "lat": 9.3348,
+      "lon": 13.3721,
+      "iso2": "CM"
+    },
+    {
+      "iata": "PEK",
+      "name": "Шоуду",
+      "city": "Пекин",
+      "lat": 40.0773,
+      "lon": 116.5967,
+      "iso2": "CN"
+    },
+    {
+      "iata": "SHA",
+      "name": "Хунцяо",
+      "city": "Шанхай",
+      "lat": 31.1981,
+      "lon": 121.3343,
+      "iso2": "CN"
+    },
+    {
+      "iata": "SZX",
+      "name": "Шэньчжэнь-Баоань",
+      "city": "Шэньчжэнь",
+      "lat": 22.6395,
+      "lon": 113.8033,
+      "iso2": "CN"
+    },
+    {
+      "iata": "BOG",
+      "name": "Международный аэропорт Эль-Дорадо",
+      "city": "Богота",
+      "lat": 4.7016,
+      "lon": -74.1469,
+      "iso2": "CO"
+    },
+    {
+      "iata": "CLO",
+      "name": "Международный аэропорт имени Альфонсо Бонилья Арагона",
+      "city": "Кали",
+      "lat": 3.5427,
+      "lon": -76.3819,
+      "iso2": "CO"
+    },
+    {
+      "iata": "MDE",
+      "name": "Международный аэропорт имени Хосе Мария Кордовы",
+      "city": "Медельин",
+      "lat": 6.1645,
+      "lon": -75.4231,
+      "iso2": "CO"
+    },
+    {
+      "iata": "SJO",
+      "name": "Международный аэропорт имени Хуана Сантамарии",
+      "city": "Сан-Хосе",
+      "lat": 9.9939,
+      "lon": -84.2088,
+      "iso2": "CR"
+    },
+    {
+      "iata": "LIR",
+      "name": "Daniel Oduber Quirós International Airport",
+      "city": "Либерия",
+      "lat": 10.5933,
+      "lon": -85.5444,
+      "iso2": "CR"
+    },
+    {
+      "iata": "LIO",
+      "name": "Limón International Airport",
+      "city": "Лимон",
+      "lat": 9.958,
+      "lon": -83.022,
+      "iso2": "CR"
+    },
+    {
+      "iata": "HAV",
+      "name": "Международный аэропорт имени Хосе Марти",
+      "city": "Гавана",
+      "lat": 22.9892,
+      "lon": -82.4091,
+      "iso2": "CU"
+    },
+    {
+      "iata": "SCU",
+      "name": "Antonio Maceo International Airport",
+      "city": "Сантьяго-де-Куба",
+      "lat": 19.9747,
+      "lon": -75.8355,
+      "iso2": "CU"
+    },
+    {
+      "iata": "CMW",
+      "name": "Международный аэропорт имени Игнасио Аграмонте",
+      "city": "Камагуэй",
+      "lat": 21.4199,
+      "lon": -77.848,
+      "iso2": "CU"
+    },
+    {
+      "iata": "RAI",
+      "name": "Международный аэропорт имени Нельсона Манделы",
+      "city": "Прая",
+      "lat": 14.9411,
+      "lon": -23.4847,
+      "iso2": "CV"
+    },
+    {
+      "iata": "VXE",
+      "name": "Аэропорт имени Сезарии Эворы",
+      "city": "Минделу",
+      "lat": 16.8334,
+      "lon": -25.0553,
+      "iso2": "CV"
+    },
+    {
+      "iata": "SID",
+      "name": "Международный аэропорт имени Амилкара Кабрала",
+      "city": "Сал",
+      "lat": 16.7414,
+      "lon": -22.9494,
+      "iso2": "CV"
+    },
+    {
+      "iata": "CUR",
+      "name": "Hato International Airport",
+      "city": "Виллемстад",
+      "lat": 12.1889,
+      "lon": -68.9598,
+      "iso2": "CW"
+    },
+    {
+      "iata": "XCH",
+      "name": "Аэропорт Острова Рождества",
+      "city": "Флайинг-Фиш-Ков",
+      "lat": -10.4504,
+      "lon": 105.6911,
+      "iso2": "CX"
+    },
+    {
+      "iata": "ECN",
+      "name": "Эрджан",
+      "city": "Никосия",
+      "lat": 35.1531,
+      "lon": 33.5074,
+      "iso2": "CY"
+    },
+    {
+      "iata": "LCA",
+      "name": "Ларнака",
+      "city": "Ларнака",
+      "lat": 34.8751,
+      "lon": 33.6249,
+      "iso2": "CY"
+    },
+    {
+      "iata": "PFO",
+      "name": "Пафос",
+      "city": "Пафос",
+      "lat": 34.718,
+      "lon": 32.4857,
+      "iso2": "CY"
+    },
+    {
+      "iata": "PRG",
+      "name": "Прага",
+      "city": "Прага",
+      "lat": 50.1009,
+      "lon": 14.2599,
+      "iso2": "CZ"
+    },
+    {
+      "iata": "OSR",
+      "name": "Острава",
+      "city": "Острава",
+      "lat": 49.6963,
+      "lon": 18.1111,
+      "iso2": "CZ"
+    },
+    {
+      "iata": "PED",
+      "name": "Пардубице",
+      "city": "Пардубице",
+      "lat": 50.015,
+      "lon": 15.7398,
+      "iso2": "CZ"
+    },
+    {
+      "iata": "BER",
+      "name": "Берлин — Бранденбург",
+      "city": "Берлин",
+      "lat": 52.3617,
+      "lon": 13.5023,
+      "iso2": "DE"
+    },
+    {
+      "iata": "HAM",
+      "name": "Гамбург",
+      "city": "Гамбург",
+      "lat": 53.6304,
+      "lon": 9.9882,
+      "iso2": "DE"
+    },
+    {
+      "iata": "MUC",
+      "name": "Мюнхен",
+      "city": "Мюнхен",
+      "lat": 48.3538,
+      "lon": 11.7861,
+      "iso2": "DE"
+    },
+    {
+      "iata": "JIB",
+      "name": "Джибути — Амбули",
+      "city": "Джибути",
+      "lat": 11.5473,
+      "lon": 43.1595,
+      "iso2": "DJ"
+    },
+    {
+      "iata": "CPH",
+      "name": "Каструп",
+      "city": "Копенгаген",
+      "lat": 55.6179,
+      "lon": 12.656,
+      "iso2": "DK"
+    },
+    {
+      "iata": "AAR",
+      "name": "Aarhus Airport",
+      "city": "Орхус",
+      "lat": 56.3033,
+      "lon": 10.6183,
+      "iso2": "DK"
+    },
+    {
+      "iata": "AAL",
+      "name": "Aalborg Airport",
+      "city": "Ольборг",
+      "lat": 57.0948,
+      "lon": 9.8499,
+      "iso2": "DK"
+    },
+    {
+      "iata": "DCF",
+      "name": "Кейнфилд",
+      "city": "Кейнфилд",
+      "lat": 15.3367,
+      "lon": -61.3921,
+      "iso2": "DM"
+    },
+    {
+      "iata": "DOM",
+      "name": "Дуглас–Чарльз",
+      "city": "Мариго",
+      "lat": 15.5467,
+      "lon": -61.3011,
+      "iso2": "DM"
+    },
+    {
+      "iata": "SDQ",
+      "name": "Международный аэропорт Лас-Америкас",
+      "city": "Санто-Доминго",
+      "lat": 18.4297,
+      "lon": -69.6689,
+      "iso2": "DO"
+    },
+    {
+      "iata": "STI",
+      "name": "Cibao International Airport",
+      "city": "Сантьяго-де-лос-Трейнта-Кабальерос",
+      "lat": 19.4041,
+      "lon": -70.6044,
+      "iso2": "DO"
+    },
+    {
+      "iata": "LRM",
+      "name": "Casa De Campo International Airport",
+      "city": "Ла-Романа",
+      "lat": 18.4522,
+      "lon": -68.9111,
+      "iso2": "DO"
+    },
+    {
+      "iata": "ALG",
+      "name": "Аэропорт Хуари Бумедьен",
+      "city": "Алжир",
+      "lat": 36.6939,
+      "lon": 3.2145,
+      "iso2": "DZ"
+    },
+    {
+      "iata": "ORN",
+      "name": "Oran Es-Sénia (Ahmed Ben Bella) International Airport",
+      "city": "Оран",
+      "lat": 35.6206,
+      "lon": -0.6225,
+      "iso2": "DZ"
+    },
+    {
+      "iata": "CZL",
+      "name": "Mohamed Boudiaf International Airport",
+      "city": "Константина",
+      "lat": 36.276,
+      "lon": 6.6204,
+      "iso2": "DZ"
+    },
+    {
+      "iata": "UIO",
+      "name": "Международный аэропорт имени Марискаля Сукре",
+      "city": "Кито",
+      "lat": -0.1254,
+      "lon": -78.3543,
+      "iso2": "EC"
+    },
+    {
+      "iata": "GYE",
+      "name": "Международный аэропорт имени Хосе Хоакина де Ольмедо",
+      "city": "Гуаякиль",
+      "lat": -2.1574,
+      "lon": -79.8836,
+      "iso2": "EC"
+    },
+    {
+      "iata": "ESM",
+      "name": "Carlos Concha Torres International Airport",
+      "city": "Эсмеральдас",
+      "lat": 0.9785,
+      "lon": -79.6266,
+      "iso2": "EC"
+    },
+    {
+      "iata": "TLL",
+      "name": "Таллин",
+      "city": "Таллин",
+      "lat": 59.4132,
+      "lon": 24.8326,
+      "iso2": "EE"
+    },
+    {
+      "iata": "TAY",
+      "name": "Тарту",
+      "city": "Тарту",
+      "lat": 58.3074,
+      "lon": 26.6865,
+      "iso2": "EE"
+    },
+    {
+      "iata": "EPU",
+      "name": "Пярну",
+      "city": "Пярну",
+      "lat": 58.419,
+      "lon": 24.4728,
+      "iso2": "EE"
+    },
+    {
+      "iata": "CAI",
+      "name": "Каир",
+      "city": "Каир",
+      "lat": 30.1115,
+      "lon": 31.3967,
+      "iso2": "EG"
+    },
+    {
+      "iata": "ATZ",
+      "name": "Асьют",
+      "city": "Асьют",
+      "lat": 27.046,
+      "lon": 31.0128,
+      "iso2": "EG"
+    },
+    {
+      "iata": "LXR",
+      "name": "Луксор",
+      "city": "Луксор",
+      "lat": 25.671,
+      "lon": 32.7064,
+      "iso2": "EG"
+    },
+    {
+      "iata": "EUN",
+      "name": "Laayoune Hassan I International Airport",
+      "city": "Эль-Аюн",
+      "lat": 27.1425,
+      "lon": -13.2249,
+      "iso2": "EH"
+    },
+    {
+      "iata": "VIL",
+      "name": "Дахла",
+      "city": "Дахла",
+      "lat": 23.7183,
+      "lon": -15.932,
+      "iso2": "EH"
+    },
+    {
+      "iata": "SMW",
+      "name": "Smara Airport",
+      "city": "Смара",
+      "lat": 26.732,
+      "lon": -11.6837,
+      "iso2": "EH"
+    },
+    {
+      "iata": "ASM",
+      "name": "Асмэра",
+      "city": "Асмэра",
+      "lat": 15.2919,
+      "lon": 38.9107,
+      "iso2": "ER"
+    },
+    {
+      "iata": "MAD",
+      "name": "Барахас",
+      "city": "Мадрид",
+      "lat": 40.4934,
+      "lon": -3.5722,
+      "iso2": "ES"
+    },
+    {
+      "iata": "BCN",
+      "name": "Барселона — Эль-Прат",
+      "city": "Барселона",
+      "lat": 41.2971,
+      "lon": 2.0785,
+      "iso2": "ES"
+    },
+    {
+      "iata": "VLC",
+      "name": "Валенсия",
+      "city": "Валенсия",
+      "lat": 39.4892,
+      "lon": -0.481,
+      "iso2": "ES"
+    },
+    {
+      "iata": "ADD",
+      "name": "Боле",
+      "city": "Аддис-Абеба",
+      "lat": 8.9779,
+      "lon": 38.7993,
+      "iso2": "ET"
+    },
+    {
+      "iata": "JIJ",
+      "name": "Gerad Wilwal International Airport",
+      "city": "Джиджига",
+      "lat": 9.3319,
+      "lon": 42.9118,
+      "iso2": "ET"
+    },
+    {
+      "iata": "AWA",
+      "name": "Hawassa International Airport",
+      "city": "Ауаса",
+      "lat": 7.1006,
+      "lon": 38.3965,
+      "iso2": "ET"
+    },
+    {
+      "iata": "HEL",
+      "name": "Хельсинки-Вантаа",
+      "city": "Хельсинки",
+      "lat": 60.3184,
+      "lon": 24.9633,
+      "iso2": "FI"
+    },
+    {
+      "iata": "TMP",
+      "name": "Тампере-Пирккала",
+      "city": "Тампере",
+      "lat": 61.4141,
+      "lon": 23.6044,
+      "iso2": "FI"
+    },
+    {
+      "iata": "OUL",
+      "name": "Оулу",
+      "city": "Оулу",
+      "lat": 64.9301,
+      "lon": 25.3546,
+      "iso2": "FI"
+    },
+    {
+      "iata": "SUV",
+      "name": "Наусори",
+      "city": "Сува",
+      "lat": -18.0442,
+      "lon": 178.5615,
+      "iso2": "FJ"
+    },
+    {
+      "iata": "NAN",
+      "name": "Нади",
+      "city": "Нанди",
+      "lat": -17.7618,
+      "lon": 177.4378,
+      "iso2": "FJ"
+    },
+    {
+      "iata": "LBS",
+      "name": "Labasa Airport",
+      "city": "Ламбаса",
+      "lat": -16.4667,
+      "lon": 179.34,
+      "iso2": "FJ"
+    },
+    {
+      "iata": "MPN",
+      "name": "Маунт-Плезант",
+      "city": "Порт-Стэнли",
+      "lat": -51.8226,
+      "lon": -58.4458,
+      "iso2": "FK"
+    },
+    {
+      "iata": "KSA",
+      "name": "Косраэ",
+      "city": "Кусаие",
+      "lat": 5.357,
+      "lon": 162.958,
+      "iso2": "FM"
+    },
+    {
+      "iata": "TKK",
+      "name": "Чуук",
+      "city": "Вено",
+      "lat": 7.4619,
+      "lon": 151.843,
+      "iso2": "FM"
+    },
+    {
+      "iata": "YAP",
+      "name": "Яп",
+      "city": "Колониа",
+      "lat": 9.4989,
+      "lon": 138.083,
+      "iso2": "FM"
+    },
+    {
+      "iata": "FAE",
+      "name": "Вагар",
+      "city": "Воар",
+      "lat": 62.0633,
+      "lon": -7.2758,
+      "iso2": "FO"
+    },
+    {
+      "iata": "CDG",
+      "name": "Париж — Шарль-де-Голль",
+      "city": "Париж",
+      "lat": 49.009,
+      "lon": 2.5541,
+      "iso2": "FR"
+    },
+    {
+      "iata": "MRS",
+      "name": "Марсель Прованс",
+      "city": "Марсель",
+      "lat": 43.4381,
+      "lon": 5.2125,
+      "iso2": "FR"
+    },
+    {
+      "iata": "LYS",
+      "name": "Лионский аэропорт имени Сент-Экзюпери",
+      "city": "Лион",
+      "lat": 45.726,
+      "lon": 5.0901,
+      "iso2": "FR"
+    },
+    {
+      "iata": "LBV",
+      "name": "Международный аэропорт имени Леона Мба",
+      "city": "Либревиль",
+      "lat": 0.459,
+      "lon": 9.4121,
+      "iso2": "GA"
+    },
+    {
+      "iata": "POG",
+      "name": "Порт-Жантиль",
+      "city": "Порт-Жантиль",
+      "lat": -0.7117,
+      "lon": 8.7544,
+      "iso2": "GA"
+    },
+    {
+      "iata": "MVB",
+      "name": "M'Vengue El Hadj Omar Bongo Ondimba International Airport",
+      "city": "Франсвиль",
+      "lat": -1.6562,
+      "lon": 13.438,
+      "iso2": "GA"
+    },
+    {
+      "iata": "LHR",
+      "name": "Хитроу",
+      "city": "Лондон",
+      "lat": 51.4707,
+      "lon": -0.4599,
+      "iso2": "GB"
+    },
+    {
+      "iata": "BHX",
+      "name": "Бирмингем",
+      "city": "Бирмингем",
+      "lat": 52.4539,
+      "lon": -1.748,
+      "iso2": "GB"
+    },
+    {
+      "iata": "GLA",
+      "name": "Глазго",
+      "city": "Глазго",
+      "lat": 55.8719,
+      "lon": -4.4331,
+      "iso2": "GB"
+    },
+    {
+      "iata": "GND",
+      "name": "Международный аэропорт имени Мориса Бишопа",
+      "city": "Сент-Джорджес",
+      "lat": 12.004,
+      "lon": -61.7853,
+      "iso2": "GD"
+    },
+    {
+      "iata": "TBS",
+      "name": "Тбилиси",
+      "city": "Тбилиси",
+      "lat": 41.6692,
+      "lon": 44.9547,
+      "iso2": "GE"
+    },
+    {
+      "iata": "BUS",
+      "name": "Батуми",
+      "city": "Батуми",
+      "lat": 41.6094,
+      "lon": 41.6003,
+      "iso2": "GE"
+    },
+    {
+      "iata": "KUT",
+      "name": "Кутаиси",
+      "city": "Кутаиси",
+      "lat": 42.1774,
+      "lon": 42.4854,
+      "iso2": "GE"
+    },
+    {
+      "iata": "CAY",
+      "name": "Аэропорт имени Феликса Эбуэ",
+      "city": "Кайенна",
+      "lat": 4.82,
+      "lon": -52.3613,
+      "iso2": "GF"
+    },
+    {
+      "iata": "LDX",
+      "name": "Saint-Laurent-du-Maroni Airport",
+      "city": "Сен-Лоран-дю-Марони",
+      "lat": 5.4819,
+      "lon": -54.035,
+      "iso2": "GF"
+    },
+    {
+      "iata": "MPY",
+      "name": "Марипасула",
+      "city": "Марипасула",
+      "lat": 3.6559,
+      "lon": -54.0394,
+      "iso2": "GF"
+    },
+    {
+      "iata": "GCI",
+      "name": "Гернси",
+      "city": "Сент-Питер-Порт",
+      "lat": 49.435,
+      "lon": -2.602,
+      "iso2": "GG"
+    },
+    {
+      "iata": "ACI",
+      "name": "Олдерни",
+      "city": "Олдерни",
+      "lat": 49.7061,
+      "lon": -2.2147,
+      "iso2": "GG"
+    },
+    {
+      "iata": "ACC",
+      "name": "Котока",
+      "city": "Аккра",
+      "lat": 5.6052,
+      "lon": -0.1668,
+      "iso2": "GH"
+    },
+    {
+      "iata": "KMS",
+      "name": "Кумаси",
+      "city": "Кумаси",
+      "lat": 6.7146,
+      "lon": -1.5908,
+      "iso2": "GH"
+    },
+    {
+      "iata": "TML",
+      "name": "Тамале",
+      "city": "Тамале",
+      "lat": 9.5539,
+      "lon": -0.8661,
+      "iso2": "GH"
+    },
+    {
+      "iata": "GIB",
+      "name": "Гибралтар",
+      "city": "Гибралтар",
+      "lat": 36.1517,
+      "lon": -5.3498,
+      "iso2": "GI"
+    },
+    {
+      "iata": "GOH",
+      "name": "Нуук",
+      "city": "Нуук",
+      "lat": 64.1911,
+      "lon": -51.6791,
+      "iso2": "GL"
+    },
+    {
+      "iata": "CNP",
+      "name": "Нерлерит Инаат",
+      "city": "Иллоккортоормиут",
+      "lat": 70.7431,
+      "lon": -22.6505,
+      "iso2": "GL"
+    },
+    {
+      "iata": "JAV",
+      "name": "Ilulissat Airport",
+      "city": "Илулиссат",
+      "lat": 69.2432,
+      "lon": -51.0571,
+      "iso2": "GL"
+    },
+    {
+      "iata": "BJL",
+      "name": "Банжул",
+      "city": "Банжул",
+      "lat": 13.338,
+      "lon": -16.6522,
+      "iso2": "GM"
+    },
+    {
+      "iata": "CKY",
+      "name": "Международный аэропорт имени Ахмеда Секу Туре",
+      "city": "Конакри",
+      "lat": 9.5769,
+      "lon": -13.612,
+      "iso2": "GN"
+    },
+    {
+      "iata": "PTP",
+      "name": "Maryse Condé International Airport",
+      "city": "Пуэнт-а-Питр",
+      "lat": 16.2654,
+      "lon": -61.5328,
+      "iso2": "GP"
+    },
+    {
+      "iata": "GBJ",
+      "name": "Marie-Galante Airport",
+      "city": "Бас-Тер",
+      "lat": 15.8689,
+      "lon": -61.2701,
+      "iso2": "GP"
+    },
+    {
+      "iata": "SSG",
+      "name": "Малабо",
+      "city": "Малабо",
+      "lat": 3.7553,
+      "lon": 8.7087,
+      "iso2": "GQ"
+    },
+    {
+      "iata": "BSG",
+      "name": "Бата",
+      "city": "Бата",
+      "lat": 1.9055,
+      "lon": 9.8057,
+      "iso2": "GQ"
+    },
+    {
+      "iata": "OCS",
+      "name": "Corisco International Airport",
+      "city": "Кориско",
+      "lat": 0.9109,
+      "lon": 9.3303,
+      "iso2": "GQ"
+    },
+    {
+      "iata": "ATH",
+      "name": "Элефтериос Венизелос",
+      "city": "Афины",
+      "lat": 37.9364,
+      "lon": 23.9445,
+      "iso2": "GR"
+    },
+    {
+      "iata": "SKG",
+      "name": "Македония",
+      "city": "Салоники",
+      "lat": 40.5193,
+      "lon": 22.97,
+      "iso2": "GR"
+    },
+    {
+      "iata": "HER",
+      "name": "Никос Казандзакис",
+      "city": "Ираклион",
+      "lat": 35.3397,
+      "lon": 25.1803,
+      "iso2": "GR"
+    },
+    {
+      "iata": "GUA",
+      "name": "Международный аэропорт Ла-Аурора",
+      "city": "Гватемала",
+      "lat": 14.5829,
+      "lon": -90.5275,
+      "iso2": "GT"
+    },
+    {
+      "iata": "PBR",
+      "name": "Puerto Barrios Airport",
+      "city": "Пуэрто-Барриос",
+      "lat": 15.7309,
+      "lon": -88.5838,
+      "iso2": "GT"
+    },
+    {
+      "iata": "RER",
+      "name": "Retalhuleu Airport",
+      "city": "Реталулеу",
+      "lat": 14.5214,
+      "lon": -91.697,
+      "iso2": "GT"
+    },
+    {
+      "iata": "GUM",
+      "name": "Международный аэропорт имени Антонио Вон Пата",
+      "city": "Хагатна",
+      "lat": 13.485,
+      "lon": 144.7973,
+      "iso2": "GU"
+    },
+    {
+      "iata": "OXB",
+      "name": "Международный аэропорт имени Освальду Виейры",
+      "city": "Бисау",
+      "lat": 11.8943,
+      "lon": -15.6536,
+      "iso2": "GW"
+    },
+    {
+      "iata": "GEO",
+      "name": "Международный аэропорт имени Чедди Джагана",
+      "city": "Джорджтаун",
+      "lat": 6.4985,
+      "lon": -58.2541,
+      "iso2": "GY"
+    },
+    {
+      "iata": "KAI",
+      "name": "Kaieteur Airport",
+      "city": "Кайетур",
+      "lat": 5.1773,
+      "lon": -59.489,
+      "iso2": "GY"
+    },
+    {
+      "iata": "LTM",
+      "name": "Lethem Airport",
+      "city": "Летем",
+      "lat": 3.3728,
+      "lon": -59.7894,
+      "iso2": "GY"
+    },
+    {
+      "iata": "HKG",
+      "name": "Гонконг",
+      "city": "Гонконг",
+      "lat": 22.3118,
+      "lon": 113.9149,
+      "iso2": "HK"
+    },
+    {
+      "iata": "XPL",
+      "name": "Palmerola International Airport",
+      "city": "Тегусигальпа",
+      "lat": 14.3824,
+      "lon": -87.6212,
+      "iso2": "HN"
+    },
+    {
+      "iata": "SAP",
+      "name": "Ramón Villeda Morales International Airport",
+      "city": "Сан-Педро-Сула",
+      "lat": 15.4526,
+      "lon": -87.9236,
+      "iso2": "HN"
+    },
+    {
+      "iata": "RTB",
+      "name": "Juan Manuel Gálvez International Airport",
+      "city": "Роатан",
+      "lat": 16.3168,
+      "lon": -86.523,
+      "iso2": "HN"
+    },
+    {
+      "iata": "ZAG",
+      "name": "Загреб",
+      "city": "Загреб",
+      "lat": 45.7429,
+      "lon": 16.0688,
+      "iso2": "HR"
+    },
+    {
+      "iata": "SPU",
+      "name": "Сплит",
+      "city": "Сплит",
+      "lat": 43.5389,
+      "lon": 16.298,
+      "iso2": "HR"
+    },
+    {
+      "iata": "RJK",
+      "name": "Риека",
+      "city": "Риека",
+      "lat": 45.2164,
+      "lon": 14.5709,
+      "iso2": "HR"
+    },
+    {
+      "iata": "PAP",
+      "name": "Международный аэропорт имени Туссен-Лувертюра",
+      "city": "Порт-о-Пренс",
+      "lat": 18.58,
+      "lon": -72.2926,
+      "iso2": "HT"
+    },
+    {
+      "iata": "CAP",
+      "name": "Cap Haitien International Airport",
+      "city": "Кап-Аитьен",
+      "lat": 19.7255,
+      "lon": -72.2007,
+      "iso2": "HT"
+    },
+    {
+      "iata": "CYA",
+      "name": "Antoine-Simon International Airport",
+      "city": "Ле-Ке",
+      "lat": 18.2711,
+      "lon": -73.7883,
+      "iso2": "HT"
+    },
+    {
+      "iata": "BUD",
+      "name": "Международный аэропорт имени Ференца Листа",
+      "city": "Будапешт",
+      "lat": 47.4302,
+      "lon": 19.2624,
+      "iso2": "HU"
+    },
+    {
+      "iata": "DEB",
+      "name": "Дебрецен",
+      "city": "Дебрецен",
+      "lat": 47.4895,
+      "lon": 21.6163,
+      "iso2": "HU"
+    },
+    {
+      "iata": "PEV",
+      "name": "Печ-Погань",
+      "city": "Печ",
+      "lat": 45.9889,
+      "lon": 18.242,
+      "iso2": "HU"
+    },
+    {
+      "iata": "CGK",
+      "name": "Сукарно-Хатта",
+      "city": "Джакарта",
+      "lat": -6.1256,
+      "lon": 106.656,
+      "iso2": "ID"
+    },
+    {
+      "iata": "SUB",
+      "name": "Международный аэропорт имени Джуанды",
+      "city": "Сурабая",
+      "lat": -7.3798,
+      "lon": 112.787,
+      "iso2": "ID"
+    },
+    {
+      "iata": "SRG",
+      "name": "Международный аэропорт имени Ахмада Яни",
+      "city": "Семаранг",
+      "lat": -6.9707,
+      "lon": 110.3732,
+      "iso2": "ID"
+    },
+    {
+      "iata": "DUB",
+      "name": "Дублинский аэропорт",
+      "city": "Дублин",
+      "lat": 53.4287,
+      "lon": -6.2621,
+      "iso2": "IE"
+    },
+    {
+      "iata": "ORK",
+      "name": "Корк",
+      "city": "Корк",
+      "lat": 51.8413,
+      "lon": -8.4911,
+      "iso2": "IE"
+    },
+    {
+      "iata": "SNN",
+      "name": "Шаннон",
+      "city": "Шаннон",
+      "lat": 52.702,
+      "lon": -8.9248,
+      "iso2": "IE"
+    },
+    {
+      "iata": "TLV",
+      "name": "Аэропорт имени Бен-Гуриона",
+      "city": "Тель-Авив",
+      "lat": 32.0114,
+      "lon": 34.8867,
+      "iso2": "IL"
+    },
+    {
+      "iata": "ETM",
+      "name": "Рамон",
+      "city": "Эйлат",
+      "lat": 29.727,
+      "lon": 35.0141,
+      "iso2": "IL"
+    },
+    {
+      "iata": "HFA",
+      "name": "Хайфа",
+      "city": "Хайфа",
+      "lat": 32.8102,
+      "lon": 35.0437,
+      "iso2": "IL"
+    },
+    {
+      "iata": "IOM",
+      "name": "Аэропорт острова Мэн",
+      "city": "Каслтаун",
+      "lat": 54.0831,
+      "lon": -4.6239,
+      "iso2": "IM"
+    },
+    {
+      "iata": "DEL",
+      "name": "Международный аэропорт имени Индиры Ганди",
+      "city": "Дели",
+      "lat": 28.5556,
+      "lon": 77.0952,
+      "iso2": "IN"
+    },
+    {
+      "iata": "BOM",
+      "name": "Международный аэропорт имени Чатрапати Шиваджи",
+      "city": "Мумбаи",
+      "lat": 19.0887,
+      "lon": 72.8679,
+      "iso2": "IN"
+    },
+    {
+      "iata": "BLR",
+      "name": "Бангалор",
+      "city": "Бангалор",
+      "lat": 13.1979,
+      "lon": 77.7063,
+      "iso2": "IN"
+    },
+    {
+      "iata": "BGW",
+      "name": "Багдад",
+      "city": "Багдад",
+      "lat": 33.2625,
+      "lon": 44.2346,
+      "iso2": "IQ"
+    },
+    {
+      "iata": "EBL",
+      "name": "Эрбиль",
+      "city": "Эрбиль",
+      "lat": 36.236,
+      "lon": 43.9466,
+      "iso2": "IQ"
+    },
+    {
+      "iata": "BSR",
+      "name": "Басра",
+      "city": "Басра",
+      "lat": 30.5491,
+      "lon": 47.6621,
+      "iso2": "IQ"
+    },
+    {
+      "iata": "THR",
+      "name": "Мехрабад",
+      "city": "Тегеран",
+      "lat": 35.6892,
+      "lon": 51.3144,
+      "iso2": "IR"
+    },
+    {
+      "iata": "MHD",
+      "name": "Мешхед",
+      "city": "Мешхед",
+      "lat": 36.2348,
+      "lon": 59.6429,
+      "iso2": "IR"
+    },
+    {
+      "iata": "IFN",
+      "name": "Международный аэропорт Исфахан",
+      "city": "Исфахан",
+      "lat": 32.7551,
+      "lon": 51.8839,
+      "iso2": "IR"
+    },
+    {
+      "iata": "KEF",
+      "name": "Кеблавик",
+      "city": "Рейкьявик",
+      "lat": 63.985,
+      "lon": -22.6056,
+      "iso2": "IS"
+    },
+    {
+      "iata": "AEY",
+      "name": "Акюрейри",
+      "city": "Акюрейри",
+      "lat": 65.6566,
+      "lon": -18.072,
+      "iso2": "IS"
+    },
+    {
+      "iata": "EGS",
+      "name": "Эйильсстадир",
+      "city": "Эйильсстадир",
+      "lat": 65.2833,
+      "lon": -14.4014,
+      "iso2": "IS"
+    },
+    {
+      "iata": "FCO",
+      "name": "Фьюмичино",
+      "city": "Рим",
+      "lat": 41.8045,
+      "lon": 12.252,
+      "iso2": "IT"
+    },
+    {
+      "iata": "NAP",
+      "name": "Неаполь",
+      "city": "Неаполь",
+      "lat": 40.886,
+      "lon": 14.2908,
+      "iso2": "IT"
+    },
+    {
+      "iata": "TRN",
+      "name": "Аэропорт Турина",
+      "city": "Турин",
+      "lat": 45.2008,
+      "lon": 7.6496,
+      "iso2": "IT"
+    },
+    {
+      "iata": "JER",
+      "name": "Джерси",
+      "city": "Джерси",
+      "lat": 49.2079,
+      "lon": -2.1955,
+      "iso2": "JE"
+    },
+    {
+      "iata": "KIN",
+      "name": "Международный аэропорт имени Нормана Мэнли",
+      "city": "Кингстон",
+      "lat": 17.9357,
+      "lon": -76.7875,
+      "iso2": "JM"
+    },
+    {
+      "iata": "MBJ",
+      "name": "Международный аэропорт имени Сангстера",
+      "city": "Монтего-Бей",
+      "lat": 18.5034,
+      "lon": -77.9132,
+      "iso2": "JM"
+    },
+    {
+      "iata": "OCJ",
+      "name": "Ian Fleming International Airport",
+      "city": "Очо-Риос",
+      "lat": 18.4041,
+      "lon": -76.9698,
+      "iso2": "JM"
+    },
+    {
+      "iata": "AMM",
+      "name": "Международный аэропорт имени королевы Алии",
+      "city": "Амман",
+      "lat": 31.7226,
+      "lon": 35.9932,
+      "iso2": "JO"
+    },
+    {
+      "iata": "AQJ",
+      "name": "Международный аэропорт имени короля Хусейна",
+      "city": "Акаба",
+      "lat": 29.6116,
+      "lon": 35.0181,
+      "iso2": "JO"
+    },
+    {
+      "iata": "ADJ",
+      "name": "Marka International (Amman Civil) Airport",
+      "city": "Амман",
+      "lat": 31.9727,
+      "lon": 35.9916,
+      "iso2": "JO"
+    },
+    {
+      "iata": "HND",
+      "name": "Токио",
+      "city": "Токио",
+      "lat": 35.5497,
+      "lon": 139.787,
+      "iso2": "JP"
+    },
+    {
+      "iata": "NGO",
+      "name": "Международный аэропорт Тюбу",
+      "city": "Нагоя",
+      "lat": 34.8584,
+      "lon": 136.805,
+      "iso2": "JP"
+    },
+    {
+      "iata": "FUK",
+      "name": "Фукуока",
+      "city": "Фукуока",
+      "lat": 33.5859,
+      "lon": 130.451,
+      "iso2": "JP"
+    },
+    {
+      "iata": "NBO",
+      "name": "Международный аэропорт имени Джомо Кениаты",
+      "city": "Найроби",
+      "lat": -1.3189,
+      "lon": 36.9282,
+      "iso2": "KE"
+    },
+    {
+      "iata": "MBA",
+      "name": "Международный аэропорт имени Мои",
+      "city": "Момбаса",
+      "lat": -4.0348,
+      "lon": 39.5942,
+      "iso2": "KE"
+    },
+    {
+      "iata": "EDL",
+      "name": "Eldoret International Airport",
+      "city": "Эльдорет",
+      "lat": 0.4045,
+      "lon": 35.2389,
+      "iso2": "KE"
+    },
+    {
+      "iata": "BSZ",
+      "name": "Манас",
+      "city": "Бишкек",
+      "lat": 43.0613,
+      "lon": 74.4776,
+      "iso2": "KG"
+    },
+    {
+      "iata": "OSS",
+      "name": "Ош",
+      "city": "Ош",
+      "lat": 40.609,
+      "lon": 72.7933,
+      "iso2": "KG"
+    },
+    {
+      "iata": "IKU",
+      "name": "Иссык-Куль",
+      "city": "Тамчы",
+      "lat": 42.5856,
+      "lon": 76.7012,
+      "iso2": "KG"
+    },
+    {
+      "iata": "KTI",
+      "name": "Такмау Течо",
+      "city": "Пномпень",
+      "lat": 11.36,
+      "lon": 104.9213,
+      "iso2": "KH"
+    },
+    {
+      "iata": "SAI",
+      "name": "Сиемреап-Ангкор",
+      "city": "Сиемреап",
+      "lat": 13.3697,
+      "lon": 104.2238,
+      "iso2": "KH"
+    },
+    {
+      "iata": "KOS",
+      "name": "Сиануквиль",
+      "city": "Сиануквиль",
+      "lat": 10.5706,
+      "lon": 103.6321,
+      "iso2": "KH"
+    },
+    {
+      "iata": "TRW",
+      "name": "Бонрики",
+      "city": "Баирики",
+      "lat": 1.3816,
+      "lon": 173.147,
+      "iso2": "KI"
+    },
+    {
+      "iata": "CXI",
+      "name": "Cassidy International Airport",
+      "city": "Кристмас",
+      "lat": 1.9863,
+      "lon": -157.35,
+      "iso2": "KI"
+    },
+    {
+      "iata": "HAH",
+      "name": "Международный аэропорт имени Принца Саида Ибрагима",
+      "city": "Морони",
+      "lat": -11.5337,
+      "lon": 43.2719,
+      "iso2": "KM"
+    },
+    {
+      "iata": "AJN",
+      "name": "Ouani Airport",
+      "city": "Ouani",
+      "lat": -12.131,
+      "lon": 44.43,
+      "iso2": "KM"
+    },
+    {
+      "iata": "SKB",
+      "name": "Международный аэропорт имени Роберта Брэдшоу",
+      "city": "Сент-Китс",
+      "lat": 17.3108,
+      "lon": -62.7191,
+      "iso2": "KN"
+    },
+    {
+      "iata": "NEV",
+      "name": "Vance W. Amory International Airport",
+      "city": "Сент-Китс",
+      "lat": 17.2057,
+      "lon": -62.5899,
+      "iso2": "KN"
+    },
+    {
+      "iata": "FNJ",
+      "name": "Сунан",
+      "city": "Пхеньян",
+      "lat": 39.2241,
+      "lon": 125.67,
+      "iso2": "KP"
+    },
+    {
+      "iata": "DSO",
+      "name": "Sondok Airport",
+      "city": "Сондок",
+      "lat": 39.7452,
+      "lon": 127.474,
+      "iso2": "KP"
+    },
+    {
+      "iata": "RGO",
+      "name": "Orang (Chongjin) Airport",
+      "city": "Оранг",
+      "lat": 41.4285,
+      "lon": 129.6476,
+      "iso2": "KP"
+    },
+    {
+      "iata": "ICN",
+      "name": "Инчхон",
+      "city": "Инчхон",
+      "lat": 37.4691,
+      "lon": 126.451,
+      "iso2": "KR"
+    },
+    {
+      "iata": "PUS",
+      "name": "Кимхэ",
+      "city": "Пусан",
+      "lat": 35.1795,
+      "lon": 128.938,
+      "iso2": "KR"
+    },
+    {
+      "iata": "TAE",
+      "name": "Тэгу",
+      "city": "Тэгу",
+      "lat": 35.8944,
+      "lon": 128.657,
+      "iso2": "KR"
+    },
+    {
+      "iata": "KWI",
+      "name": "Кувейт",
+      "city": "Эль-Кувейт",
+      "lat": 29.2245,
+      "lon": 47.9698,
+      "iso2": "KW"
+    },
+    {
+      "iata": "GCM",
+      "name": "Owen Roberts International Airport",
+      "city": "Большой Кайман",
+      "lat": 19.2928,
+      "lon": -81.3577,
+      "iso2": "KY"
+    },
+    {
+      "iata": "CYB",
+      "name": "Charles Kirkconnell International Airport",
+      "city": "Кайман-Брак",
+      "lat": 19.687,
+      "lon": -79.8828,
+      "iso2": "KY"
+    },
+    {
+      "iata": "NQZ",
+      "name": "Международный аэропорт имени Нурсултана Назарбаева",
+      "city": "Астана",
+      "lat": 51.027,
+      "lon": 71.4671,
+      "iso2": "KZ"
+    },
+    {
+      "iata": "ALA",
+      "name": "Алматы",
+      "city": "Алматы",
+      "lat": 43.3543,
+      "lon": 77.0428,
+      "iso2": "KZ"
+    },
+    {
+      "iata": "CIT",
+      "name": "Шымкент",
+      "city": "Шымкент",
+      "lat": 42.365,
+      "lon": 69.4756,
+      "iso2": "KZ"
+    },
+    {
+      "iata": "VTE",
+      "name": "Ваттай",
+      "city": "Вьентьян",
+      "lat": 17.9851,
+      "lon": 102.5667,
+      "iso2": "LA"
+    },
+    {
+      "iata": "PKZ",
+      "name": "Паксе",
+      "city": "Паксе",
+      "lat": 15.134,
+      "lon": 105.7799,
+      "iso2": "LA"
+    },
+    {
+      "iata": "LPQ",
+      "name": "Луангпхабанг",
+      "city": "Луангпхабанг",
+      "lat": 19.9043,
+      "lon": 102.1672,
+      "iso2": "LA"
+    },
+    {
+      "iata": "BEY",
+      "name": "Международный аэропорт имени Рафика Харири",
+      "city": "Бейрут",
+      "lat": 33.8198,
+      "lon": 35.4874,
+      "iso2": "LB"
+    },
+    {
+      "iata": "UVF",
+      "name": "Хеванорра",
+      "city": "Вьё-Фор",
+      "lat": 13.7332,
+      "lon": -60.9526,
+      "iso2": "LC"
+    },
+    {
+      "iata": "SLU",
+      "name": "Международный аэропорт имени Джорджа Чарльза",
+      "city": "Кастри",
+      "lat": 14.0202,
+      "lon": -60.9929,
+      "iso2": "LC"
+    },
+    {
+      "iata": "CMB",
+      "name": "Международный аэропорт имени Бандаранаике",
+      "city": "Коломбо",
+      "lat": 7.1808,
+      "lon": 79.8841,
+      "iso2": "LK"
+    },
+    {
+      "iata": "JAF",
+      "name": "Jaffna International Airport",
+      "city": "Джафна",
+      "lat": 9.7923,
+      "lon": 80.0701,
+      "iso2": "LK"
+    },
+    {
+      "iata": "RML",
+      "name": "Colombo Ratmalana International Airport",
+      "city": "Коломбо",
+      "lat": 6.8216,
+      "lon": 79.8859,
+      "iso2": "LK"
+    },
+    {
+      "iata": "ROB",
+      "name": "Международный аэропорт имени Робертса",
+      "city": "Монровия",
+      "lat": 6.2338,
+      "lon": -10.3623,
+      "iso2": "LR"
+    },
+    {
+      "iata": "MLW",
+      "name": "Аэропорт Сприггса Пейна",
+      "city": "Монровия",
+      "lat": 6.2891,
+      "lon": -10.7587,
+      "iso2": "LR"
+    },
+    {
+      "iata": "MSU",
+      "name": "Международный аэропорт имени Мошвешве I",
+      "city": "Масеру",
+      "lat": -29.4563,
+      "lon": 27.5545,
+      "iso2": "LS"
+    },
+    {
+      "iata": "VNO",
+      "name": "Вильнюс",
+      "city": "Вильнюс",
+      "lat": 54.6341,
+      "lon": 25.2858,
+      "iso2": "LT"
+    },
+    {
+      "iata": "KUN",
+      "name": "Каунас",
+      "city": "Каунас",
+      "lat": 54.964,
+      "lon": 24.0858,
+      "iso2": "LT"
+    },
+    {
+      "iata": "PLQ",
+      "name": "Паланга",
+      "city": "Паланга",
+      "lat": 55.9732,
+      "lon": 21.0939,
+      "iso2": "LT"
+    },
+    {
+      "iata": "LUX",
+      "name": "Люксембург-Финдел",
+      "city": "Люксембург",
+      "lat": 49.6268,
+      "lon": 6.2121,
+      "iso2": "LU"
+    },
+    {
+      "iata": "RIX",
+      "name": "Рига",
+      "city": "Рига",
+      "lat": 56.9208,
+      "lon": 23.9707,
+      "iso2": "LV"
+    },
+    {
+      "iata": "MJI",
+      "name": "Митига",
+      "city": "Триполи",
+      "lat": 32.8918,
+      "lon": 13.2879,
+      "iso2": "LY"
+    },
+    {
+      "iata": "BEN",
+      "name": "Benina International Airport",
+      "city": "Бенгази",
+      "lat": 32.0968,
+      "lon": 20.2695,
+      "iso2": "LY"
+    },
+    {
+      "iata": "LAQ",
+      "name": "Аль-Абрак",
+      "city": "Эль-Байда",
+      "lat": 32.789,
+      "lon": 21.9549,
+      "iso2": "LY"
+    },
+    {
+      "iata": "RBA",
+      "name": "Рабат–Сале",
+      "city": "Рабат",
+      "lat": 34.0515,
+      "lon": -6.7515,
+      "iso2": "MA"
+    },
+    {
+      "iata": "CMN",
+      "name": "Международный аэропорт имени Мухаммеда V",
+      "city": "Касабланка",
+      "lat": 33.3675,
+      "lon": -7.59,
+      "iso2": "MA"
+    },
+    {
+      "iata": "FEZ",
+      "name": "Фес-Саисс",
+      "city": "Фес",
+      "lat": 33.9273,
+      "lon": -4.978,
+      "iso2": "MA"
+    },
+    {
+      "iata": "RMO",
+      "name": "Кишинёвский международный аэропорт имени Евгения Доги",
+      "city": "Кишинёв",
+      "lat": 46.9277,
+      "lon": 28.9317,
+      "iso2": "MD"
+    },
+    {
+      "iata": "TGD",
+      "name": "Подгорица",
+      "city": "Подгорица",
+      "lat": 42.3594,
+      "lon": 19.2519,
+      "iso2": "ME"
+    },
+    {
+      "iata": "TIV",
+      "name": "Тиват",
+      "city": "Тиват",
+      "lat": 42.4047,
+      "lon": 18.7233,
+      "iso2": "ME"
+    },
+    {
+      "iata": "SFG",
+      "name": "Grand Case-l'Espérance Airport",
+      "city": "Сен-Мартен",
+      "lat": 18.1001,
+      "lon": -63.0474,
+      "iso2": "MF"
+    },
+    {
+      "iata": "TNR",
+      "name": "Ивато",
+      "city": "Антананариву",
+      "lat": -18.7969,
+      "lon": 47.4788,
+      "iso2": "MG"
+    },
+    {
+      "iata": "TMM",
+      "name": "Toamasina Ambalamanasy Airport",
+      "city": "Туамасина",
+      "lat": -18.1135,
+      "lon": 49.3923,
+      "iso2": "MG"
+    },
+    {
+      "iata": "MJN",
+      "name": "Amborovy Airport",
+      "city": "Махадзанга",
+      "lat": -15.6668,
+      "lon": 46.3512,
+      "iso2": "MG"
+    },
+    {
+      "iata": "MAJ",
+      "name": "Международный аэропорт Маршалловых Островов",
+      "city": "Маджуро",
+      "lat": 7.0651,
+      "lon": 171.2717,
+      "iso2": "MH"
+    },
+    {
+      "iata": "KWA",
+      "name": "Bucholz Army Air Field",
+      "city": "Кваджалейн",
+      "lat": 8.7201,
+      "lon": 167.732,
+      "iso2": "MH"
+    },
+    {
+      "iata": "SKP",
+      "name": "Скопье",
+      "city": "Скопье",
+      "lat": 41.9581,
+      "lon": 21.6226,
+      "iso2": "MK"
+    },
+    {
+      "iata": "OHD",
+      "name": "Святой Апостол Павел",
+      "city": "Охрид",
+      "lat": 41.18,
+      "lon": 20.7423,
+      "iso2": "MK"
+    },
+    {
+      "iata": "BKO",
+      "name": "Международный аэропорт имени Модибо Кейты",
+      "city": "Бамако",
+      "lat": 12.5335,
+      "lon": -7.9499,
+      "iso2": "ML"
+    },
+    {
+      "iata": "TOM",
+      "name": "Тимбукту",
+      "city": "Томбукту",
+      "lat": 16.7305,
+      "lon": -3.0076,
+      "iso2": "ML"
+    },
+    {
+      "iata": "GAQ",
+      "name": "Гао",
+      "city": "Гао",
+      "lat": 16.2485,
+      "lon": -0.0054,
+      "iso2": "ML"
+    },
+    {
+      "iata": "RGN",
+      "name": "Янгон",
+      "city": "Янгон",
+      "lat": 16.9073,
+      "lon": 96.1332,
+      "iso2": "MM"
+    },
+    {
+      "iata": "MDL",
+      "name": "Мандалай",
+      "city": "Мандалай",
+      "lat": 21.7022,
+      "lon": 95.9779,
+      "iso2": "MM"
+    },
+    {
+      "iata": "NYT",
+      "name": "Нейпьидо",
+      "city": "Нейпьидо",
+      "lat": 19.6235,
+      "lon": 96.201,
+      "iso2": "MM"
+    },
+    {
+      "iata": "UBN",
+      "name": "Международный аэропорт Чингисхан",
+      "city": "Улан-Батор",
+      "lat": 47.6469,
+      "lon": 106.8198,
+      "iso2": "MN"
+    },
+    {
+      "iata": "MXV",
+      "name": "Мурэн",
+      "city": "Мурэн",
+      "lat": 49.6637,
+      "lon": 100.1,
+      "iso2": "MN"
+    },
+    {
+      "iata": "HVD",
+      "name": "Ховд",
+      "city": "Ховд",
+      "lat": 47.9541,
+      "lon": 91.6282,
+      "iso2": "MN"
+    },
+    {
+      "iata": "MFM",
+      "name": "Макао",
+      "city": "Макао",
+      "lat": 22.1496,
+      "lon": 113.592,
+      "iso2": "MO"
+    },
+    {
+      "iata": "ROP",
+      "name": "Рота",
+      "city": "Рота",
+      "lat": 14.1733,
+      "lon": 145.2411,
+      "iso2": "MP"
+    },
+    {
+      "iata": "SPN",
+      "name": "Сайпан",
+      "city": "Сайпан",
+      "lat": 15.1194,
+      "lon": 145.7288,
+      "iso2": "MP"
+    },
+    {
+      "iata": "TIQ",
+      "name": "Тиниан",
+      "city": "Сайпан",
+      "lat": 14.9992,
+      "lon": 145.6194,
+      "iso2": "MP"
+    },
+    {
+      "iata": "FDF",
+      "name": "Martinique Aimé Césaire International Airport",
+      "city": "Фор-де-Франс",
+      "lat": 14.591,
+      "lon": -61.0032,
+      "iso2": "MQ"
+    },
+    {
+      "iata": "NKC",
+      "name": "Нуакшот-Умтунси",
+      "city": "Нуакшот",
+      "lat": 18.31,
+      "lon": -15.9697,
+      "iso2": "MR"
+    },
+    {
+      "iata": "NDB",
+      "name": "Нуадибу",
+      "city": "Нуадибу",
+      "lat": 20.9324,
+      "lon": -17.0302,
+      "iso2": "MR"
+    },
+    {
+      "iata": "OUZ",
+      "name": "Tazadit Airport",
+      "city": "Зуэрат",
+      "lat": 22.7573,
+      "lon": -12.4822,
+      "iso2": "MR"
+    },
+    {
+      "iata": "MNI",
+      "name": "John A. Osborne Airport",
+      "city": "Плимут",
+      "lat": 16.7918,
+      "lon": -62.1932,
+      "iso2": "MS"
+    },
+    {
+      "iata": "MLA",
+      "name": "Мальта",
+      "city": "Валлетта",
+      "lat": 35.8459,
+      "lon": 14.4915,
+      "iso2": "MT"
+    },
+    {
+      "iata": "MRU",
+      "name": "Международный аэропорт имени сэра Сивусагура Рамгулама",
+      "city": "Порт-Луи",
+      "lat": -20.4302,
+      "lon": 57.6836,
+      "iso2": "MU"
+    },
+    {
+      "iata": "RRG",
+      "name": "Аэропорт имени сэра Гаэтана Дюваля",
+      "city": "Порт-Матюрен",
+      "lat": -19.7567,
+      "lon": 63.3593,
+      "iso2": "MU"
+    },
+    {
+      "iata": "MLE",
+      "name": "Международный аэропорт Мале",
+      "city": "Мале",
+      "lat": 4.1918,
+      "lon": 73.5291,
+      "iso2": "MV"
+    },
+    {
+      "iata": "GAN",
+      "name": "Ган",
+      "city": "Ган",
+      "lat": -0.693,
+      "lon": 73.1526,
+      "iso2": "MV"
+    },
+    {
+      "iata": "HAQ",
+      "name": "Ханимаду",
+      "city": "Хаа-Дхаалу",
+      "lat": 6.7432,
+      "lon": 73.1671,
+      "iso2": "MV"
+    },
+    {
+      "iata": "LLW",
+      "name": "Международный аэропорт имени Камузу",
+      "city": "Лилонгве",
+      "lat": -13.7894,
+      "lon": 33.781,
+      "iso2": "MW"
+    },
+    {
+      "iata": "BLZ",
+      "name": "Международный аэропорт Чилека",
+      "city": "Блантайр",
+      "lat": -15.6772,
+      "lon": 34.9723,
+      "iso2": "MW"
+    },
+    {
+      "iata": "MEX",
+      "name": "Международный аэропорт имени Бенито Хуареса",
+      "city": "Мехико",
+      "lat": 19.4358,
+      "lon": -99.0703,
+      "iso2": "MX"
+    },
+    {
+      "iata": "TIJ",
+      "name": "Тихуана",
+      "city": "Тихуана",
+      "lat": 32.541,
+      "lon": -116.97,
+      "iso2": "MX"
+    },
+    {
+      "iata": "PBC",
+      "name": "Пуэбла",
+      "city": "Пуэбла-де-Сарагоса",
+      "lat": 19.1585,
+      "lon": -98.3716,
+      "iso2": "MX"
+    },
+    {
+      "iata": "KUL",
+      "name": "Куала-Лумпур",
+      "city": "Куала-Лумпур",
+      "lat": 2.7456,
+      "lon": 101.71,
+      "iso2": "MY"
+    },
+    {
+      "iata": "JHB",
+      "name": "Международный аэропорт Сенай",
+      "city": "Джохор-Бару",
+      "lat": 1.6413,
+      "lon": 103.67,
+      "iso2": "MY"
+    },
+    {
+      "iata": "IPH",
+      "name": "Аэропорт имени Султана Азлана Шаха",
+      "city": "Ипох",
+      "lat": 4.5673,
+      "lon": 101.0916,
+      "iso2": "MY"
+    },
+    {
+      "iata": "MPM",
+      "name": "Мапуту",
+      "city": "Мапуту",
+      "lat": -25.9208,
+      "lon": 32.5726,
+      "iso2": "MZ"
+    },
+    {
+      "iata": "APL",
+      "name": "Nampula Airport",
+      "city": "Нампула",
+      "lat": -15.1056,
+      "lon": 39.2818,
+      "iso2": "MZ"
+    },
+    {
+      "iata": "BEW",
+      "name": "Beira International Airport",
+      "city": "Бейра",
+      "lat": -19.7964,
+      "lon": 34.9076,
+      "iso2": "MZ"
+    },
+    {
+      "iata": "WDH",
+      "name": "Международный аэропорт имени Хосеа Кутако",
+      "city": "Виндхук",
+      "lat": -22.4799,
+      "lon": 17.4709,
+      "iso2": "NA"
+    },
+    {
+      "iata": "WVB",
+      "name": "Walvis Bay International Airport",
+      "city": "Уолфиш-Бей",
+      "lat": -22.9793,
+      "lon": 14.6471,
+      "iso2": "NA"
+    },
+    {
+      "iata": "MPA",
+      "name": "Катима Мулило",
+      "city": "Катима-Мулило",
+      "lat": -17.6343,
+      "lon": 24.1767,
+      "iso2": "NA"
+    },
+    {
+      "iata": "NOU",
+      "name": "Ла-Тонтута",
+      "city": "Нумеа",
+      "lat": -22.0146,
+      "lon": 166.213,
+      "iso2": "NC"
+    },
+    {
+      "iata": "GEA",
+      "name": "Нумеа-Мажента",
+      "city": "Нумеа",
+      "lat": -22.2577,
+      "lon": 166.4728,
+      "iso2": "NC"
+    },
+    {
+      "iata": "ILP",
+      "name": "Île des Pins Airport",
+      "city": "Пен",
+      "lat": -22.5889,
+      "lon": 167.456,
+      "iso2": "NC"
+    },
+    {
+      "iata": "NIM",
+      "name": "Международный аэропорт имени Амани Диори",
+      "city": "Ниамей",
+      "lat": 13.4815,
+      "lon": 2.1836,
+      "iso2": "NE"
+    },
+    {
+      "iata": "ZND",
+      "name": "Zinder Airport",
+      "city": "Зиндер",
+      "lat": 13.779,
+      "lon": 8.9838,
+      "iso2": "NE"
+    },
+    {
+      "iata": "NLK",
+      "name": "Аэропорт Острова Норфолк",
+      "city": "Бернт-Пайн",
+      "lat": -29.0418,
+      "lon": 167.9395,
+      "iso2": "NF"
+    },
+    {
+      "iata": "ABV",
+      "name": "Международный аэропорт имени Ннамди Азикиве",
+      "city": "Абуджа",
+      "lat": 9.0068,
+      "lon": 7.2632,
+      "iso2": "NG"
+    },
+    {
+      "iata": "LOS",
+      "name": "Международный аэропорт имени Мурталы Мухаммеда",
+      "city": "Лагос",
+      "lat": 6.5774,
+      "lon": 3.3212,
+      "iso2": "NG"
+    },
+    {
+      "iata": "KAN",
+      "name": "Международный аэропорт имени Маллама Амину Кано",
+      "city": "Кано",
+      "lat": 12.0456,
+      "lon": 8.5236,
+      "iso2": "NG"
+    },
+    {
+      "iata": "MGA",
+      "name": "Международный аэропорт имени Аугусто Сандино",
+      "city": "Манагуа",
+      "lat": 12.1415,
+      "lon": -86.1682,
+      "iso2": "NI"
+    },
+    {
+      "iata": "BEF",
+      "name": "Bluefields Airport",
+      "city": "Блуфилдс",
+      "lat": 11.991,
+      "lon": -83.7741,
+      "iso2": "NI"
+    },
+    {
+      "iata": "PUZ",
+      "name": "Пуэрто-Кабесас",
+      "city": "Пуэрто-Кабесас",
+      "lat": 14.0472,
+      "lon": -83.3867,
+      "iso2": "NI"
+    },
+    {
+      "iata": "AMS",
+      "name": "Схипхол",
+      "city": "Амстердам",
+      "lat": 52.3086,
+      "lon": 4.7639,
+      "iso2": "NL"
+    },
+    {
+      "iata": "RTM",
+      "name": "Роттердам-Гаага",
+      "city": "Роттердам",
+      "lat": 51.9569,
+      "lon": 4.4372,
+      "iso2": "NL"
+    },
+    {
+      "iata": "GRQ",
+      "name": "Элде",
+      "city": "Гронинген",
+      "lat": 53.1191,
+      "lon": 6.5777,
+      "iso2": "NL"
+    },
+    {
+      "iata": "OSL",
+      "name": "Гардермуэн",
+      "city": "Осло",
+      "lat": 60.1939,
+      "lon": 11.1004,
+      "iso2": "NO"
+    },
+    {
+      "iata": "BGO",
+      "name": "Берген",
+      "city": "Берген",
+      "lat": 60.2934,
+      "lon": 5.2181,
+      "iso2": "NO"
+    },
+    {
+      "iata": "TRD",
+      "name": "Trondheim Airport, Værnes",
+      "city": "Тронхейм",
+      "lat": 63.4578,
+      "lon": 10.924,
+      "iso2": "NO"
+    },
+    {
+      "iata": "KTM",
+      "name": "Международный аэропорт имени Трибхувана",
+      "city": "Катманду",
+      "lat": 27.6966,
+      "lon": 85.3591,
+      "iso2": "NP"
+    },
+    {
+      "iata": "BWA",
+      "name": "Бхайрахава",
+      "city": "Сиддхартханагар",
+      "lat": 27.5046,
+      "lon": 83.4104,
+      "iso2": "NP"
+    },
+    {
+      "iata": "PHH",
+      "name": "Pokhara International Airport",
+      "city": "Покхара",
+      "lat": 28.1838,
+      "lon": 84.0147,
+      "iso2": "NP"
+    },
+    {
+      "iata": "INU",
+      "name": "Науру",
+      "city": "Ярен",
+      "lat": -0.5479,
+      "lon": 166.9195,
+      "iso2": "NR"
+    },
+    {
+      "iata": "IUE",
+      "name": "Международный аэропорт Ханнан",
+      "city": "Алофи",
+      "lat": -19.0801,
+      "lon": -169.9235,
+      "iso2": "NU"
+    },
+    {
+      "iata": "AKL",
+      "name": "Окленд",
+      "city": "Окленд",
+      "lat": -37.012,
+      "lon": 174.7863,
+      "iso2": "NZ"
+    },
+    {
+      "iata": "CHC",
+      "name": "Крайстчерч",
+      "city": "Крайстчерч",
+      "lat": -43.489,
+      "lon": 172.5321,
+      "iso2": "NZ"
+    },
+    {
+      "iata": "WLG",
+      "name": "Веллингтон",
+      "city": "Веллингтон",
+      "lat": -41.3268,
+      "lon": 174.8069,
+      "iso2": "NZ"
+    },
+    {
+      "iata": "MCT",
+      "name": "Маскат",
+      "city": "Маскат",
+      "lat": 23.6002,
+      "lon": 58.2853,
+      "iso2": "OM"
+    },
+    {
+      "iata": "SLL",
+      "name": "Салала",
+      "city": "Салала",
+      "lat": 17.0387,
+      "lon": 54.0913,
+      "iso2": "OM"
+    },
+    {
+      "iata": "OHS",
+      "name": "Suhar International Airport",
+      "city": "Сухар",
+      "lat": 24.386,
+      "lon": 56.6254,
+      "iso2": "OM"
+    },
+    {
+      "iata": "PTY",
+      "name": "Международный аэропорт Токумен",
+      "city": "Панама",
+      "lat": 9.0714,
+      "lon": -79.3835,
+      "iso2": "PA"
+    },
+    {
+      "iata": "DAV",
+      "name": "Enrique Malek International Airport",
+      "city": "Давид",
+      "lat": 8.389,
+      "lon": -82.4364,
+      "iso2": "PA"
+    },
+    {
+      "iata": "CHX",
+      "name": "Changuinola Captain Manuel Niño International Airport",
+      "city": "Чангинола",
+      "lat": 9.459,
+      "lon": -82.5151,
+      "iso2": "PA"
+    },
+    {
+      "iata": "LIM",
+      "name": "Международный аэропорт имени Хорхе Чавеса",
+      "city": "Лима",
+      "lat": -12.0219,
+      "lon": -77.1143,
+      "iso2": "PE"
+    },
+    {
+      "iata": "AQP",
+      "name": "Международный аэропорт имени Родригеса Бальона",
+      "city": "Арекипа",
+      "lat": -16.3408,
+      "lon": -71.5695,
+      "iso2": "PE"
+    },
+    {
+      "iata": "TRU",
+      "name": "Международный аэропорт имени Карлоса Мартинеса де Пинильоса",
+      "city": "Трухильо",
+      "lat": -8.0824,
+      "lon": -79.1088,
+      "iso2": "PE"
+    },
+    {
+      "iata": "PPT",
+      "name": "Фааа",
+      "city": "Папеэте",
+      "lat": -17.5535,
+      "lon": -149.6069,
+      "iso2": "PF"
+    },
+    {
+      "iata": "AAA",
+      "name": "Anaa Airport",
+      "city": "Анаа",
+      "lat": -17.3526,
+      "lon": -145.51,
+      "iso2": "PF"
+    },
+    {
+      "iata": "AHE",
+      "name": "Ahe Airport",
+      "city": "Ахе",
+      "lat": -14.4281,
+      "lon": -146.257,
+      "iso2": "PF"
+    },
+    {
+      "iata": "POM",
+      "name": "Международный аэропорт имени Джексона",
+      "city": "Порт-Морсби",
+      "lat": -9.4434,
+      "lon": 147.22,
+      "iso2": "PG"
+    },
+    {
+      "iata": "LAE",
+      "name": "Nadzab Tomodachi International Airport",
+      "city": "Лаэ",
+      "lat": -6.568,
+      "lon": 146.7265,
+      "iso2": "PG"
+    },
+    {
+      "iata": "HGU",
+      "name": "Mount Hagen Kagamuga Airport",
+      "city": "Маунт-Хаген",
+      "lat": -5.8282,
+      "lon": 144.2994,
+      "iso2": "PG"
+    },
+    {
+      "iata": "MNL",
+      "name": "Международный аэропорт имени Ниноя Акино",
+      "city": "Манила",
+      "lat": 14.5086,
+      "lon": 121.02,
+      "iso2": "PH"
+    },
+    {
+      "iata": "DVO",
+      "name": "Francisco Bangoy International Airport",
+      "city": "Давао",
+      "lat": 7.1255,
+      "lon": 125.646,
+      "iso2": "PH"
+    },
+    {
+      "iata": "ZAM",
+      "name": "Zamboanga International Airport",
+      "city": "Замбоанга",
+      "lat": 6.9224,
+      "lon": 122.06,
+      "iso2": "PH"
+    },
+    {
+      "iata": "ISB",
+      "name": "Исламабад-Новый",
+      "city": "Исламабад",
+      "lat": 33.549,
+      "lon": 72.8257,
+      "iso2": "PK"
+    },
+    {
+      "iata": "LHE",
+      "name": "Международный аэропорт имени Аллама Икбала",
+      "city": "Лахор",
+      "lat": 31.5216,
+      "lon": 74.4036,
+      "iso2": "PK"
+    },
+    {
+      "iata": "KHI",
+      "name": "Международный аэропорт имени Джинны",
+      "city": "Карачи",
+      "lat": 24.9065,
+      "lon": 67.1608,
+      "iso2": "PK"
+    },
+    {
+      "iata": "WAW",
+      "name": "Варшавский аэропорт имени Фридерика Шопена",
+      "city": "Варшава",
+      "lat": 52.1657,
+      "lon": 20.9671,
+      "iso2": "PL"
+    },
+    {
+      "iata": "KRK",
+      "name": "Краков-Балице",
+      "city": "Краков",
+      "lat": 50.0777,
+      "lon": 19.7848,
+      "iso2": "PL"
+    },
+    {
+      "iata": "WRO",
+      "name": "Вроцлавский аэропорт имени Коперника",
+      "city": "Вроцлав",
+      "lat": 51.1037,
+      "lon": 16.8821,
+      "iso2": "PL"
+    },
+    {
+      "iata": "FSP",
+      "name": "Saint-Pierre Pointe-Blanche Airport",
+      "city": "Сен-Пьер",
+      "lat": 46.7627,
+      "lon": -56.175,
+      "iso2": "PM"
+    },
+    {
+      "iata": "SJU",
+      "name": "Международный аэропорт имени Луиса Муньоса Марина",
+      "city": "Сан-Хуан",
+      "lat": 18.4394,
+      "lon": -66.0018,
+      "iso2": "PR"
+    },
+    {
+      "iata": "PSE",
+      "name": "Mercedita International Airport",
+      "city": "Понсе",
+      "lat": 18.0083,
+      "lon": -66.563,
+      "iso2": "PR"
+    },
+    {
+      "iata": "MAZ",
+      "name": "Eugenio Maria De Hostos Airport",
+      "city": "Маягуэс",
+      "lat": 18.2557,
+      "lon": -67.1485,
+      "iso2": "PR"
+    },
+    {
+      "iata": "LIS",
+      "name": "Аэропорт Лиссабона",
+      "city": "Лиссабон",
+      "lat": 38.7813,
+      "lon": -9.1359,
+      "iso2": "PT"
+    },
+    {
+      "iata": "OPO",
+      "name": "Порту",
+      "city": "Порту",
+      "lat": 41.2481,
+      "lon": -8.6814,
+      "iso2": "PT"
+    },
+    {
+      "iata": "FNC",
+      "name": "Международный аэропорт имени Криштиану Роналду",
+      "city": "Фуншал",
+      "lat": 32.6978,
+      "lon": -16.7746,
+      "iso2": "PT"
+    },
+    {
+      "iata": "ROR",
+      "name": "Международный аэропорт имени Романа Тметучла",
+      "city": "Корор",
+      "lat": 7.367,
+      "lon": 134.5441,
+      "iso2": "PW"
+    },
+    {
+      "iata": "ASU",
+      "name": "Международный аэропорт имени Сильвио Петтиросси",
+      "city": "Асунсьон",
+      "lat": -25.2402,
+      "lon": -57.5192,
+      "iso2": "PY"
+    },
+    {
+      "iata": "AGT",
+      "name": "Guaraní International Airport",
+      "city": "Сьюдад-дель-Эсте",
+      "lat": -25.4572,
+      "lon": -54.8395,
+      "iso2": "PY"
+    },
+    {
+      "iata": "ENO",
+      "name": "Teniente Ramon A. Ayub Gonzalez International Airport",
+      "city": "Энкарнасьон",
+      "lat": -27.2275,
+      "lon": -55.8376,
+      "iso2": "PY"
+    },
+    {
+      "iata": "DOH",
+      "name": "Хамад",
+      "city": "Доха",
+      "lat": 25.2731,
+      "lon": 51.6081,
+      "iso2": "QA"
+    },
+    {
+      "iata": "DIA",
+      "name": "Международный аэропорт Доха",
+      "city": "Доха",
+      "lat": 25.2594,
+      "lon": 51.5655,
+      "iso2": "QA"
+    },
+    {
+      "iata": "RUN",
+      "name": "Аэропорт имени Ролана Гарроса",
+      "city": "Сен-Дени",
+      "lat": -20.8901,
+      "lon": 55.5189,
+      "iso2": "RE"
+    },
+    {
+      "iata": "ZSE",
+      "name": "Saint-Pierre Pierrefonds Airport",
+      "city": "Сен-Пьер",
+      "lat": -21.3194,
+      "lon": 55.4225,
+      "iso2": "RE"
+    },
+    {
+      "iata": "OTP",
+      "name": "Международный аэропорт имени Анри Коанды",
+      "city": "Бухарест",
+      "lat": 44.5718,
+      "lon": 26.1033,
+      "iso2": "RO"
+    },
+    {
+      "iata": "IAS",
+      "name": "Яссы",
+      "city": "Яссы",
+      "lat": 47.1796,
+      "lon": 27.6214,
+      "iso2": "RO"
+    },
+    {
+      "iata": "CND",
+      "name": "Международный аэропорт имени Михаила Когэлничану",
+      "city": "Констанца",
+      "lat": 44.3622,
+      "lon": 28.4883,
+      "iso2": "RO"
+    },
+    {
+      "iata": "BEG",
+      "name": "Международный аэропорт имени Николы Теслы",
+      "city": "Белград",
+      "lat": 44.8184,
+      "lon": 20.3091,
+      "iso2": "RS"
+    },
+    {
+      "iata": "INI",
+      "name": "Международный аэропорт имени Константина Великого",
+      "city": "Ниш",
+      "lat": 43.3365,
+      "lon": 21.8562,
+      "iso2": "RS"
+    },
+    {
+      "iata": "KVO",
+      "name": "Morava Airport",
+      "city": "Кралево",
+      "lat": 43.8175,
+      "lon": 20.5867,
+      "iso2": "RS"
+    },
+    {
+      "iata": "SVO",
+      "name": "Шереметьево",
+      "city": "Москва",
+      "lat": 55.9769,
+      "lon": 37.4112,
+      "iso2": "RU"
+    },
+    {
+      "iata": "LED",
+      "name": "Пулково",
+      "city": "Санкт-Петербург",
+      "lat": 59.8003,
+      "lon": 30.2625,
+      "iso2": "RU"
+    },
+    {
+      "iata": "OVB",
+      "name": "Толмачёво",
+      "city": "Новосибирск",
+      "lat": 55.0198,
+      "lon": 82.6187,
+      "iso2": "RU"
+    },
+    {
+      "iata": "KGL",
+      "name": "Кигали",
+      "city": "Кигали",
+      "lat": -1.9686,
+      "lon": 30.1395,
+      "iso2": "RW"
+    },
+    {
+      "iata": "KME",
+      "name": "Kamembe Airport",
+      "city": "Чьянгугу",
+      "lat": -2.4622,
+      "lon": 28.9079,
+      "iso2": "RW"
+    },
+    {
+      "iata": "RUH",
+      "name": "Международный аэропорт имени Короля Халида",
+      "city": "Эр-Рияд",
+      "lat": 24.9576,
+      "lon": 46.6988,
+      "iso2": "SA"
+    },
+    {
+      "iata": "JED",
+      "name": "Международный аэропорт имени короля Абдул-Азиза",
+      "city": "Джидда",
+      "lat": 21.6802,
+      "lon": 39.1574,
+      "iso2": "SA"
+    },
+    {
+      "iata": "MED",
+      "name": "Международный аэропорт имени принца Мохаммеда бин Абдул-Азиза",
+      "city": "Медина",
+      "lat": 24.5534,
+      "lon": 39.7051,
+      "iso2": "SA"
+    },
+    {
+      "iata": "HIR",
+      "name": "Хониара",
+      "city": "Хониара",
+      "lat": -9.428,
+      "lon": 160.055,
+      "iso2": "SB"
+    },
+    {
+      "iata": "MUA",
+      "name": "Munda Airport",
+      "city": "Мунда",
+      "lat": -8.328,
+      "lon": 157.263,
+      "iso2": "SB"
+    },
+    {
+      "iata": "SEZ",
+      "name": "Сейшелы",
+      "city": "Маэ",
+      "lat": -4.6743,
+      "lon": 55.5218,
+      "iso2": "SC"
+    },
+    {
+      "iata": "PRI",
+      "name": "Аэропорт острова Праслен",
+      "city": "Праслен",
+      "lat": -4.3193,
+      "lon": 55.6916,
+      "iso2": "SC"
+    },
+    {
+      "iata": "KRT",
+      "name": "Хартум",
+      "city": "Хартум",
+      "lat": 15.5895,
+      "lon": 32.5532,
+      "iso2": "SD"
+    },
+    {
+      "iata": "PZU",
+      "name": "Порт-Судан",
+      "city": "Порт-Судан",
+      "lat": 19.4346,
+      "lon": 37.2341,
+      "iso2": "SD"
+    },
+    {
+      "iata": "KSL",
+      "name": "Kassala Airport",
+      "city": "Кассала",
+      "lat": 15.3875,
+      "lon": 36.3288,
+      "iso2": "SD"
+    },
+    {
+      "iata": "ARN",
+      "name": "Стокгольм-Арланда",
+      "city": "Стокгольм",
+      "lat": 59.6485,
+      "lon": 17.9288,
+      "iso2": "SE"
+    },
+    {
+      "iata": "GOT",
+      "name": "Гётеборг-Ландветтер",
+      "city": "Гётеборг",
+      "lat": 57.6628,
+      "lon": 12.2798,
+      "iso2": "SE"
+    },
+    {
+      "iata": "LPI",
+      "name": "Linköping City Airport",
+      "city": "Линчёпинг",
+      "lat": 58.4049,
+      "lon": 15.6845,
+      "iso2": "SE"
+    },
+    {
+      "iata": "SIN",
+      "name": "Чанги",
+      "city": "Сингапур",
+      "lat": 1.3502,
+      "lon": 103.994,
+      "iso2": "SG"
+    },
+    {
+      "iata": "XSP",
+      "name": "Селетар",
+      "city": "Сингапур",
+      "lat": 1.4156,
+      "lon": 103.8667,
+      "iso2": "SG"
+    },
+    {
+      "iata": "HLE",
+      "name": "Saint Helena International Airport",
+      "city": "Джеймстаун",
+      "lat": -15.9589,
+      "lon": -5.6461,
+      "iso2": "SH"
+    },
+    {
+      "iata": "ASI",
+      "name": "RAF Ascension Island",
+      "city": "Джорджтаун",
+      "lat": -7.9702,
+      "lon": -14.3927,
+      "iso2": "SH"
+    },
+    {
+      "iata": "LJU",
+      "name": "Любляна",
+      "city": "Любляна",
+      "lat": 46.2237,
+      "lon": 14.4576,
+      "iso2": "SI"
+    },
+    {
+      "iata": "MBX",
+      "name": "Maribor Edvard Rusjan Airport",
+      "city": "Марибор",
+      "lat": 46.4799,
+      "lon": 15.6861,
+      "iso2": "SI"
+    },
+    {
+      "iata": "BTS",
+      "name": "Братислава",
+      "city": "Братислава",
+      "lat": 48.1702,
+      "lon": 17.2127,
+      "iso2": "SK"
+    },
+    {
+      "iata": "KSC",
+      "name": "Кошице-Барца",
+      "city": "Кошице",
+      "lat": 48.6631,
+      "lon": 21.2411,
+      "iso2": "SK"
+    },
+    {
+      "iata": "TAT",
+      "name": "Попрад-Татры",
+      "city": "Попрад",
+      "lat": 49.071,
+      "lon": 20.2414,
+      "iso2": "SK"
+    },
+    {
+      "iata": "FNA",
+      "name": "Фритаун",
+      "city": "Фритаун",
+      "lat": 8.6164,
+      "lon": -13.1955,
+      "iso2": "SL"
+    },
+    {
+      "iata": "DSS",
+      "name": "Международный аэропорт имени Блеза Дианя",
+      "city": "Дакар",
+      "lat": 14.6709,
+      "lon": -17.0728,
+      "iso2": "SN"
+    },
+    {
+      "iata": "ZIG",
+      "name": "Ziguinchor Airport",
+      "city": "Зигиншор",
+      "lat": 12.5556,
+      "lon": -16.2833,
+      "iso2": "SN"
+    },
+    {
+      "iata": "CSK",
+      "name": "Cap Skirring Airport",
+      "city": "Кап-Скирринг",
+      "lat": 12.3953,
+      "lon": -16.748,
+      "iso2": "SN"
+    },
+    {
+      "iata": "MGQ",
+      "name": "Могадишо",
+      "city": "Могадишо",
+      "lat": 2.0144,
+      "lon": 45.3047,
+      "iso2": "SO"
+    },
+    {
+      "iata": "HGA",
+      "name": "Международный аэропорт имени Эгаля",
+      "city": "Харгейса",
+      "lat": 9.5141,
+      "lon": 44.0835,
+      "iso2": "SO"
+    },
+    {
+      "iata": "BSA",
+      "name": "Bender Qassim International Airport",
+      "city": "Босасо",
+      "lat": 11.2752,
+      "lon": 49.1392,
+      "iso2": "SO"
+    },
+    {
+      "iata": "PBM",
+      "name": "Johan Adolf Pengel International Airport",
+      "city": "Парамарибо",
+      "lat": 5.4528,
+      "lon": -55.1878,
+      "iso2": "SR"
+    },
+    {
+      "iata": "JUB",
+      "name": "Джуба",
+      "city": "Джуба",
+      "lat": 4.872,
+      "lon": 31.6011,
+      "iso2": "SS"
+    },
+    {
+      "iata": "MAK",
+      "name": "Малакаль",
+      "city": "Малакаль",
+      "lat": 9.5587,
+      "lon": 31.6519,
+      "iso2": "SS"
+    },
+    {
+      "iata": "WUU",
+      "name": "Wau Airport",
+      "city": "Вау",
+      "lat": 7.7258,
+      "lon": 27.975,
+      "iso2": "SS"
+    },
+    {
+      "iata": "TMS",
+      "name": "Сан-Томе",
+      "city": "Сан-Томе",
+      "lat": 0.3782,
+      "lon": 6.7122,
+      "iso2": "ST"
+    },
+    {
+      "iata": "PCP",
+      "name": "Принсипи",
+      "city": "Принсипи",
+      "lat": 1.6612,
+      "lon": 7.4111,
+      "iso2": "ST"
+    },
+    {
+      "iata": "SAL",
+      "name": "Сан-Сальвадор",
+      "city": "Сан-Сальвадор",
+      "lat": 13.4445,
+      "lon": -89.0558,
+      "iso2": "SV"
+    },
+    {
+      "iata": "ILS",
+      "name": "Илопанго",
+      "city": "Сан-Сальвадор",
+      "lat": 13.6995,
+      "lon": -89.1199,
+      "iso2": "SV"
+    },
+    {
+      "iata": "SXM",
+      "name": "Международный аэропорт имени Принцессы Юлианы",
+      "city": "Синт-Мартен",
+      "lat": 18.041,
+      "lon": -63.1089,
+      "iso2": "SX"
+    },
+    {
+      "iata": "DAM",
+      "name": "Дамаск",
+      "city": "Дамаск",
+      "lat": 33.4115,
+      "lon": 36.5156,
+      "iso2": "SY"
+    },
+    {
+      "iata": "ALP",
+      "name": "Алеппо",
+      "city": "Алеппо",
+      "lat": 36.1813,
+      "lon": 37.2269,
+      "iso2": "SY"
+    },
+    {
+      "iata": "KAC",
+      "name": "Qamishli International Airport",
+      "city": "Эль-Камышлы",
+      "lat": 37.0206,
+      "lon": 41.1914,
+      "iso2": "SY"
+    },
+    {
+      "iata": "SHO",
+      "name": "Международный аэропорт имени короля Мсвати III",
+      "city": "Мпака",
+      "lat": -26.3586,
+      "lon": 31.7169,
+      "iso2": "SZ"
+    },
+    {
+      "iata": "PLS",
+      "name": "Провиденсьялес",
+      "city": "Провиденсьялес",
+      "lat": 21.7737,
+      "lon": -72.2683,
+      "iso2": "TC"
+    },
+    {
+      "iata": "GDT",
+      "name": "Гранд-Терк",
+      "city": "Коберн-Таун",
+      "lat": 21.4445,
+      "lon": -71.1423,
+      "iso2": "TC"
+    },
+    {
+      "iata": "NCA",
+      "name": "North Caicos Airport",
+      "city": "Норт-Кайкос",
+      "lat": 21.9161,
+      "lon": -71.943,
+      "iso2": "TC"
+    },
+    {
+      "iata": "NDJ",
+      "name": "Нджамена",
+      "city": "Нджамена",
+      "lat": 12.1337,
+      "lon": 15.034,
+      "iso2": "TD"
+    },
+    {
+      "iata": "LFW",
+      "name": "Ломе — Токуэн",
+      "city": "Ломе",
+      "lat": 6.1656,
+      "lon": 1.2545,
+      "iso2": "TG"
+    },
+    {
+      "iata": "BKK",
+      "name": "Суварнабхуми",
+      "city": "Бангкок",
+      "lat": 13.6811,
+      "lon": 100.747,
+      "iso2": "TH"
+    },
+    {
+      "iata": "HDY",
+      "name": "Хатъяй",
+      "city": "Хатъяй",
+      "lat": 6.9332,
+      "lon": 100.393,
+      "iso2": "TH"
+    },
+    {
+      "iata": "UTH",
+      "name": "Удонтхани",
+      "city": "Удонтхани",
+      "lat": 17.3862,
+      "lon": 102.7886,
+      "iso2": "TH"
+    },
+    {
+      "iata": "DYU",
+      "name": "Душанбе",
+      "city": "Душанбе",
+      "lat": 38.5437,
+      "lon": 68.823,
+      "iso2": "TJ"
+    },
+    {
+      "iata": "TJU",
+      "name": "Куляб",
+      "city": "Куляб",
+      "lat": 37.9881,
+      "lon": 69.805,
+      "iso2": "TJ"
+    },
+    {
+      "iata": "LBD",
+      "name": "Худжанд",
+      "city": "Худжанд",
+      "lat": 40.2154,
+      "lon": 69.6947,
+      "iso2": "TJ"
+    },
+    {
+      "iata": "DIL",
+      "name": "Международный аэропорт имени Президента Николау Лобату",
+      "city": "Дили",
+      "lat": -8.5466,
+      "lon": 125.5245,
+      "iso2": "TL"
+    },
+    {
+      "iata": "OEC",
+      "name": "Окуси",
+      "city": "Oecussi-Ambeno",
+      "lat": -9.1984,
+      "lon": 124.3379,
+      "iso2": "TL"
+    },
+    {
+      "iata": "BCH",
+      "name": "Baucau Airport",
+      "city": "Баукау",
+      "lat": -8.4865,
+      "lon": 126.4,
+      "iso2": "TL"
+    },
+    {
+      "iata": "ASB",
+      "name": "Ашхабад",
+      "city": "Ашхабад",
+      "lat": 37.9868,
+      "lon": 58.361,
+      "iso2": "TM"
+    },
+    {
+      "iata": "CRZ",
+      "name": "Туркменабад",
+      "city": "Туркменабад",
+      "lat": 38.9307,
+      "lon": 63.564,
+      "iso2": "TM"
+    },
+    {
+      "iata": "TAZ",
+      "name": "Дашогуз",
+      "city": "Дашогуз",
+      "lat": 41.7599,
+      "lon": 59.8361,
+      "iso2": "TM"
+    },
+    {
+      "iata": "TUN",
+      "name": "Тунис-Карфаген",
+      "city": "Тунис",
+      "lat": 36.851,
+      "lon": 10.2272,
+      "iso2": "TN"
+    },
+    {
+      "iata": "DJE",
+      "name": "Djerba Zarzis International Airport",
+      "city": "Джерба",
+      "lat": 33.8737,
+      "lon": 10.7773,
+      "iso2": "TN"
+    },
+    {
+      "iata": "SFA",
+      "name": "Сфакс–Тина",
+      "city": "Сфакс",
+      "lat": 34.718,
+      "lon": 10.691,
+      "iso2": "TN"
+    },
+    {
+      "iata": "TBU",
+      "name": "Международный аэропорт Фуаамоту",
+      "city": "Нукуалофа",
+      "lat": -21.2414,
+      "lon": -175.1492,
+      "iso2": "TO"
+    },
+    {
+      "iata": "VAV",
+      "name": "Вавау",
+      "city": "Вавау",
+      "lat": -18.5853,
+      "lon": -173.962,
+      "iso2": "TO"
+    },
+    {
+      "iata": "HPA",
+      "name": "Lifuka Island Airport",
+      "city": "Лифука",
+      "lat": -19.777,
+      "lon": -174.341,
+      "iso2": "TO"
+    },
+    {
+      "iata": "ESB",
+      "name": "Эсенбога",
+      "city": "Анкара",
+      "lat": 40.1281,
+      "lon": 32.9951,
+      "iso2": "TR"
+    },
+    {
+      "iata": "IST",
+      "name": "Стамбул",
+      "city": "Стамбул",
+      "lat": 41.2749,
+      "lon": 28.7321,
+      "iso2": "TR"
+    },
+    {
+      "iata": "GZT",
+      "name": "Gaziantep Oğuzeli International Airport",
+      "city": "Газиантеп",
+      "lat": 36.9472,
+      "lon": 37.4787,
+      "iso2": "TR"
+    },
+    {
+      "iata": "POS",
+      "name": "Пиарко",
+      "city": "Порт-оф-Спейн",
+      "lat": 10.5953,
+      "lon": -61.3376,
+      "iso2": "TT"
+    },
+    {
+      "iata": "TAB",
+      "name": "A.N.R. Robinson International Airport",
+      "city": "Скарборо",
+      "lat": 11.1496,
+      "lon": -60.8313,
+      "iso2": "TT"
+    },
+    {
+      "iata": "FUN",
+      "name": "Фунафути",
+      "city": "Фунафути",
+      "lat": -8.5239,
+      "lon": 179.197,
+      "iso2": "TV"
+    },
+    {
+      "iata": "TPE",
+      "name": "Тайвань-Таоюань",
+      "city": "Тайбэй",
+      "lat": 25.0777,
+      "lon": 121.233,
+      "iso2": "TW"
+    },
+    {
+      "iata": "RMQ",
+      "name": "Taichung International Airport / Ching Chuang Kang Air Base",
+      "city": "Тайчжун",
+      "lat": 24.2647,
+      "lon": 120.621,
+      "iso2": "TW"
+    },
+    {
+      "iata": "KHH",
+      "name": "Гаосюн",
+      "city": "Гаосюн",
+      "lat": 22.5771,
+      "lon": 120.35,
+      "iso2": "TW"
+    },
+    {
+      "iata": "JRO",
+      "name": "Килиманджаро",
+      "city": "Аруша",
+      "lat": -3.427,
+      "lon": 37.0735,
+      "iso2": "TZ"
+    },
+    {
+      "iata": "DAR",
+      "name": "Международный аэропорт имени Джулиуса Ньерере",
+      "city": "Дар-эс-Салам",
+      "lat": -6.8735,
+      "lon": 39.2073,
+      "iso2": "TZ"
+    },
+    {
+      "iata": "MWZ",
+      "name": "Mwanza International Airport",
+      "city": "Мванза",
+      "lat": -2.4466,
+      "lon": 32.936,
+      "iso2": "TZ"
+    },
+    {
+      "iata": "EBB",
+      "name": "Энтеббе",
+      "city": "Энтеббе",
+      "lat": 0.0424,
+      "lon": 32.4435,
+      "iso2": "UG"
+    },
+    {
+      "iata": "KHX",
+      "name": "Savannah Airstrip",
+      "city": "Kihihi",
+      "lat": -0.7165,
+      "lon": 29.6997,
+      "iso2": "UG"
+    },
+    {
+      "iata": "RUA",
+      "name": "Arua Airport",
+      "city": "Аруа",
+      "lat": 3.0492,
+      "lon": 30.9117,
+      "iso2": "UG"
+    },
+    {
+      "iata": "AWK",
+      "name": "Wake Island Airfield",
+      "city": "Уэйк",
+      "lat": 19.2824,
+      "lon": 166.6366,
+      "iso2": "UM"
+    },
+    {
+      "iata": "IAD",
+      "name": "Вашингтонский аэропорт имени Даллеса",
+      "city": "Вашингтон",
+      "lat": 38.9445,
+      "lon": -77.4558,
+      "iso2": "US"
+    },
+    {
+      "iata": "LAX",
+      "name": "Лос-Анджелес",
+      "city": "Лос-Анджелес",
+      "lat": 33.9425,
+      "lon": -118.408,
+      "iso2": "US"
+    },
+    {
+      "iata": "HOU",
+      "name": "Аэропорт имени Уильяма П. Хобби",
+      "city": "Хьюстон",
+      "lat": 29.6453,
+      "lon": -95.2768,
+      "iso2": "US"
+    },
+    {
+      "iata": "MVD",
+      "name": "Карраско",
+      "city": "Монтевидео",
+      "lat": -34.8356,
+      "lon": -56.0265,
+      "iso2": "UY"
+    },
+    {
+      "iata": "PDP",
+      "name": "Capitan Corbeta CA Curbelo International Airport",
+      "city": "Пунта-дель-Эсте",
+      "lat": -34.8551,
+      "lon": -55.0943,
+      "iso2": "UY"
+    },
+    {
+      "iata": "RVY",
+      "name": "Pres. Gral. Óscar D. Gestido Binational Airport",
+      "city": "Ривера",
+      "lat": -30.9746,
+      "lon": -55.4762,
+      "iso2": "UY"
+    },
+    {
+      "iata": "TAS",
+      "name": "Ташкент",
+      "city": "Ташкент",
+      "lat": 41.2579,
+      "lon": 69.2812,
+      "iso2": "UZ"
+    },
+    {
+      "iata": "NMA",
+      "name": "Наманган",
+      "city": "Наманган",
+      "lat": 40.9846,
+      "lon": 71.5578,
+      "iso2": "UZ"
+    },
+    {
+      "iata": "SKD",
+      "name": "Самарканд",
+      "city": "Самарканд",
+      "lat": 39.7018,
+      "lon": 66.9815,
+      "iso2": "UZ"
+    },
+    {
+      "iata": "SVD",
+      "name": "Argyle International Airport",
+      "city": "Кингстаун",
+      "lat": 13.1597,
+      "lon": -61.1488,
+      "iso2": "VC"
+    },
+    {
+      "iata": "BQU",
+      "name": "J F Mitchell Airport",
+      "city": "Бекия",
+      "lat": 12.9884,
+      "lon": -61.262,
+      "iso2": "VC"
+    },
+    {
+      "iata": "CIW",
+      "name": "Canouan Airport",
+      "city": "Кануан",
+      "lat": 12.699,
+      "lon": -61.3424,
+      "iso2": "VC"
+    },
+    {
+      "iata": "CCS",
+      "name": "Международный аэропорт имени Симона Боливара",
+      "city": "Каракас",
+      "lat": 10.6022,
+      "lon": -66.9912,
+      "iso2": "VE"
+    },
+    {
+      "iata": "MAR",
+      "name": "Ла-Чинита",
+      "city": "Маракайбо",
+      "lat": 10.5575,
+      "lon": -71.7293,
+      "iso2": "VE"
+    },
+    {
+      "iata": "VLN",
+      "name": "Arturo Michelena International Airport",
+      "city": "Валенсия",
+      "lat": 10.1497,
+      "lon": -67.9284,
+      "iso2": "VE"
+    },
+    {
+      "iata": "EIS",
+      "name": "Terrance B. Lettsome International Airport",
+      "city": "Род-Таун",
+      "lat": 18.4455,
+      "lon": -64.5417,
+      "iso2": "VG"
+    },
+    {
+      "iata": "VIJ",
+      "name": "Virgin Gorda Airport",
+      "city": "Верджин-Горда",
+      "lat": 18.4466,
+      "lon": -64.4279,
+      "iso2": "VG"
+    },
+    {
+      "iata": "STT",
+      "name": "Cyril E. King Airport",
+      "city": "Сент-Томас",
+      "lat": 18.3371,
+      "lon": -64.9773,
+      "iso2": "VI"
+    },
+    {
+      "iata": "STX",
+      "name": "Henry E. Rohlsen Airport",
+      "city": "Санта-Крус",
+      "lat": 17.7014,
+      "lon": -64.8026,
+      "iso2": "VI"
+    },
+    {
+      "iata": "HAN",
+      "name": "Нойбай",
+      "city": "Ханой",
+      "lat": 21.2212,
+      "lon": 105.807,
+      "iso2": "VN"
+    },
+    {
+      "iata": "SGN",
+      "name": "Таншоннят",
+      "city": "Хошимин",
+      "lat": 10.8188,
+      "lon": 106.652,
+      "iso2": "VN"
+    },
+    {
+      "iata": "HPH",
+      "name": "Хайфон Катби",
+      "city": "Хайфон",
+      "lat": 20.8174,
+      "lon": 106.7243,
+      "iso2": "VN"
+    },
+    {
+      "iata": "VLI",
+      "name": "Бауэрфилд",
+      "city": "Порт-Вила",
+      "lat": -17.6993,
+      "lon": 168.32,
+      "iso2": "VU"
+    },
+    {
+      "iata": "SON",
+      "name": "Санто-Пекоа",
+      "city": "Люганвиль",
+      "lat": -15.505,
+      "lon": 167.22,
+      "iso2": "VU"
+    },
+    {
+      "iata": "TAH",
+      "name": "Whitegrass Airport",
+      "city": "Танна",
+      "lat": -19.4551,
+      "lon": 169.224,
+      "iso2": "VU"
+    },
+    {
+      "iata": "WLS",
+      "name": "Hihifo Airport",
+      "city": "Малаэ",
+      "lat": -13.2394,
+      "lon": -176.1986,
+      "iso2": "WF"
+    },
+    {
+      "iata": "APW",
+      "name": "Фалеоло",
+      "city": "Апиа",
+      "lat": -13.83,
+      "lon": -172.008,
+      "iso2": "WS"
+    },
+    {
+      "iata": "PRN",
+      "name": "Международный аэропорт Приштины",
+      "city": "Приштина",
+      "lat": 42.5728,
+      "lon": 21.0358,
+      "iso2": "XK"
+    },
+    {
+      "iata": "SAH",
+      "name": "Сана",
+      "city": "Сана",
+      "lat": 15.4763,
+      "lon": 44.2197,
+      "iso2": "YE"
+    },
+    {
+      "iata": "ADE",
+      "name": "Аден",
+      "city": "Аден",
+      "lat": 12.8296,
+      "lon": 45.03,
+      "iso2": "YE"
+    },
+    {
+      "iata": "GXF",
+      "name": "Сайун",
+      "city": "Сайун",
+      "lat": 15.9659,
+      "lon": 48.7881,
+      "iso2": "YE"
+    },
+    {
+      "iata": "DZA",
+      "name": "Дзаудзи-Памандзи",
+      "city": "Мамуцу",
+      "lat": -12.8093,
+      "lon": 45.2818,
+      "iso2": "YT"
+    },
+    {
+      "iata": "JNB",
+      "name": "Международный аэропорт имени О. Р. Тамбо",
+      "city": "Йоханнесбург",
+      "lat": -26.1401,
+      "lon": 28.2468,
+      "iso2": "ZA"
+    },
+    {
+      "iata": "CPT",
+      "name": "Кейптаун",
+      "city": "Кейптаун",
+      "lat": -33.974,
+      "lon": 18.6043,
+      "iso2": "ZA"
+    },
+    {
+      "iata": "DUR",
+      "name": "King Shaka International Airport",
+      "city": "Дурбан",
+      "lat": -29.6144,
+      "lon": 31.1197,
+      "iso2": "ZA"
+    },
+    {
+      "iata": "LUN",
+      "name": "Международный аэропорт имени Кеннета Каунды",
+      "city": "Лусака",
+      "lat": -15.3308,
+      "lon": 28.4527,
+      "iso2": "ZM"
+    },
+    {
+      "iata": "NLA",
+      "name": "Simon Mwansa Kapwepwe International Airport",
+      "city": "Ндола",
+      "lat": -12.9651,
+      "lon": 28.5156,
+      "iso2": "ZM"
+    },
+    {
+      "iata": "LVI",
+      "name": "Международный аэропорт имени Гарри Мванги Нкумбулы",
+      "city": "Ливингстон",
+      "lat": -17.8215,
+      "lon": 25.8196,
+      "iso2": "ZM"
+    },
+    {
+      "iata": "HRE",
+      "name": "Международный аэропорт имени Роберта Мугабе",
+      "city": "Хараре",
+      "lat": -17.9318,
+      "lon": 31.0928,
+      "iso2": "ZW"
+    },
+    {
+      "iata": "BUQ",
+      "name": "Международный аэропорт имени Джошуа Мкабуко Нкомо",
+      "city": "Булавайо",
+      "lat": -20.0163,
+      "lon": 28.6229,
+      "iso2": "ZW"
+    },
+    {
+      "iata": "VFA",
+      "name": "Victoria Falls International Airport",
+      "city": "Виктория-Фолс",
+      "lat": -18.0974,
+      "lon": 25.8369,
+      "iso2": "ZW"
+    },
+    {
+      "iata": "ORU",
+      "name": "Juan Mendoza International Airport",
+      "city": "Оруро",
+      "lat": -17.9562,
+      "lon": -67.0758,
+      "iso2": "BO"
+    },
+    {
+      "iata": "BBK",
+      "name": "Касане",
+      "city": "Касане",
+      "lat": -17.8317,
+      "lon": 25.1662,
+      "iso2": "BW"
+    },
+    {
+      "iata": "BVC",
+      "name": "Международный аэропорт имени Аристидиша Перейры",
+      "city": "Боа-Вишта",
+      "lat": 16.1365,
+      "lon": -22.8889,
+      "iso2": "CV"
+    },
+    {
+      "iata": "TET",
+      "name": "Tete Airport",
+      "city": "Тете",
+      "lat": -16.1048,
+      "lon": 33.6402,
+      "iso2": "MZ"
+    },
+    {
+      "iata": "RIY",
+      "name": "Riyan International Airport",
+      "city": "Эль-Мукалла",
+      "lat": 14.6622,
+      "lon": 49.3753,
+      "iso2": "YE"
+    },
+    {
+      "iata": "AEP",
+      "name": "Международный аэропорт имени Хорхе Ньюбери",
+      "city": "Буэнос-Айрес",
+      "lat": -34.5594,
+      "lon": -58.4155,
+      "iso2": "AR"
+    },
+    {
+      "iata": "BSB",
+      "name": "Бразилиа",
+      "city": "Бразилиа",
+      "lat": -15.8692,
+      "lon": -47.9208,
+      "iso2": "BR"
+    },
+    {
+      "iata": "YOW",
+      "name": "Международный аэропорт имени Макдональда — Картье",
+      "city": "Оттава",
+      "lat": 45.3225,
+      "lon": -75.6692,
+      "iso2": "CA"
+    },
+    {
+      "iata": "LBG",
+      "name": "Париж — Ле-Бурже",
+      "city": "Париж",
+      "lat": 48.9623,
+      "lon": 2.4365,
+      "iso2": "FR"
+    },
+    {
+      "iata": "HLP",
+      "name": "Международный аэропорт имени Халима Перданакусумы",
+      "city": "Джакарта",
+      "lat": -6.267,
+      "lon": 106.8903,
+      "iso2": "ID"
+    },
+    {
+      "iata": "CIA",
+      "name": "Чампино",
+      "city": "Рим",
+      "lat": 41.7988,
+      "lon": 12.5953,
+      "iso2": "IT"
+    },
+    {
+      "iata": "GMP",
+      "name": "Кимпхо",
+      "city": "Сеул",
+      "lat": 37.5583,
+      "lon": 126.791,
+      "iso2": "KR"
+    },
+    {
+      "iata": "SZB",
+      "name": "Sultan Abdul Aziz Shah International Airport",
+      "city": "Куала-Лумпур",
+      "lat": 3.1306,
+      "lon": 101.549,
+      "iso2": "MY"
+    },
+    {
+      "iata": "BBU",
+      "name": "Международный аэропорт Бухарест Бэняса имени Ауреля Влайку",
+      "city": "Бухарест",
+      "lat": 44.5031,
+      "lon": 26.1029,
+      "iso2": "RO"
+    },
+    {
+      "iata": "DMK",
+      "name": "Донмыанг",
+      "city": "Бангкок",
+      "lat": 13.9126,
+      "lon": 100.607,
+      "iso2": "TH"
+    },
+    {
+      "iata": "TSA",
+      "name": "Суншань",
+      "city": "Тайбэй",
+      "lat": 25.0672,
+      "lon": 121.5528,
+      "iso2": "TW"
+    },
+    {
+      "iata": "DCA",
+      "name": "Вашингтонский национальный аэропорт имени Рональда Рейгана",
+      "city": "Вашингтон",
+      "lat": 38.8521,
+      "lon": -77.0377,
+      "iso2": "US"
+    },
+    {
+      "iata": "HLA",
+      "name": "Лансерия",
+      "city": "Йоханнесбург",
+      "lat": -25.939,
+      "lon": 27.9266,
+      "iso2": "ZA"
+    },
+    {
+      "iata": "KZN",
+      "name": "Казань",
+      "city": "Казань",
+      "lat": 55.60667,
+      "lon": 49.28167,
+      "iso2": "RU"
+    },
+    {
+      "iata": "CSY",
+      "name": "Чебоксары",
+      "city": "Чебоксары",
+      "lat": 56.0903,
+      "lon": 47.3473,
+      "iso2": "RU"
+    },
+    {
+      "iata": "NBC",
+      "name": "Бегишево",
+      "city": "Нижнекамск",
+      "lat": 55.5644,
+      "lon": 52.0925,
+      "iso2": "RU"
+    },
+    {
+      "iata": "KUF",
+      "name": "Курумоч",
+      "city": "Самара",
+      "lat": 53.5044,
+      "lon": 50.1642,
+      "iso2": "RU"
+    },
+    {
+      "iata": "GOJ",
+      "name": "Стригино",
+      "city": "Нижний Новгород",
+      "lat": 56.2301,
+      "lon": 43.784,
+      "iso2": "RU"
+    },
+    {
+      "iata": "DME",
+      "name": "Домодедово",
+      "city": "Москва",
+      "lat": 55.4088,
+      "lon": 37.9063,
+      "iso2": "RU"
+    },
+    {
+      "iata": "VKO",
+      "name": "Внуково",
+      "city": "Москва",
+      "lat": 55.5915,
+      "lon": 37.2615,
+      "iso2": "RU"
+    },
+    {
+      "iata": "AER",
+      "name": "Сочи",
+      "city": "Сочи",
+      "lat": 43.4499,
+      "lon": 39.9566,
+      "iso2": "RU"
+    },
+    {
+      "iata": "SVX",
+      "name": "Кольцово",
+      "city": "Екатеринбург",
+      "lat": 56.7431,
+      "lon": 60.8027,
+      "iso2": "RU"
+    },
+    {
+      "iata": "UFA",
+      "name": "Уфа",
+      "city": "Уфа",
+      "lat": 54.5575,
+      "lon": 55.8744,
+      "iso2": "RU"
+    },
+    {
+      "iata": "MRV",
+      "name": "Минеральные Воды",
+      "city": "Минеральные Воды",
+      "lat": 44.2251,
+      "lon": 43.0819,
+      "iso2": "RU"
+    },
+    {
+      "iata": "KGD",
+      "name": "Храброво",
+      "city": "Калининград",
+      "lat": 54.8901,
+      "lon": 20.5926,
+      "iso2": "RU"
+    },
+    {
+      "iata": "KRR",
+      "name": "Пашковский",
+      "city": "Краснодар",
+      "lat": 45.0347,
+      "lon": 39.1705,
+      "iso2": "RU"
+    },
+    {
+      "iata": "MCX",
+      "name": "Уйташ",
+      "city": "Махачкала",
+      "lat": 42.8168,
+      "lon": 47.6523,
+      "iso2": "RU"
+    },
+    {
+      "iata": "GRV",
+      "name": "Грозный",
+      "city": "Грозный",
+      "lat": 43.3882,
+      "lon": 45.6997,
+      "iso2": "RU"
+    },
+    {
+      "iata": "OMS",
+      "name": "Омск-Центральный",
+      "city": "Омск",
+      "lat": 54.9663,
+      "lon": 73.3105,
+      "iso2": "RU"
+    },
+    {
+      "iata": "IKT",
+      "name": "Иркутск",
+      "city": "Иркутск",
+      "lat": 52.268,
+      "lon": 104.389,
+      "iso2": "RU"
+    },
+    {
+      "iata": "KJA",
+      "name": "Красноярск",
+      "city": "Красноярск",
+      "lat": 56.1729,
+      "lon": 92.4933,
+      "iso2": "RU"
+    },
+    {
+      "iata": "ARH",
+      "name": "Талаги",
+      "city": "Архангельск",
+      "lat": 64.6003,
+      "lon": 40.7167,
+      "iso2": "RU"
+    },
+    {
+      "iata": "TOF",
+      "name": "Богашёво",
+      "city": "Томск",
+      "lat": 56.3803,
+      "lon": 85.2083,
+      "iso2": "RU"
+    },
+    {
+      "iata": "VVO",
+      "name": "Владивосток",
+      "city": "Владивосток",
+      "lat": 43.399,
+      "lon": 132.148,
+      "iso2": "RU"
+    },
+    {
+      "iata": "SAW",
+      "name": "Стамбульский аэропорт имени Сабихи Гёкчен",
+      "city": "Стамбул",
+      "lat": 40.8986,
+      "lon": 29.3092,
+      "iso2": "TR"
+    },
+    {
+      "iata": "AYT",
+      "name": "Анталья",
+      "city": "Анталья",
+      "lat": 36.8987,
+      "lon": 30.8005,
+      "iso2": "TR"
+    },
+    {
+      "iata": "ADB",
+      "name": "Аэропорт имени Аднана Мендереса",
+      "city": "Измир",
+      "lat": 38.2924,
+      "lon": 27.157,
+      "iso2": "TR"
+    },
+    {
+      "iata": "KBP",
+      "name": "Борисполь",
+      "city": "Киев",
+      "lat": 50.345,
+      "lon": 30.8947,
+      "iso2": "UA"
+    },
+    {
+      "iata": "FRU",
+      "name": "Манас",
+      "city": "Бишкек",
+      "lat": 43.0613,
+      "lon": 74.4776,
+      "iso2": "KG"
+    },
+    {
+      "iata": "FRA",
+      "name": "Франкфурт-на-Майне",
+      "city": "Франкфурт-на-Майне",
+      "lat": 50.0379,
+      "lon": 8.5622,
+      "iso2": "DE"
+    },
+    {
+      "iata": "SSH",
+      "name": "Шарм-эш-Шейх",
+      "city": "Шарм-эш-Шейх",
+      "lat": 27.9773,
+      "lon": 34.395,
+      "iso2": "EG"
+    },
+    {
+      "iata": "HRG",
+      "name": "Хургада",
+      "city": "Хургада",
+      "lat": 27.1783,
+      "lon": 33.7994,
+      "iso2": "EG"
+    },
+    {
+      "iata": "HKT",
+      "name": "Пхукет",
+      "city": "Пхукет",
+      "lat": 8.1132,
+      "lon": 98.3169,
+      "iso2": "TH"
+    },
+    {
+      "iata": "DAD",
+      "name": "Дананг",
+      "city": "Дананг",
+      "lat": 16.0439,
+      "lon": 108.1994,
+      "iso2": "VN"
+    },
+    {
+      "iata": "DPS",
+      "name": "Международный аэропорт имени Нгураха Рая",
+      "city": "Денпасар",
+      "lat": -8.7482,
+      "lon": 115.1672,
+      "iso2": "ID"
+    },
+    {
+      "iata": "NRT",
+      "name": "Нарита",
+      "city": "Токио",
+      "lat": 35.7647,
+      "lon": 140.3864,
+      "iso2": "JP"
+    },
+    {
+      "iata": "PVG",
+      "name": "Пудун",
+      "city": "Шанхай",
+      "lat": 31.1443,
+      "lon": 121.8083,
+      "iso2": "CN"
+    },
+    {
+      "iata": "SYX",
+      "name": "Феникс",
+      "city": "Санья",
+      "lat": 18.3029,
+      "lon": 109.412,
+      "iso2": "CN"
+    },
+    {
+      "iata": "JFK",
+      "name": "Международный аэропорт имени Джона Кеннеди",
+      "city": "Нью-Йорк",
+      "lat": 40.6413,
+      "lon": -73.7781,
+      "iso2": "US"
+    },
+    {
+      "iata": "ORD",
+      "name": "О’Хара",
+      "city": "Чикаго",
+      "lat": 41.9742,
+      "lon": -87.9073,
+      "iso2": "US"
+    },
+    {
+      "iata": "MIA",
+      "name": "Майами",
+      "city": "Майами",
+      "lat": 25.7959,
+      "lon": -80.287,
+      "iso2": "US"
+    },
+    {
+      "iata": "PNH",
+      "name": "Пномпень",
+      "city": "Пномпень",
+      "lat": 11.5466,
+      "lon": 104.8441,
+      "iso2": "KH"
+    }
+  ]
+}
