@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Страница не нашлась — Куда переехать</title>
+  <meta name="robots" content="noindex" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><circle cx='8' cy='8' r='7' fill='%2334D399'/></svg>">
+  <style>
+    :root { --bg:#0B0E14; --card:#121826; --line:#28334D; --text:#EDF2FA; --muted:#8C9AB5; --accent:#34D399; }
+    * { box-sizing: border-box; }
+    body { margin:0; background:var(--bg); color:var(--text);
+           font:15px/1.5 "Onest","Segoe UI",system-ui,sans-serif; }
+    header { padding:20px 24px 12px; border-bottom:1px solid var(--line); }
+    nav a { color:var(--accent); margin-right:16px; text-decoration:none; }
+    a { color:var(--accent); }
+    h1 { margin:18px 0 6px; font-size:22px; font-weight:700; }
+    main { max-width:720px; padding:4px 24px 48px; }
+    p { margin:8px 0; }
+    ul { margin:10px 0; padding-left:20px; }
+    li { margin:6px 0; }
+    .sub { color:var(--muted); }
+    .card { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px 16px; margin:14px 0; }
+    code { font-family:ui-monospace,"JetBrains Mono",monospace; font-size:13px; color:var(--muted); }
+    footer { padding:16px 24px 28px; color:var(--muted); font-size:11px; border-top:1px solid var(--line); }
+  </style>
+</head>
+<body>
+  <header>
+    <nav><a href="/">Глобус</a><a href="/table">Таблица</a><a href="/about">О проекте</a></nav>
+  </header>
+  <main>
+    <h1>Такой страницы нет</h1>
+    <p class="sub">Адрес <code id="where"></code> не открывается: либо в нём опечатка,
+      либо страница переехала. Данные на месте — заблудился только адрес.</p>
+    <div class="card">
+      <ul>
+        <li><a href="/">Глобус</a> — карта цен, виз и дороги по 255 странам.</li>
+        <li><a href="/table">Таблица</a> — те же страны списком, со ссылкой на каждую.</li>
+        <li><a href="/about">О проекте</a> — источники, лицензии и принципы честности данных.</li>
+      </ul>
+    </div>
+    <p class="sub">Страница страны живёт по коду ISO: <code>/country/RS</code> — Сербия,
+      <code>/country/GE</code> — Грузия. Полный список кодов — в таблице.</p>
+  </main>
+  <footer>Куда переехать — открытые данные. Чего нет в источнике, того нет на экране.</footer>
+  <script>
+    // textContent, не innerHTML: в адресе бывает что угодно, и подставлять его
+    // разметкой на странице ошибки — самый глупый способ получить XSS.
+    document.getElementById("where").textContent = location.pathname + location.search;
+  </script>
+</body>
+</html>

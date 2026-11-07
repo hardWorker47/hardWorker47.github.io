@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>О проекте и данные — Куда переехать</title>
+  <link rel="canonical" href="https://korolev-ilya.org/about" />
+  <meta property="og:url" content="https://korolev-ilya.org/about" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Куда переехать" />
+  <meta property="og:locale" content="ru_RU" />
+  <meta name="description" content="Куда переехать — агрегатор открытых данных по 255 странам: виза, право на легальную работу, цены, дорога. Здесь — принципы честности данных и полный список источников с лицензиями." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><circle cx='8' cy='8' r='7' fill='%2334D399'/></svg>">
+  <!-- Google Fonts из РФ без VPN часто не открываются. Render-blocking
+       CSS держал бы белый экран, пока запрос не отвалится. Нет ответа —
+       остаются системные из font-family. -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700&family=Onest:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" media="print" onload="this.media='all'">
+  <style>
+    /* переменные и типографика — те же, что в table.html и globe.html */
+    :root {
+      --bg: #0B0E14;
+      --card: #121826;
+      --line: #28334D;
+      --text: #EDF2FA;
+      --muted: #8C9AB5;
+      --accent: #34D399;
+      --mono: "JetBrains Mono", ui-monospace, monospace;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; font: 15px/1.5 "Onest", "Segoe UI", system-ui, sans-serif; background: var(--bg); color: var(--text); }
+    header { padding: 20px 24px 12px; border-bottom: 1px solid var(--line); }
+    h1 { margin: 0 0 6px; font-family: "Unbounded", "Segoe UI", sans-serif; font-size: 20px; font-weight: 700; }
+    h2 { margin: 28px 0 8px; font-family: "Unbounded", "Segoe UI", sans-serif; font-size: 16px; font-weight: 500; }
+    h3 { margin: 18px 0 6px; font-size: 14px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
+    nav a { color: var(--accent); margin-right: 16px; text-decoration: none; }
+    a { color: var(--accent); }
+    .sub { color: var(--muted); }
+    main { max-width: 940px; padding: 4px 24px 48px; }
+    p { margin: 8px 0; }
+    ul { margin: 8px 0; padding-left: 20px; }
+    li { margin: 5px 0; }
+    li b { font-weight: 600; }
+    .card { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; margin: 12px 0; }
+    .scroller { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+    table { width: 100%; border-collapse: collapse; margin: 6px 0 4px; }
+    th, td { padding: 8px 10px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+    th { color: var(--muted); font-weight: 600; font-size: 12px; text-transform: uppercase; }
+    td.what { color: var(--muted); }
+    td.lic { font-size: 13px; }
+    code { font-family: var(--mono); font-size: 13px; color: var(--muted); }
+    .stat { font-family: var(--mono); }
+    footer { padding: 16px 24px 28px; color: var(--muted); font-size: 11px; border-top: 1px solid var(--line); }
+    @media (max-width: 760px) { table { min-width: 640px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <nav><a href="/">Глобус</a><a href="/table">Таблица</a><a href="/about">О проекте</a></nav>
+    <h1>О проекте и данные</h1>
+    <p class="sub" id="stat">Открытые данные по 255 странам: виза, право на работу, цены, дорога.</p>
+  </header>
+  <main>
+    <h2>Что это и для кого</h2>
+    <p>«Куда переехать» — витрина открытых данных по 255 странам, собранная в один экран:
+      нужна ли виза с российским паспортом, можно ли там легально работать, сколько стоит жизнь,
+      сколько стоит и сколько занимает дорога. Всё считается по официальной статистике и открытым
+      наборам данных, а не по ощущениям из чатов.</p>
+    <p>Сайт для тех, кто решает переехать или уехать надолго и хочет проверяемые цифры:
+      каждую можно открыть, увидеть источник и дату и пойти сверить самому.</p>
+    <div class="card">
+      <p>Ядро бесплатно и открыто: <b>без регистрации, без сбора почты, без рекламных сетей.</b>
+        Аналитики и трекеров на страницах нет — счётчиков посещаемости мы не ставим.</p>
+    </div>
+
+    <h2>Принципы честности данных</h2>
+    <ul>
+      <li><b>Чего нет в источнике — того нет на экране.</b> Пустота с объяснением честнее
+        выдуманной цифры: страна без данных так и подписана, а не заполняется «средним по региону».</li>
+      <li><b>У каждой цифры видны источник и дата наблюдения.</b> Устаревшее помечается возрастом:
+        например, цена билета старше 30 дней гаснет на карте и в карточке подписана «кэш от …, устарел».</li>
+      <li><b>Оценка названа оценкой.</b> Такси до аэропорта по формуле «прямая × 1,35», часы в воздухе,
+        расход 8 л/100 км — это прикидки, и они подписаны прикидками. Там, где есть факт
+        (километры по дорогам, номер рейса, расписание), показан факт.</li>
+      <li><b>В легализации есть отметка сверки.</b> Строка справочника показывается только с датой
+        снимка, а рядом написано, сверена ли она руками с источником и когда. Не сверено — так и написано.</li>
+      <li><b>Термины не подменяются.</b> «Жильё» в открытых данных — это траты домохозяйства вместе
+        с коммуналкой и ипотекой, а не рыночная аренда: чистой аренды нет ни в одном открытом наборе,
+        и выдавать одно за другое мы не будем. Цена билета — минимум по календарю поиска, а не бронь.</li>
+      <li><b>Расхождения показываются, а не сглаживаются.</b> Виза по датасету passport-index и виза
+        по снимку справочника лежат рядом; если они расходятся, это видно бейджем.</li>
+      <li><b>Это не юридическая консультация.</b> Правила меняются; перед решением проверьте
+        консульство и местный закон.</li>
+    </ul>
+
+    <h2>Источники и лицензии</h2>
+    <p class="sub">Полный машиночитаемый список — <a href="/api/sources">/api/sources</a>.
+      Где источник объявил лицензию, она указана дословно; где нет — написано, на каких условиях
+      мы им пользуемся. Ссылку на источник просят почти все, и она есть у каждой цифры в карточке страны.</p>
+
+    <h3>Цены, доходы и уровень жизни</h3>
+    <div class="scroller">
+    <table>
+      <thead><tr><th>Источник</th><th>Что берём</th><th>Лицензия / условия</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><a href="https://data.worldbank.org" target="_blank" rel="noopener">World Bank</a> — PPP, ВНД, WDI</td>
+          <td class="what">Паритет покупательной способности, доход на человека, 8 социальных показателей</td>
+          <td class="lic">CC BY 4.0</td>
+        </tr>
+        <tr>
+          <td><a href="https://www.worldbank.org/en/programs/icp" target="_blank" rel="noopener">World Bank ICP 2021</a></td>
+          <td class="what">Уровень цен по категориям (еда, жильё, транспорт, рестораны), мир = 100</td>
+          <td class="lic">CC BY 4.0</td>
+        </tr>
+        <tr>
+          <td><a href="https://ec.europa.eu/eurostat" target="_blank" rel="noopener">Eurostat</a></td>
+          <td class="what">Индексы уровня цен по 11 категориям (ЕС = 100), медианный доход и доля затрат на жильё (EU-SILC)</td>
+          <td class="lic">Свободное повторное использование с указанием источника (политика Eurostat)</td>
+        </tr>
+        <tr>
+          <td><a href="https://fpma.fao.org" target="_blank" rel="noopener">FAO GIEWS FPMA</a></td>
+          <td class="what">Настоящие розничные ценники: молоко, хлеб, рис, картофель, яйца, сахар, масло, фасоль, кукурузная мука</td>
+          <td class="lic">Данные FAO, использование с указанием источника</td>
+        </tr>
+        <tr>
+          <td><a href="https://prices.openfoodfacts.org" target="_blank" rel="noopener">Open Prices</a> (Open Food Facts)</td>
+          <td class="what">Полка магазина: ценники с фото, брендом, магазином и датой; счётчик покрытия по странам</td>
+          <td class="lic">ODbL</td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/TheEconomist/big-mac-data" target="_blank" rel="noopener">The Economist</a> — индекс БигМака</td>
+          <td class="what">Цена БигМака в местной валюте и долларах</td>
+          <td class="lic">Данные The Economist, с указанием источника</td>
+        </tr>
+        <tr>
+          <td><a href="https://www.exchangerate-api.com" target="_blank" rel="noopener">ExchangeRate-API</a> (open.er-api.com)</td>
+          <td class="what">Курсы валют к доллару</td>
+          <td class="lic">Открытый эндпоинт, требует указания источника</td>
+        </tr>
+        <tr>
+          <td><a href="https://openvan.camp" target="_blank" rel="noopener">OpenVan</a></td>
+          <td class="what">Цены бензина по сортам</td>
+          <td class="lic">Публичный API, с указанием источника</td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+
+    <h3>Легализация, визы, право на работу</h3>
+    <div class="scroller">
+    <table>
+      <thead><tr><th>Источник</th><th>Что берём</th><th>Лицензия / условия</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><a href="https://github.com/imorte/passport-index-data" target="_blank" rel="noopener">passport-index-data</a></td>
+          <td class="what">Визовые требования: 39,6 тыс. пар «паспорт → страна»</td>
+          <td class="lic">MIT</td>
+        </tr>
+        <tr>
+          <td>Снимок справочника АТОР</td>
+          <td class="what">Визовый режим для граждан РФ — снимок на дату, показан рядом с датасетом</td>
+          <td class="lic">Снимок с указанием даты, показывается как снимок</td>
+        </tr>
+        <tr>
+          <td><code>data/legal-rf.json</code> — свой справочник</td>
+          <td class="what">Право на работу, виза цифрового кочевника, путь к ВНЖ для паспорта РФ</td>
+          <td class="lic">Ведётся вручную: у строки видны дата снимка и отметка сверки</td>
+        </tr>
+        <tr>
+          <td><a href="https://en.wikipedia.org/wiki/Legality_of_cannabis" target="_blank" rel="noopener">Wikipedia</a> — Legality of cannabis</td>
+          <td class="what">Правовой статус каннабиса по странам</td>
+          <td class="lic">CC BY-SA 4.0</td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+
+    <h3>Дорога, карта, картинки</h3>
+    <div class="scroller">
+    <table>
+      <thead><tr><th>Источник</th><th>Что берём</th><th>Лицензия / условия</th></tr></thead>
+      <tbody>
+        <tr>
+          <td>Aviasales / Travelpayouts</td>
+          <td class="what">Минимум по календарю цен за полгода вперёд, дата вылета, номер рейса. Это кэш поиска, а не бронь</td>
+          <td class="lic">Партнёрское API, не открытые данные; цены показываются с датой снятия</td>
+        </tr>
+        <tr>
+          <td><a href="https://router.project-osrm.org" target="_blank" rel="noopener">OSRM</a> (OpenStreetMap)</td>
+          <td class="what">Километры и минуты по настоящим дорогам</td>
+          <td class="lic">ODbL (данные OpenStreetMap)</td>
+        </tr>
+        <tr>
+          <td><a href="https://transitous.org" target="_blank" rel="noopener">Transitous</a> / MOTIS</td>
+          <td class="what">Поезда, автобусы, электрички по открытым GTFS. По России и СНГ открытых GTFS нет — там честно пусто</td>
+          <td class="lic">Открытые GTFS перевозчиков, агрегатор без ключа</td>
+        </tr>
+        <tr>
+          <td><a href="https://ourairports.com" target="_blank" rel="noopener">OurAirports</a></td>
+          <td class="what">Справочник аэропортов (~600 в 234 странах)</td>
+          <td class="lic">Public domain</td>
+        </tr>
+        <tr>
+          <td><a href="https://ru.wikipedia.org" target="_blank" rel="noopener">Wikipedia</a> / Wikimedia Commons</td>
+          <td class="what">Фото столиц и крупных городов</td>
+          <td class="lic">CC BY-SA 4.0</td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/topojson/world-atlas" target="_blank" rel="noopener">world-atlas</a> (Natural Earth)</td>
+          <td class="what">Контуры стран для глобуса</td>
+          <td class="lic">Public domain (Natural Earth)</td>
+        </tr>
+        <tr>
+          <td>Публичные Telegram-каналы</td>
+          <td class="what">Блок «Из телеграма» в карточке страны — веб-превью открытых каналов, цены оттуда не берутся</td>
+          <td class="lic">Публичные посты со ссылкой на канал и дату</td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+
+    <h2>Что мы считаем сами</h2>
+    <p>Часть цифр не берётся готовой, а выводится из источников выше — и это тоже подписано:</p>
+    <ul>
+      <li><b>Корзина vs США и vs дома</b> — паритет покупательной способности World Bank, делённый на
+        рыночный курс. Значения вне разумного коридора не публикуются: у нескольких стран официальный
+        курс даёт мусор, и лучше пустая клетка, чем «320% от США».</li>
+      <li><b>Расходы на жильё, €/мес</b> — медианный доход EU-SILC ÷ 12 × доля затрат на жильё.
+        Это траты вместе с коммуналкой, а не аренда, и так подписано рядом с числом.</li>
+      <li><b>Бензин в долларах за литр</b> — местная цена по коду валюты и нашему же курсу.</li>
+      <li><b>Дорога и такси</b> — километры OSRM, бензин по расходу 8 л/100 км, такси как верхняя
+        граница (подача + километраж). Тариф перевозчика мы не знаем и не выдаём за него формулу.</li>
+    </ul>
+
+    <h2>Как поддержать</h2>
+    <!-- ЗАГОТОВКА ДЛЯ ВЛАДЕЛЬЦА.
+         Сюда владелец сам добавляет способ поддержки — и только российскими
+         сервисами (Boosty, CloudTips, перевод по СБП и т.п.).
+         Красные линии проекта, которые тут нельзя пересекать:
+           — никаких иностранных донат-платформ и криптокошельков;
+           — никакой рекламы VPN и обхода блокировок;
+           — никакой политики: мы про визы, легализацию, цены и маршруты;
+           — никаких рекламных сетей, аналитики и сбора почты.
+         Пока блок пуст, на экране стоит честная строка ниже. -->
+    <div class="card">
+      <p>Сейчас проект ничего не просит: сайт бесплатный, без рекламы и без сбора данных.
+        Если способ поддержки появится, он будет здесь — одной строкой и без всплывающих окон.</p>
+      <p class="sub">Помочь можно и без денег: нашли расхождение с официальным источником —
+        напишите, какая цифра и где. Ошибку в данных для нас важнее закрыть, чем собрать донат.</p>
+    </div>
+
+    <h2>Ограничения, о которых честно</h2>
+    <ul>
+      <li>Рыночной аренды в открытых данных нет — цен «однушка в центре» мы не показываем.</li>
+      <li>Цены билетов известны не по всем парам аэропортов: у страны без своего аэропорта
+        в справочнике билет соседнего государства не подписывается её именем.</li>
+      <li>Открытых расписаний по России и СНГ нет — там пусто, и это «данных нет»,
+        а не «поездов не существует».</li>
+      <li>Часть показателей публикуется раз в год и обновляется с задержкой в год-два —
+        дата наблюдения видна у каждой строки.</li>
+      <li>Зеркала сайта отдают только суточный кэш: живой поиск цены, дороги и расписания
+        работают на основном домене, и на зеркале это прямо написано.</li>
+    </ul>
+  </main>
+  <footer>
+    Данные: World Bank · World Bank ICP · Eurostat · FAO · The Economist · OpenVan · Open Food Facts ·
+    OpenStreetMap · Wikipedia · OurAirports · passport-index · Aviasales. Лицензии — в таблице выше.
+    Сайт информационный: это не юридическая консультация и не оферта.
+  </footer>
+  <script>
+    // Живые числа берём из /api/health — того же файла, что и на остальных
+    // страницах: на зеркале он лежит статикой, поэтому работает и там.
+    // Не ответил — в шапке остаётся текст из разметки, а не «—».
+    fetch("/api/health").then(r => r.json()).then(h => {
+      const t = new Date(h.last_refresh);
+      const when = isFinite(t) ? t.toLocaleDateString("ru-RU", { day: "2-digit", month: "2-digit", year: "numeric" }) : null;
+      document.getElementById("stat").innerHTML =
+        `Открытые данные по <span class="stat">${h.countries}</span> странам: `
+        + `<span class="stat">${Number(h.observations).toLocaleString("ru-RU")}</span> наблюдений`
+        + (when ? `, последнее обновление ${when}` : "");
+    }).catch(() => {});
+  </script>
+</body>
+</html>
