@@ -1,0 +1,3 @@
+# Зеркало основного сайта. В поиске должен жить один адрес — https://korolev-ilya.org
+User-agent: *
+Disallow: /
